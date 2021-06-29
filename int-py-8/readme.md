@@ -3,7 +3,8 @@
 1. **sets.md** [See it here](https://github.com/Prajakta456/Intern-Work/blob/Adding-sets.md/int-py-8/sets.md)
 2. **Video**
 
-## *Aim*: sets.md explains about
+## *Aim*: Contribute to Learn-Write-Repeat/Intern-Work
+###sets.md explains about
 * ###### What is Set?
 * ###### Where we can use set?  
 * ###### How to create set?
