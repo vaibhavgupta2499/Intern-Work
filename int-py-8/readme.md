@@ -1,10 +1,10 @@
 # Python: Sets
 ## *Folder contains*:
-1. **sets.md** [See it here](https://github.com/Prajakta456/Intern-Work/blob/Adding-sets.md/int-py-8/sets.md)
+1. **Sets** [See it here](https://github.com/Prajakta456/Intern-Work/blob/Adding-sets.md/int-py-8/sets.md)
 2. **Video**
 
-## *Aim*: Contribute to Learn-Write-Repeat/Intern-Work
-### sets.md explains about
+## *Aim*: Show how sets are implemented in Python and operations performed on sets
+### Overview Of Sets
 * ###### What is Set?
 * ###### Where we can use set?  
 * ###### How to create set?
