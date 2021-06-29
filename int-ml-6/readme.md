@@ -110,6 +110,13 @@
          z = np.abs(stats.zscore(df_boston['DIS']))
          print(z)
    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184922/6zscore.PNG">  
+   
+   *How we can we handle an Outlier?*
+   
+  * Sometimes it’s best to completely remove those records from your dataset to stop them from skewing your analysis. We delete outlier values if it is due to data entry error,     data processing error or outlier observations are very small in numbers. We can also use trimming at both ends to remove outliers. But deleting the observation is not a good     idea when we have small dataset.
+  * Like imputation of missing values, we can also impute outliers. We can use mean, median, zero value in this methods. Since we imputing there is no loss of data. Here median     is appropriate because it is not affected by outliers.
+  * Transforming variables can also eliminate outliers. These transformed values reduces the variation caused by extreme values.Scaling, Log transformation are some of the           techniques we can use.
+  
       
     
    
