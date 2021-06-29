@@ -20,9 +20,8 @@
   #### 4. *Data quality assessment*
   #### 5. *Data cleaning*
   #### 6. *Data transformation*
-  #### 7. *Data reduction*
-  #### 8. *Splitting of dataset*
-  #### 9. *Feature Scaling*
+  #### 7. *Splitting of dataset*
+  #### 8. *Feature Scaling*
   
 ### Now let us discuss each step furthur:
 
@@ -172,7 +171,7 @@ There are two types of categorical feature that we come across:
 
 Now according to the type of categorical data there are two techniques that we can use: 
 
-####*One-hot encoding*
+#### *One-hot encoding*
 
 One-Hot Encoding is another popular technique for treating categorical variables. It simply creates additional features based on the number of unique values in the categorical feature. Every unique value in the category will be added as a feature.This is mostly used for ordinal data, as separate features are created.
 
@@ -191,7 +190,7 @@ One-Hot Encoding is another popular technique for treating categorical variables
   As you can see here, 3 new features are added as the country contains 3 unique values – India, Japan, and the US. In this technique, we solved the problem of ranking as each     category is represented by a binary vector.
 
 
-####*Label Encoder*
+#### *Label Encoder*
 
 Label Encoding is a popular encoding technique for handling categorical variables. In this technique, each label is assigned a unique integer based on alphabetical ordering.
 
@@ -206,6 +205,36 @@ Label Encoding is a popular encoding technique for handling categorical variable
 <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/table2-1.png">
 
 As you can see here, label encoding uses alphabetical ordering. Hence, India has been encoded with 0, the US with 2, and Japan with 1.
+
+### **7. Splitting of dataset**
+
+In any Machine Learning model is that we’re going to split data-set into two separate sets
+* Training Set
+* Test Set
+
+ Well here it’s your algorithm model that is going to learn from your data to make predictions. Generally we split the data-set into 70:30 ratio or 80:20 what does it mean, 70 percent data take in train and 30 percent data take in test. However, this Splitting can be varies according to the data-set shape and size.
+ 
+ <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fhn-images%2F1*Lp25zatEkHSzrbyVmVIlAw.png&w=1920&q=75">
+ 
+ **X_train is the training part of the matrix of features.**
+ **X_test is the test part of the matrix of features.**
+ **y_train is the training part of the dependent variable that is associated to X_train here.**
+ **y_test is the test part of the dependent variable that is associated to X_train here.**
+ 
+ ### **8. Feature Scaling**
+ Feature scaling is the method to limit the range of variables so that they can be compared on common grounds.
+ 
+ <img src="![image](https://user-images.githubusercontent.com/77155721/123807402-72472700-d90d-11eb-907d-56c95b976cfd.png)">
+ 
+ See the Age and Salary column. You can easily noticed Salary and Age variable don’t have the same scale and this will cause some issue in your machine learning model.
+ 
+ 
+ 
+ 
+
+
+
+
 
    
    
