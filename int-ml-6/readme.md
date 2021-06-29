@@ -233,15 +233,35 @@ In any Machine Learning model is that we’re going to split data-set into two s
  
  **There are basically two methods fro scaling our data**
  
-   #### * Standardization:
+   #### *Standardization:*
    It is also called Z-score normalization. It calculates the z-score of each value and replaces the value with the calculated Z-score. The Z-score can be calculated by the        following formula:
    
    <img src="https://www.gstatic.com/education/formulas2/355397047/en/z_score.svg">
    
    Library used: StandardScalar
    
-   <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fhn-images%2F1*zRuLQvFqOe5cH5BPfH9BQA.png&w=1920&q=75">
+      from sklearn.preprocessing import StandardScaler
+      sc=StandardScaler()
+      X_train1=sc.fit_transform(X_train)
+      X_train1[:5]
+      
+   <imgh src="https://miro.medium.com/max/875/1*E-FKlpennbj3kovI8hXGug.png">
+ 
+     #### *MinMaxScler:*
    
+     It is also referred to as Normalization. The features are scaled between 0 and 1. Here, the mean value remains same as in Standardization, that is, 0.The default range for      the feature returned by MinMaxScaler is 0 to 1.
+   
+   <img src="https://media.geeksforgeeks.org/wp-content/uploads/min-max-normalisation.jpg">
+   
+     Library used: MinMaxScaler
+     
+    
+  from sklearn.preprocessing import MinMaxScaler
+  scaler = MinMaxScaler()
+  X_train2=scaler.fit_transform(X_train)
+  X_train2[:5]
+   
+  <img src="https://miro.medium.com/max/875/1*E6GNcidsxA3WR_PaPDXrhQ.png"> 
    
 
  
