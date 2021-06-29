@@ -26,13 +26,13 @@
   
 ### Now let us discuss each step furthur:
 
-### *Data Collection*
+### *1. Data Collection*
    There are many types of data collection: surveys, phone calls, records, forms, clinical studies, and etc. You could either get it from a primary source (the data your company    collects through various means) or a secondary source (government data sets or online repositories).
    Think about the goal of your analysis to get an idea of what kind of data you need to acquire.Once the data is collected, comes the next stage of the analysis: the data          preparation process.
 
-### *Importing the Libraries*
+### *2. Importing the Libraries*
    In order to perform data preprocessing using Python, we need to import some predefined Python libraries. These libraries are used to perform some specific jobs. There are        three specific libraries that we will use for data preprocessing, which are:
-   ### Numpy: 
+   #### Numpy: 
    Numpy Python library is used for including any type of mathematical operation in the code. It is the fundamental package for scientific calculation in Python. It also            supports to add large, multidimensional arrays and matrices. So, in Python, we can import it as:
      
      import numpy as np;
@@ -50,7 +50,7 @@
      import matplotlib.pyplot as plt;
    Here we have used plt, which is alias for Matplotlib, and it will be used in the whole program.  
 
-### *Importing the dataset*
+### *3. Importing the dataset*
    Now we need to import the datasets which we have collected for our machine learning project. Data can be in any of the popular formats - CSV, TXT, XLS/XLSX (Excel),etc.
    Check whether header row exists or not.
    
@@ -72,7 +72,7 @@
   #### Reading excel file
    The read_excel() function can be used to import excel data into Python.
      
-### *Data quality assessment*
+### *4. Data quality assessment*
 
   Take a good look at your data and get an idea of its overall quality, relevance to your project, and consistency. There are a number of data anomalies and inherent problems to   look out for in almost any data set, for example:
   
@@ -81,7 +81,7 @@
    * Data outliers: Outliers can have a huge impact on data analysis results.Check for extreme and unusual values.
    * Missing data: Take a look for missing data fields, blank spaces in text. This could be due to human error or incomplete data.
  
-### *Data Cleaning*
+### *5. Data Cleaning*
 
   Data cleaning is the process of adding missing data and correcting, repairing, or removing incorrect or irrelevant data from a data set. Data cleaning is the most important     step of preprocessing because it will ensure that your data is ready to go for your downstream needs.
   Data cleaning will correct all of the inconsistent data you uncovered in your data quality assessment. Depending on the kind of data you’re working with, there are a number of   possible cleaners you’ll need to run your data through.
@@ -107,11 +107,13 @@
    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184918/2boxplot.PNG">
    
    **2. Using Scatter plot**
+   
    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184920/4scatterplot.jpg">
    
    **3. Using Z score**
-    Z- Score is also called a standard score. This value/score helps to understand that how far is the data point from the mean. And after setting up a threshold value one           can utilize z score values of data points to define the outliers.
-    Zscore = (data_point -mean) / std. deviation
+   
+   Z- Score is also called a standard score. This value/score helps to understand that how far is the data point from the mean. And after setting up a threshold value one          can utilize z score values of data points to define the outliers.
+   Zscore = (data_point -mean) / std. deviation
         
          from scipy import stats
          import numpy as np
@@ -158,7 +160,7 @@
    
    <img src="https://miro.medium.com/max/875/1*5FkrD3kR0Z96dsobQDYkcg.png">
    
-## *Data Transformation* 
+## *6. Data Transformation* 
 
    
    
