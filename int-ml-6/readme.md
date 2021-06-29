@@ -154,13 +154,15 @@
    
    For selecting which statistic will be best for filling the null values we first have to note that the column is categorical or numerical.
      *For Categorical Feature*
-     Categorical Data is the data that generally takes a limited number of possible values. Also, the data in the category need not be numerical, it can be textual in nature.
-     Here we can either delete the null values or Replace missing values with the most frequent value ie. **Mode**
+     
+  Categorical Data is the data that generally takes a limited number of possible values. Also, the data in the category need not be numerical, it can be textual in nature.
+  Here we can either delete the null values or Replace missing values with the most frequent value ie. **Mode**
      
    <img src="https://lh5.googleusercontent.com/GCzo2EIXFKprf04UgMAv-BVDVCOoCXtZLVvisf9_wOtg7LaYFaoSQcT5ohDFrIJ1kxR2ax5BkwPt4Fs_2yiJJwEK0W767wO0K1dFkVM9b3gImpjKjsQ617QXLiE7mcOXzaZ6ZgM3">
    
    *For Numerical Feature*
-     Mean as a measure is greatly affected by outliers or if the distribution of the data or column is not normally-distributed. Therefore, it’s wise to first check the              distribution of the column before deciding if to use a mean imputation or median imputation. 
+   
+ Mean as a measure is greatly affected by outliers or if the distribution of the data or column is not normally-distributed. Therefore, it’s wise to first check the               distribution of the column before deciding if to use a mean imputation or median imputation. 
      
    *Mean imputation works better if the distribution is normally-distributed or has a Gaussian distribution, while median imputation is preferable for skewed distribution(be it     right or left)*
    
