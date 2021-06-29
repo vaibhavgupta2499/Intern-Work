@@ -1,9 +1,9 @@
 # Python: Sets
-## *Folder contains*:
+## **Folder contains**:
 1. **Sets** [See it here](https://github.com/Prajakta456/Intern-Work/blob/Adding-sets.md/int-py-8/sets.md)
 2. **Video**
 
-## *Aim*: Show how sets are implemented in Python and operations performed on sets
+## **Aim**: **Show how sets are implemented in Python and operations performed on sets**
 ### Overview Of Sets
 * ###### What is Set?
 * ###### Where we can use set?  
