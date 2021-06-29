@@ -247,7 +247,19 @@ In any Machine Learning model is that we’re going to split data-set into two s
       
   <imgh src="https://miro.medium.com/max/875/1*E-FKlpennbj3kovI8hXGug.png">
    
-   # *MinMaxScaler:*
+   #### *MinMaxScaler:*
+   
+   MinMaxScaler scales all the data features in the range [0, 1] or else in the range [-1, 1] if there are negative values in the dataset.It is also referred to as          Normalization. The features are scaled between 0 and 1. Here, the mean value remains same as in Standardization, that is, 0.
+   
+   <img src="https://miro.medium.com/max/235/1*PKgWeylQWT7GIxhgTyGT3Q.png">
+   
+   Library used: MinMaxScaler
+   
+   ```from sklearn.preprocessing import MinMaxScaler 
+       scaler = MinMaxScaler()
+       X_train2=scaler.fit_transform(X_train)
+        X_train2[:5]
+   ```
    
     
    
