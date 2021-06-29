@@ -160,7 +160,49 @@
    
    <img src="https://miro.medium.com/max/875/1*5FkrD3kR0Z96dsobQDYkcg.png">
    
-## *6. Data Transformation* 
+### *6. Data Transformation*
+
+ With data cleaning, we’ve already begun to modify our data, but data transformation will begin the process of turning the data into the proper format(s) you’ll need for          analysis and other downstream processes.
+
+**For Categorical Feature**
+
+There are two types of categorical feature that we come across:
+*Nominal Feature:*  A purely nominal variable is one that simply allows you to assign categories but you cannot clearly order the categories. 
+*Ordinal Feature:*  Ordinal data is a kind of categorical data with a set order or scale to it eg. grades, rating.
+
+Now according to the type of categorical data there are two techniques that we can use: 
+
+*One-hot encoding*
+One-Hot Encoding is another popular technique for treating categorical variables. It simply creates additional features based on the number of unique values in the categorical feature. Every unique value in the category will be added as a feature.This is mostly used for ordinal data, as separate features are created.
+<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/Table1png.png">
+
+     from sklearn from sklearn.preprocessing import OneHotEncoder
+      onehotencoder = OneHotEncoder()
+      X = onehotencoder.fit_transform(data.Country.values.reshape(-1,1)).toarray()
+      dfOneHot = pd.DataFrame(X, columns = ["Country_"+str(int(i)) for i in range(data.shape[1])]) 
+      df = pd.concat([data, dfOneHot], axis=1)
+      df= df.drop(['Country'], axis=1) 
+      print(df.head())
+ <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/Table3-1.png">
+ 
+As you can see here, 3 new features are added as the country contains 3 unique values – India, Japan, and the US. In this technique, we solved the problem of ranking as each category is represented by a binary vector.
+
+
+*Label Encoder*
+Label Encoding is a popular encoding technique for handling categorical variables. In this technique, each label is assigned a unique integer based on alphabetical ordering.
+<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/Table1png.png">
+
+    # Import label encoder 
+    from sklearn import preprocessing
+    # label_encoder object knows how to understand word labels. 
+    label_encoder = preprocessing.LabelEncoder()
+    # Encode labels in column 'Country'. 
+    data['Country']= label_encoder.fit_transform(data[‘Country']) 
+    print(data.head())
+ 
+<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/table2-1.png">
+
+As you can see here, label encoding uses alphabetical ordering. Hence, India has been encoded with 0, the US with 2, and Japan with 1.
 
    
    
