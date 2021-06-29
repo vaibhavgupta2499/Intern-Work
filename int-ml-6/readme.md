@@ -34,10 +34,10 @@
    In order to perform data preprocessing using Python, we need to import some predefined Python libraries. These libraries are used to perform some specific jobs. There are        three specific libraries that we will use for data preprocessing, which are:
    ### Numpy: 
    Numpy Python library is used for including any type of mathematical operation in the code. It is the fundamental package for scientific calculation in Python. It also            supports to add large, multidimensional arrays and matrices. So, in Python, we can import it as:
-     '''
-     import numpy as n;
      
-     ```
+     *import numpy as np;*
+     
+     
     
    
      
