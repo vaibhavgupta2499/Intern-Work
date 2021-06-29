@@ -1,6 +1,6 @@
 # Python: Sets
 ## **Folder contains**:
-1. **Sets** [See it here](https://github.com/Prajakta456/Intern-Work/blob/Adding-sets.md/int-py-8/sets.md)
+1. **Sets** 
 2. **Video**
 
 ## **Aim**: **Show how sets are implemented in Python and operations performed on sets**
