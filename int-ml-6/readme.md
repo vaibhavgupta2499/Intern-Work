@@ -37,19 +37,19 @@
    #### Numpy: 
    Numpy Python library is used for including any type of mathematical operation in the code. It is the fundamental package for scientific calculation in Python. It also            supports to add large, multidimensional arrays and matrices. So, in Python, we can import it as:
      
-     import numpy as np;
+     import numpy as np
    Here we have used np, which is alias for Numpy, and it will be used in the whole program.  
    
   #### Pandas:
   The Pandas library, which is one of the most famous Python libraries and used for importing and managing the datasets. It is an open-source data manipulation and analysis       library. It will be imported as below:
   
-    import pandas as pd;
+    import pandas as pd
    Here we have used pd, which is alias for Pandas, and it will be used in the whole program. 
    
   #### Matplotlib:
    The  matplotlib, which is a Python 2D plotting library, and with this library, we need to import a sub-library pyplot. This library is used to plot any type    of charts in      Python for the code. It will be imported as below: 
      
-     import matplotlib.pyplot as plt;
+     import matplotlib.pyplot as plt
    Here we have used plt, which is alias for Matplotlib, and it will be used in the whole program.  
 
 ### *3. Importing the dataset*
