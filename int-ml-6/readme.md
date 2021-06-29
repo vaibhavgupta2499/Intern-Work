@@ -93,22 +93,21 @@
        
    *How we can identify an Outlier?*
    1. Using Box plots
-        
-         import seaborn as sns
-         sns.boxplot((dataset name)['(column name)'])
-        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184918/2boxplot.PNG">
+   
+     import seaborn as sns
+     sns.boxplot((dataset name)['(column name)'])
+   <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184918/2boxplot.PNG">
    2. Using Scatter plot
-         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184920/4scatterplot.jpg">
+   <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184920/4scatterplot.jpg">
    3. Using Z score
     Z- Score is also called a standard score. This value/score helps to understand that how far is the data point from the mean. And after setting up a threshold value one           can utilize z score values of data points to define the outliers.
-         
-          Zscore = (data_point -mean) / std. deviation
+    Zscore = (data_point -mean) / std. deviation
         
          from scipy import stats
          import numpy as np
          z = np.abs(stats.zscore(df_boston['DIS']))
          print(z)
-        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184922/6zscore.PNG">  
+   <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184922/6zscore.PNG">  
       
     
    
