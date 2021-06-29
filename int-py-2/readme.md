@@ -3,4 +3,4 @@
 ### int-py-2 group comprises of three people.
 #### Jevisha Sweety Fernandes, handling video editing part.
 #### Amrutha, working on video recording.
-#### Aashish Chandra, taking care of the content in the file.
+#### Aashish Chandra, preparing, compiling and publishing the content in markdown file.
