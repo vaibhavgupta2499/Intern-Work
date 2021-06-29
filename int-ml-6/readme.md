@@ -30,6 +30,9 @@
    Think about the goal of your analysis to get an idea of what kind of data you need to acquire.Once the data is collected, comes the next stage of the analysis: the data          preparation process.
 
 ### *2. Importing the Libraries*
+    
+   <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fhn-images%2F1*b6Cgl3KeqfwsAKnXqxXw5g.png&w=1920&q=75">
+    
    In order to perform data preprocessing using Python, we need to import some predefined Python libraries. These libraries are used to perform some specific jobs. There are        three specific libraries that we will use for data preprocessing, which are:
    #### Numpy: 
    Numpy Python library is used for including any type of mathematical operation in the code. It is the fundamental package for scientific calculation in Python. It also            supports to add large, multidimensional arrays and matrices. So, in Python, we can import it as:
@@ -50,6 +53,9 @@
    Here we have used plt, which is alias for Matplotlib, and it will be used in the whole program.  
 
 ### *3. Importing the dataset*
+    
+   <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fhn-images%2F1*gMhwiQKCV1qya7G1QU7eXQ.png&w=1920&q=75">
+   
    Now we need to import the datasets which we have collected for our machine learning project. Data can be in any of the popular formats - CSV, TXT, XLS/XLSX (Excel),etc.
    Check whether header row exists or not.
    
@@ -139,7 +145,7 @@
    **1. Deleting those rows:** 
    This method is advised only when there are enough samples in the data set. One has to make sure that after we have deleted the data, there is no addition of bias. Removing      the data will lead to loss of information which will not give the expected results while predicting the output.
    
-   <img src="https://analyticsindiamag.com/wp-content/uploads/2018/02/deleted.png">
+   <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fhn-images%2F1*a6MoK_Az0bk48nGFLVVl8g.png&w=1920&q=75">
    
    **2. Replacing those values with Mean/Median/Mode:**
    
@@ -236,7 +242,7 @@ In any Machine Learning model is that we’re going to split data-set into two s
    #### *Standardization:*
    It is also called Z-score normalization. It calculates the z-score of each value and replaces the value with the calculated Z-score. The Z-score can be calculated by the        following formula:
    
-   <img src="https://www.gstatic.com/education/formulas2/355397047/en/z_score.svg">
+   <img src="https://miro.medium.com/max/166/1*W7MW0zD9yzLbDuLXbLIHYQ.png">
    
    Library used: StandardScalar
    
@@ -260,6 +266,10 @@ In any Machine Learning model is that we’re going to split data-set into two s
        X_train2=scaler.fit_transform(X_train)
         X_train2[:5]
    ```
+   <img src="https://miro.medium.com/max/875/1*E6GNcidsxA3WR_PaPDXrhQ.png">
+   
+   
+   ### This was all about Data Preprocessing, now after following all these steps we finalize our data for furthur applying the algorithm.
    
     
    
