@@ -54,23 +54,23 @@
    Now we need to import the datasets which we have collected for our machine learning project. Data can be in any of the popular formats - CSV, TXT, XLS/XLSX (Excel),etc.
    Check whether header row exists or not.
    
-   * importing csv file
-     It is important to note that a singlebackslash does not work when specifying the file path. You need to either change it to forward slash or add one more backslash like          below
+   ## importing csv file##
+   It is important to note that a singlebackslash does not work when specifying the file path. You need to either change it to forward slash or add one more backslash like          below
      
     (name for the dataset)= **pd.read_csv**("(url of the file)")
-   * Importing file from url
-     You don't need to perform additional steps to fetch data from URL. Simply put URL in read_csv() function (applicable only for CSV files stored in URL).
+   ## Importing file from url ##
+   You don't need to perform additional steps to fetch data from URL. Simply put URL in read_csv() function (applicable only for CSV files stored in URL).
      
     mydata = pd.read_csv("http://winterolympicsmedals.com/medals.csv")
     
-   * Reading text file
-     We can use read_table() function to pull data from text file. We can also use read_csv() with sep= "\t" to read data from tab-separated file.
+   ## Reading text file ##
+   We can use read_table() function to pull data from text file. We can also use read_csv() with sep= "\t" to read data from tab-separated file.
      
     mydata = pd.read_table("C:\\Users\\Deepanshu\\Desktop\\example2.txt")
     mydata = pd.read_csv("C:\\Users\\Deepanshu\\Desktop\\example2.txt", sep ="\t")
   
-  * Reading excel file
-    The read_excel() function can be used to import excel data into Python.
+  ## Reading excel file## 
+   The read_excel() function can be used to import excel data into Python.
      
 ## *Data quality assessment*
   Take a good look at your data and get an idea of its overall quality, relevance to your project, and consistency. There are a number of data anomalies and inherent problems to   look out for in almost any data set, for example:
@@ -83,13 +83,13 @@
   Data cleaning is the process of adding missing data and correcting, repairing, or removing incorrect or irrelevant data from a data set. Data cleaning is the most important     step of preprocessing because it will ensure that your data is ready to go for your downstream needs.
   Data cleaning will correct all of the inconsistent data you uncovered in your data quality assessment. Depending on the kind of data you’re working with, there are a number of   possible cleaners you’ll need to run your data through.
   
-   #### Remove unwanted data
+   ## Remove unwanted data##
   The first step to data cleaning is removing unwanted observations from your dataset.This includes duplicate or irrelevant observations.Duplicate observations most               frequently arise during data collection, such as when you: Combine datasets from multiple places, Scrape data, Receive data from clients/other departments. Irrelevant           observations are those that don’t actually fit the specific problem that you’re trying to solve. For this performing EDA is best to take a look on this kind of data.
   
-   #### Fix Structural Errors
+   ## Fix Structural Errors##
   Structural errors are those that arise during measurement, data transfer, or other types of "poor housekeeping".For instance, we can check for typos or inconsistent             capitalization. Check for mislabeled classes, i.e. separate classes that should really be the same.
       
-   #### Handling Outliers
+   ## Handling Outliers##
    In statistics, an outlier is an observation point that is distant from other observations.They may be due to variability in the measurement or may indicate experimental          errors.If possible, outliers should be excluded from the data set. Outliers can be of two kinds: univariate and multivariate. Univariate outliers can be found when looking      at a distribution of values in a single feature space. Multivariate outliers can be found in a n-dimensional space (of n-features).
        
    *How we can identify an Outlier?*
@@ -116,8 +116,51 @@
   * Sometimes it’s best to completely remove those records from your dataset to stop them from skewing your analysis. We delete outlier values if it is due to data entry error,     data processing error or outlier observations are very small in numbers. We can also use trimming at both ends to remove outliers. But deleting the observation is not a good     idea when we have small dataset.
   * Like imputation of missing values, we can also impute outliers. We can use mean, median, zero value in this methods. Since we imputing there is no loss of data. Here median     is appropriate because it is not affected by outliers.
   * Transforming variables can also eliminate outliers. These transformed values reduces the variation caused by extreme values.Scaling, Log transformation are some of the           techniques we can use.
+
+ ## Handling Missing Values ##
+ <img src="https://analyticsindiamag.com/wp-content/uploads/2018/02/missing-values.png">
+ 
+ For checking the presence of null values, we use methods like: isnull() and notnull()
   
-      
+  
+  <img src="https://analyticsindiamag.com/wp-content/uploads/2018/02/missing-values-1.png">
+   
+ **Ways for handling missing values**
+    
+   *Deleting those rows:* 
+   This method is advised only when there are enough samples in the data set. One has to make sure that after we have deleted the data, there is no addition of bias. Removing      the data will lead to loss of information which will not give the expected results while predicting the output.
+   
+   <img src="https://analyticsindiamag.com/wp-content/uploads/2018/02/deleted.png">
+   
+   *Replacing those values with Mean/Median/Mode:*
+   
+   For selecting which statistic will be best for filling the null values we first have to note that the column is categorical or numerical.
+   **For Categorical Feature**
+     Categorical Data is the data that generally takes a limited number of possible values. Also, the data in the category need not be numerical, it can be textual in nature.
+     Here we can either delete the null values or Replace missing values with the most frequent value ie. **Mode**
+     
+   <img src="https://lh5.googleusercontent.com/GCzo2EIXFKprf04UgMAv-BVDVCOoCXtZLVvisf9_wOtg7LaYFaoSQcT5ohDFrIJ1kxR2ax5BkwPt4Fs_2yiJJwEK0W767wO0K1dFkVM9b3gImpjKjsQ617QXLiE7mcOXzaZ6ZgM3">
+   
+   **For Numerical Feature**
+     Mean as a measure is greatly affected by outliers or if the distribution of the data or column is not normally-distributed. Therefore, it’s wise to first check the              distribution of the column before deciding if to use a mean imputation or median imputation. 
+     
+   *Mean imputation works better if the distribution is normally-distributed or has a Gaussian distribution, while median imputation is preferable for skewed distribution(be it     right or left)*
+   
+   Also its much better if inplace of filling the null vlaues with a particular number(mean/median), we just fill the values with random function in the IQR.
+   
+   <img src="https://miro.medium.com/max/875/1*5FkrD3kR0Z96dsobQDYkcg.png">
+   
+## *Data Transformation*   
+   
+   
+     
+     
+   
+   
+   
+    
+  
+       
     
    
      
