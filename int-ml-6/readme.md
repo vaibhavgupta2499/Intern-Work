@@ -13,8 +13,18 @@
   The process of cleaning raw data for it to be used for machine learning activities and analysis is known as data pre-processing. It’s the first and foremost step while doing a     machine learning project. Data preprocessing bascially helps us to get rid of the issues(missing values, outliers, null vlaues, etc) that can affect our analysis.
   
   ### Steps involved in data preprocessing:
-  #### 1. Data Collection
-     Data collection is the stage when we collect data from various sources. Data might be laying across several storages or several servers and we need to get all that data            collected in one single location for the ease of access.
+  #### 1. *Data Collection*
+  #### 2. *Importing Libraries*
+  #### 3. *Importing the dataset*
+  #### 4. *Data quality assessment*
+  #### 5. *Data cleaning*
+  #### 6. *Data transformation*
+  #### 7. *Data reduction*
+  #### 8. *Splitting of dataset*
+  #### 9. *Feature Scaling*
+  
+  
+   
      
      
   
