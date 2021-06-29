@@ -217,16 +217,27 @@ In any Machine Learning model is that we’re going to split data-set into two s
  <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fhn-images%2F1*Lp25zatEkHSzrbyVmVIlAw.png&w=1920&q=75">
  
  **X_train is the training part of the matrix of features.**
+ 
  **X_test is the test part of the matrix of features.**
+ 
  **y_train is the training part of the dependent variable that is associated to X_train here.**
+ 
  **y_test is the test part of the dependent variable that is associated to X_train here.**
  
  ### **8. Feature Scaling**
  Feature scaling is the method to limit the range of variables so that they can be compared on common grounds.
  
- <img src="![image](https://user-images.githubusercontent.com/77155721/123807402-72472700-d90d-11eb-907d-56c95b976cfd.png)">
+ <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fhn-images%2F1*R8OMUmZuhfC4aYFrSiMCeg.png&w=1920&q=75">
  
- See the Age and Salary column. You can easily noticed Salary and Age variable don’t have the same scale and this will cause some issue in your machine learning model.
+ See the Age and Salary column. You can easily noticed Salary and Age variable don’t have the same scale and this will cause some issue in your machine learning model.If there will be huge scale difference between the features than our algorithm give preference to the feature with higher scale.
+ 
+ **There are basically two methods fro scaling our data**
+ 
+   #### * Standardization:
+   It is also called Z-score normalization. It calculates the z-score of each value and replaces the value with the calculated Z-score. The Z-score can be calculated by the        following formula:
+   <img src="https://www.gstatic.com/education/formulas2/355397047/en/z_score.svg">
+   
+
  
  
  
