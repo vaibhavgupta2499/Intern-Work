@@ -35,7 +35,42 @@
    ### Numpy: 
    Numpy Python library is used for including any type of mathematical operation in the code. It is the fundamental package for scientific calculation in Python. It also            supports to add large, multidimensional arrays and matrices. So, in Python, we can import it as:
      
-     *import numpy as np;*
+     import numpy as np;
+   Here we have used np, which is alias for Numpy, and it will be used in the whole program.  
+   
+  ### Pandas:
+  The Pandas library, which is one of the most famous Python libraries and used for importing and managing the datasets. It is an open-source data manipulation and analysis       library. It will be imported as below:
+  
+    import pandas as pd;
+   Here we have used pd, which is alias for Pandas, and it will be used in the whole program. 
+   
+  ### Matplotlib:
+   The  matplotlib, which is a Python 2D plotting library, and with this library, we need to import a sub-library pyplot. This library is used to plot any type    of charts in      Python for the code. It will be imported as below: 
+     
+     import matplotlib.pyplot as plt;
+   Here we have used plt, which is alias for Matplotlib, and it will be used in the whole program.  
+
+## *Importing the dataset*
+   Now we need to import the datasets which we have collected for our machine learning project. Data can be in any of the popular formats - CSV, TXT, XLS/XLSX (Excel),etc.
+   Check whether header row exists or not.
+   
+   * importing csv file
+     It is important to note that a singlebackslash does not work when specifying the file path. You need to either change it to forward slash or add one more backslash like          below
+     
+    (name for the dataset)= **pd.read_csv**("(url of the file)")
+   * Importing file from url
+     You don't need to perform additional steps to fetch data from URL. Simply put URL in read_csv() function (applicable only for CSV files stored in URL).
+     
+    mydata = pd.read_csv("http://winterolympicsmedals.com/medals.csv")
+    
+   * Reading text file
+     We can use read_table() function to pull data from text file. We can also use read_csv() with sep= "\t" to read data from tab-separated file.
+     
+    mydata = pd.read_table("C:\\Users\\Deepanshu\\Desktop\\example2.txt")
+    mydata = pd.read_csv("C:\\Users\\Deepanshu\\Desktop\\example2.txt", sep ="\t")
+  
+  * Reading excel file
+    The read_excel() function can be used to import excel data into Python.
      
      
     
