@@ -23,9 +23,9 @@
 ## **Team Name**: int-py-8
 
 ### Team Members
-* *Rammya Dharshini K* : Content Writing
-* *Nagashree MS* : Video Recording and Explanation
-* *Prajakta Deokule* : Readme.md , Video editing , creating pull request
+* *Rammya Dharshini K*   :   Content Writing
+* *Nagashree MS*   :   Video Recording and Explanation
+* *Prajakta Deokule*   :   Readme.md , Video editing , creating pull request
 
 
 
