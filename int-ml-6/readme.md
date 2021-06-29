@@ -235,7 +235,13 @@ In any Machine Learning model is that we’re going to split data-set into two s
  
    #### * Standardization:
    It is also called Z-score normalization. It calculates the z-score of each value and replaces the value with the calculated Z-score. The Z-score can be calculated by the        following formula:
+   
    <img src="https://www.gstatic.com/education/formulas2/355397047/en/z_score.svg">
+   
+   Library used: StandardScalar
+   
+   <img src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fhn-images%2F1*zRuLQvFqOe5cH5BPfH9BQA.png&w=1920&q=75">
+   
    
 
  
