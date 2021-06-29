@@ -91,15 +91,18 @@
   Data cleaning is the process of adding missing data and correcting, repairing, or removing incorrect or irrelevant data from a data set. Data cleaning is the most important     step of preprocessing because it will ensure that your data is ready to go for your downstream needs.
   Data cleaning will correct all of the inconsistent data you uncovered in your data quality assessment. Depending on the kind of data you’re working with, there are a number of   possible cleaners you’ll need to run your data through.
   
-   #### Remove unwanted data
+   #### * Remove unwanted data
    
   The first step to data cleaning is removing unwanted observations from your dataset.This includes duplicate or irrelevant observations.Duplicate observations most               frequently arise during data collection, such as when you: Combine datasets from multiple places, Scrape data, Receive data from clients/other departments. Irrelevant           observations are those that don’t actually fit the specific problem that you’re trying to solve. For this performing EDA is best to take a look on this kind of data.
   
-   #### Fix Structural Errors
+   #### * Fix Structural Errors
    
   Structural errors are those that arise during measurement, data transfer, or other types of "poor housekeeping".For instance, we can check for typos or inconsistent             capitalization. Check for mislabeled classes, i.e. separate classes that should really be the same.
+  for eg.
+         If ’N/A’ and ’Not Applicable’ appear as two separate classes, you should combine them.
+         ’IT’ and ’information_technology’ should be a single class.
       
-   #### Handling Outliers
+   #### * Handling Outliers
    
    In statistics, an outlier is an observation point that is distant from other observations.They may be due to variability in the measurement or may indicate experimental          errors.If possible, outliers should be excluded from the data set. Outliers can be of two kinds: univariate and multivariate. Univariate outliers can be found when looking      at a distribution of values in a single feature space. Multivariate outliers can be found in a n-dimensional space (of n-features).
        
