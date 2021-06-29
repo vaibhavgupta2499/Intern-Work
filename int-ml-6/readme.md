@@ -178,8 +178,10 @@
 **For Categorical Feature**
 
 There are two types of categorical feature that we come across:
-*Nominal Feature:*  A purely nominal variable is one that simply allows you to assign categories but you cannot clearly order the categories. 
-*Ordinal Feature:*  Ordinal data is a kind of categorical data with a set order or scale to it eg. grades, rating.
+
+**Nominal Feature:**  A purely nominal variable is one that simply allows you to assign categories but you cannot clearly order the categories. 
+
+**Ordinal Feature:**  Ordinal data is a kind of categorical data with a set order or scale to it eg. grades, rating.
 
 Now according to the type of categorical data there are two techniques that we can use: 
 
