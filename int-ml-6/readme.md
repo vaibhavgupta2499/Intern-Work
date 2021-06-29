@@ -1,4 +1,4 @@
-## Data Preprocessing in Machine Learning
+# Data Preprocessing in Machine Learning
   Now-a-day mostly everything depends upon the Data and when that data is converted into information it leads to major changes and profit for the community.
   But what if the data gathered itself is not proper for the Analysis?
   That is when need for Data preprocessing arises.
@@ -12,7 +12,7 @@
 ## What is Data Preprocessing and steps involved in it?
   The process of cleaning raw data for it to be used for machine learning activities and analysis is known as data pre-processing. It’s the first and foremost step while doing a     machine learning project. Data preprocessing bascially helps us to get rid of the issues(missing values, outliers, null vlaues, etc) that can affect our analysis.
   
-  # Steps involved in data preprocessing.
+  ### Steps involved in data preprocessing.
    
      
      
