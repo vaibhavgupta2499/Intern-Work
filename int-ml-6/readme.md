@@ -27,6 +27,17 @@
 ### Now let us discuss each steps furthur:
 
 ## *Data Collection*
+   There are many types of data collection: surveys, phone calls, records, forms, clinical studies, and etc. You could either get it from a primary source (the data your company    collects through various means) or a secondary source (government data sets or online repositories).
+   Think about the goal of your analysis to get an idea of what kind of data you need to acquire.Once the data is collected, comes the next stage of the analysis: the data          preparation process.
+
+## *Importing the Libraries*
+   In order to perform data preprocessing using Python, we need to import some predefined Python libraries. These libraries are used to perform some specific jobs. There are        three specific libraries that we will use for data preprocessing, which are:
+   ### Numpy: 
+   Numpy Python library is used for including any type of mathematical operation in the code. It is the fundamental package for scientific calculation in Python. It also            supports to add large, multidimensional arrays and matrices. So, in Python, we can import it as:
+     '''
+     import numpy as n;
+     
+     ```
     
    
      
