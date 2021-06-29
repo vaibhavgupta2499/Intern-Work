@@ -172,8 +172,10 @@ There are two types of categorical feature that we come across:
 
 Now according to the type of categorical data there are two techniques that we can use: 
 
-*One-hot encoding*
+####*One-hot encoding*
+
 One-Hot Encoding is another popular technique for treating categorical variables. It simply creates additional features based on the number of unique values in the categorical feature. Every unique value in the category will be added as a feature.This is mostly used for ordinal data, as separate features are created.
+
 <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/Table1png.png">
 
      from sklearn from sklearn.preprocessing import OneHotEncoder
@@ -183,14 +185,15 @@ One-Hot Encoding is another popular technique for treating categorical variables
       df = pd.concat([data, dfOneHot], axis=1)
       df= df.drop(['Country'], axis=1) 
       print(df.head())
+      
  <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/Table3-1.png">
  
-As you can see here, 3 new features are added as the country contains 3 unique values – India, Japan, and the US. In this technique, we solved the problem of ranking as each category is represented by a binary vector.
+  As you can see here, 3 new features are added as the country contains 3 unique values – India, Japan, and the US. In this technique, we solved the problem of ranking as each     category is represented by a binary vector.
 
 
-*Label Encoder*
+####*Label Encoder*
+
 Label Encoding is a popular encoding technique for handling categorical variables. In this technique, each label is assigned a unique integer based on alphabetical ordering.
-<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/Table1png.png">
 
     # Import label encoder 
     from sklearn import preprocessing
