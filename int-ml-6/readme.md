@@ -247,6 +247,10 @@ In any Machine Learning model is that we’re going to split data-set into two s
       
   <imgh src="https://miro.medium.com/max/875/1*E-FKlpennbj3kovI8hXGug.png">
    
+   # *MinMaxScaler:*
+   
+    
+   
    
 
    
