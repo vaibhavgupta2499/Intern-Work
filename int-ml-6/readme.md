@@ -1,5 +1,5 @@
 # Data Preprocessing in Machine Learning
-     <img src="https://d33wubrfki0l68.cloudfront.net/ef9037172858e9d72c032c8f10eb952a81765a9c/bc453/static/f63c42dedc9dae7e8e0b6190a0a88f2f/28bdc/garbage-in.png">
+   <img src="https://d33wubrfki0l68.cloudfront.net/ef9037172858e9d72c032c8f10eb952a81765a9c/bc453/static/f63c42dedc9dae7e8e0b6190a0a88f2f/28bdc/garbage-in.png">
   Now-a-day mostly everything depends upon the Data and when that data is converted into information it leads to major changes and profit for the community.
   But what if the data gathered itself is not proper for the Analysis?
   That is when need for Data preprocessing arises.
