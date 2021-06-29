@@ -83,24 +83,24 @@
   Data cleaning is the process of adding missing data and correcting, repairing, or removing incorrect or irrelevant data from a data set. Data cleaning is the most important     step of preprocessing because it will ensure that your data is ready to go for your downstream needs.
   Data cleaning will correct all of the inconsistent data you uncovered in your data quality assessment. Depending on the kind of data you’re working with, there are a number of   possible cleaners you’ll need to run your data through.
   
-   * *Remove unwanted data*
-      The first step to data cleaning is removing unwanted observations from your dataset.This includes duplicate or irrelevant observations.Duplicate observations most               frequently arise during data collection, such as when you: Combine datasets from multiple places, Scrape data, Receive data from clients/other departments. Irrelevant           observations are those that don’t actually fit the specific problem that you’re trying to solve. For this performing EDA is best to take a look on this kind of data.
-   * *Fix Structural Errors*
-      Structural errors are those that arise during measurement, data transfer, or other types of "poor housekeeping".For instance, we can check for typos or inconsistent             capitalization. Check for mislabeled classes, i.e. separate classes that should really be the same.
+   **Remove unwanted data**
+    The first step to data cleaning is removing unwanted observations from your dataset.This includes duplicate or irrelevant observations.Duplicate observations most               frequently arise during data collection, such as when you: Combine datasets from multiple places, Scrape data, Receive data from clients/other departments. Irrelevant           observations are those that don’t actually fit the specific problem that you’re trying to solve. For this performing EDA is best to take a look on this kind of data.
+   **Fix Structural Errors**
+    Structural errors are those that arise during measurement, data transfer, or other types of "poor housekeeping".For instance, we can check for typos or inconsistent             capitalization. Check for mislabeled classes, i.e. separate classes that should really be the same.
       
-   * *Handling Outliers*
-      In statistics, an outlier is an observation point that is distant from other observations.They may be due to variability in the measurement or may indicate experimental       errors.If possible, outliers should be excluded from the data set. Outliers can be of two kinds: univariate and multivariate. Univariate outliers can be found when looking       at a distribution of values in a single feature space. Multivariate outliers can be found in a n-dimensional space (of n-features).
+   **Handling Outliers**
+   In statistics, an outlier is an observation point that is distant from other observations.They may be due to variability in the measurement or may indicate experimental          errors.If possible, outliers should be excluded from the data set. Outliers can be of two kinds: univariate and multivariate. Univariate outliers can be found when looking      at a distribution of values in a single feature space. Multivariate outliers can be found in a n-dimensional space (of n-features).
        
-      **How we can identify an Outlier?**
-        *Using Box plots
+   *How we can identify an Outlier?*
+   1. Using Box plots
         
          import seaborn as sns
          sns.boxplot((dataset name)['(column name)'])
         <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184918/2boxplot.PNG">
-        *Using Scatter plot
+   2. Using Scatter plot
          <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129184920/4scatterplot.jpg">
-        *Using Z score
-         Z- Score is also called a standard score. This value/score helps to understand that how far is the data point from the mean. And after setting up a threshold value one          can utilize z score values of data points to define the outliers.
+   3. Using Z score
+    Z- Score is also called a standard score. This value/score helps to understand that how far is the data point from the mean. And after setting up a threshold value one           can utilize z score values of data points to define the outliers.
          
           Zscore = (data_point -mean) / std. deviation
         
