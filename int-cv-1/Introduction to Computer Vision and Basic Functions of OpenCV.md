@@ -20,7 +20,6 @@ Computer vision projects translate digital visual content into explicit descript
 
 <p align="center">
    <img src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2019/12/16172612/Blog_info_11-12-19-1.jpg" alt="Intro to OpenCV"
-        width="500" height="500">
 </p>
 
 ## **Examples of Computer Vision and Algorithms**
