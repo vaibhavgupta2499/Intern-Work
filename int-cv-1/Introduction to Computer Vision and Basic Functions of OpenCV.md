@@ -21,4 +21,5 @@ Computer vision projects translate digital visual content into explicit descript
 ## **Examples of Computer Vision and Algorithms**
 
 Automatic cars aim at reducing the need for human intervention while driving, through various AI systems. Computer vision is part of such a system which focuses on imitating the logics behind human vision to help the machines take data-based decisions.
+
 CV systems will scan live objects and categorise them, based on which the car will keep running or make a stop. If the car comes across an obstacle or a traffic light, it will analyse the image, create a 3D version of it, consider the features and decide on an action- all within a second. 
