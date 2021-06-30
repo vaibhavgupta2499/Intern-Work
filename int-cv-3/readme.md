@@ -3,7 +3,7 @@ README.md
 # LIST OF OPERATIONS AND APPLICATIONS OF OPENCV
 
 + **TEAM**: int-cv-3
-+ **AUTHORS**: [Dev Kumar](#), [Kaustubh Chimote](#), [Saadhana Srinath](#https://github.com/AnaSrinath)
++ **AUTHORS**: [Dev Kumar](#), [Kaustubh Chimote](#), [Saadhana Srinath](https://github.com/AnaSrinath)
 
 + **CONTENTS** ([Click Here to be redirected](#))
    - Basic Operations using OpenCV
@@ -26,5 +26,5 @@ README.md
 
 + **WORK FLOW**
     - [Dev Kumar](#) -- Content of 'Basic Operations using OpenCV' in Markdown
-    - [Saadhana Srinath](#https://github.com/AnaSrinath) -- Content of 'Understanding how images are stored and processed' and 'Image Processing' in Markdown
+    - [Saadhana Srinath](https://github.com/AnaSrinath) -- Content of 'Understanding how images are stored and processed' and 'Image Processing' in Markdown
     - [Kaustubh Chimote](#) -- Video making and Editing
