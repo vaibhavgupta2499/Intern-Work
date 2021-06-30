@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/270px-OpenCV_Logo_with_text_svg_version.svg.png" alt="OpenCV"
+   <img src="https://github.com/SamarthMR/Intern-Work/blob/main/int-cv-1/images/270px-OpenCV_Logo_with_text_svg_version.svg-removebg-preview.jpg" alt="OpenCV"
         width="500" height="300">
    <br />
    <b> INTRODUCTION TO COMPUTER VISION AND BASIC FUNCTIONS OF OPENCV</b>
@@ -19,7 +19,7 @@ The entire process involves image acquiring, screening, analysing, identifying a
 Computer vision projects translate digital visual content into explicit descriptions to gather multi-dimensional data. This data is then turned into computer-readable language to aid the decision-making process. The main objective of this branch of artificial intelligence is to teach machines to collect information from pixels.
 
 <p align="center">
-   <img src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2019/12/16172612/Blog_info_11-12-19-1.jpg" alt="Intro to OpenCV"
+   <img src="https://github.com/SamarthMR/Intern-Work/blob/main/int-cv-1/images/Blog_info_11-12-19-1.jpg" alt="Intro to OpenCV"
 </p>
 
 ## **EXAMPLES OF COMPUTER VISION AND ALGORITHMS**
@@ -49,7 +49,7 @@ Computer vision is not a new concept; in fact, it dates back to the 1960s. It al
 ## **COMPUTER VISION BASIC FUNCTIONS**
 
 <p align="center">
-   <img src="https://d1m75rqqgidzqn.cloudfront.net/2019/10/computer-vision-benefits-01.png" alt="Basic Functions of OpenCV"
+   <img src="https://github.com/SamarthMR/Intern-Work/blob/main/int-cv-1/images/computer-vision-benefits-01-removebg-preview.jpg" alt="Basic Functions of OpenCV"
 </p>
 
 Here are some examples of basic functions while writing an opencv code in Python:
