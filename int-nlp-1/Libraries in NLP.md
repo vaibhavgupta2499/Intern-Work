@@ -143,4 +143,5 @@ ML (vector space model, clustering, SVM), and network analysis by graph centrali
 ### Installation
  
    * pip install pattern
+   * ![alt text](https://raw.githubusercontent.com/ManishaAnaparthi/Images/main/Screenshot%20(1).png)
   
