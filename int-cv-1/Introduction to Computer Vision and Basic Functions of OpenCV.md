@@ -17,3 +17,8 @@
 The entire process involves image acquiring, screening, analysing, identifying and extracting information. This extensive processing helps computers to understand any visual content and act on it accordingly. 
 
 Computer vision projects translate digital visual content into explicit descriptions to gather multi-dimensional data. This data is then turned into computer-readable language to aid the decision-making process. The main objective of this branch of artificial intelligence is to teach machines to collect information from pixels.
+
+## **Examples of Computer Vision and Algorithms**
+
+Automatic cars aim at reducing the need for human intervention while driving, through various AI systems. Computer vision is part of such a system which focuses on imitating the logics behind human vision to help the machines take data-based decisions.
+CV systems will scan live objects and categorise them, based on which the car will keep running or make a stop. If the car comes across an obstacle or a traffic light, it will analyse the image, create a 3D version of it, consider the features and decide on an action- all within a second. 
