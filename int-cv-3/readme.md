@@ -26,5 +26,5 @@ README.md
 
 + **WORK FLOW**
     - [Dev Kumar](#) -- Content of 'Basic Operations using OpenCV' in Markdown
-    - [Saadhana Srinath](#) -- Content of 'Understanding how images are stored and processed' and 'Image Processing' in Markdown
+    - [Saadhana Srinath](#https://github.com/AnaSrinath) -- Content of 'Understanding how images are stored and processed' and 'Image Processing' in Markdown
     - [Kaustubh Chimote](#) -- Video making and Editing
