@@ -27,3 +27,6 @@
 ### Team Members
 * *Manisha sushma A*   :  Content Writing , Video Recording and Explanation   
 Readme.md , Video editing , creating pull request.
+
+* *Pranav Kapoor*   :  Content Writing , Video Creation   
+Readme.md , Video editing , creating pull request.
