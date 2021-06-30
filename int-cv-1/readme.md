@@ -12,15 +12,14 @@
     - This topic consists of [Introduction To Computer Vision and Basic Functions of OpenCV]()
     - Contents: :clipboard:
     
-    1)What is Computer Vision?
-    
-    2)History of OpenCV
-    
-    3)Basic Functions of OpenCV
-    
-    4)Advantages of OpenCV
-    
-    5)Applications of OpenCV
+    1) What is Computer Vision?
+    2) Examples of Computer Vision and Algorithms
+    3) How does Computer Vision work?
+    4) Why is Computer Vision important?
+    5) Origin of Computer Vision
+    6) Computer Vision basic functions
+    7) How to learn Computer Vision?
+    8) How to become a Computer Vision engineer?
 
 - Work flow :bookmark_tabs:
     - [Samarth M R](): Worked on Content Writing and Markdown.
