@@ -51,6 +51,7 @@ Computer vision is not a new concept; in fact, it dates back to the 1960s. It al
 
 <p align="center">
    <img src="https://github.com/SamarthMR/Intern-Work/blob/main/int-cv-1/images/computer-vision-benefits-01-removebg-preview.jpg" alt="Basic Functions of OpenCV"
+	width="1000"
 </p>
 
 Here are some examples of basic functions while writing an opencv code in Python:
