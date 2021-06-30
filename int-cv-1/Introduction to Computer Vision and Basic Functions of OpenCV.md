@@ -63,13 +63,13 @@ Here are some examples of basic functions while writing an opencv code in Python
 
 Depending on the uses, computer vision has the following uses:
 
-***Laying the Foundation:*** Probability, statistics, linear algebra, calculus and basic statistical knowledge are prerequisites of getting into the domain. Similarly, knowledge of programming languages like Python and MATLAB will help you grasp the concepts better.
+**Laying the Foundation:** Probability, statistics, linear algebra, calculus and basic statistical knowledge are prerequisites of getting into the domain. Similarly, knowledge of programming languages like Python and MATLAB will help you grasp the concepts better.
 
-***Digital Image Processing:*** Learn how to compress image and videos using JPEG and MPEG files. Knowledge of basic image processing tools like histogram equalisation, median filtering and more are required. Once you know the basics of image processing and restoration, you will be ready to pick up the more critical skills of computer vision.
+**Digital Image Processing:** Learn how to compress image and videos using JPEG and MPEG files. Knowledge of basic image processing tools like histogram equalisation, median filtering and more are required. Once you know the basics of image processing and restoration, you will be ready to pick up the more critical skills of computer vision.
 
-***Machine Learning Basics:*** Knowledge of Convoluted Neural Networks, fully connected neural networks, support vector machines, recurrent neural networks, generative adversarial network, and autoencoders are necessary to get started with computer vision.
+**Machine Learning Basics:** Knowledge of Convoluted Neural Networks, fully connected neural networks, support vector machines, recurrent neural networks, generative adversarial network, and autoencoders are necessary to get started with computer vision.
 
-***Basic Computer Vision:*** The next step in the process is to decode the mathematical models involved in the image and video formulations. Once you understand how pattern recognition and signal processing works, you can get into advanced learning.
+**Basic Computer Vision:** The next step in the process is to decode the mathematical models involved in the image and video formulations. Once you understand how pattern recognition and signal processing works, you can get into advanced learning.
 
 ## **HOW TO BECOME A COMPUTER VISION ENGINEER?**
 
@@ -98,3 +98,13 @@ Computer vision experts recommend **Python** for the following reasons:
 	- **Powerful Matrix Library:** Images and other visual content contains multi-dimensional matrices along with linear algebra in different algorithms which becomes easier to work within MATLAB. The linear algebra routines included in MATLAB work fast and effective.
 	- **Debugging and Visualisation:** Since there is a single integrated platform for coding in MATLAB, writing, visualising and debugging codes become easy.
 	- **Excellent Documentation:** MATLAB enables you to document your work adequately so that it is accessible later. Documentation is essential not just for future reference but also to help coders work faster. MATLAB’s documentation allows users to work twice the speed of OpenCV.
+
+## **APPLICATIONS OF COMPUTER VISION**
+
+- **Medical Imaging:** Computer vision helps in MRI reconstruction, automatic pathology, diagnosis, machine aided surgeries and more.
+- **AR/VR:** Object occlusion (dense depth estimation), outside-in tracking, inside-out tracking for virtual and augmented reality.
+- **Smartphones:** All the photo filters (including animation filters on social media), QR code scanners, panorama construction, Computational photography, face detectors, image detectors (Google Lens, Night Sight) that you use are computer vision applications.
+- **Internet:** Image search, geolocalisation, image captioning, ariel imaging for maps, video categorisation and more.
+
+
+# THANK YOU
