@@ -29,7 +29,7 @@ The simplest way to install pandas, but also the most popular and useful package
 pip install pandas
 ```
 
-## Pandas Dataframe and Series
+## Pandas DataFrame and Series
 
 `Series` -Pandas Series is a one-dimensional labeled array capable of holding data of any type (integer, string, float, python objects, etc.). The axis labels are collectively called index.
 
