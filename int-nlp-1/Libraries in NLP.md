@@ -100,6 +100,7 @@ spaCy boasts of state-of-the-art speed, parsing, named entity recognition, convo
 
 ### Installation
   * pip install -U spacy
+  * ![spacy installation](https://raw.githubusercontent.com/ManishaAnaparthi/Images/main/Screenshot%20(2).png)
 
 ### Features
   * Tokenization
@@ -143,5 +144,5 @@ ML (vector space model, clustering, SVM), and network analysis by graph centrali
 ### Installation
  
    * pip install pattern
-   * ![alt text](https://raw.githubusercontent.com/ManishaAnaparthi/Images/main/Screenshot%20(1).png)
+   * ![patern installation](https://raw.githubusercontent.com/ManishaAnaparthi/Images/main/Screenshot%20(1).png)
   
