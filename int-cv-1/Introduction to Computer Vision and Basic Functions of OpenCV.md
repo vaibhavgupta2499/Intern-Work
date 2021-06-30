@@ -86,7 +86,7 @@ Computer vision engineers are in high demand in the market today, thanks to the 
 
 We have several programming language choices for computer vision – OpenCV using C++, OpenCV using Python, or MATLAB. However, most engineers have a personal favourite, depending on the task they perform.
 
-Beginners often pick ***OpenCV with Python*** for its flexibility. It’s a language most programmers are familiar with, and owing to its versatility is very popular among developers.
+Beginners often pick **OpenCV with Python** for its flexibility. It’s a language most programmers are familiar with, and owing to its versatility is very popular among developers.
 
 Computer vision experts recommend **Python** for the following reasons:
 - **Easy to Use:** Python is easy to learn, especially for beginners. It is one of the first programming languages learnt by most users. This language is also easily adaptable for all kinds of programming needs.
