@@ -105,6 +105,3 @@ Computer vision experts recommend **Python** for the following reasons:
 - **AR/VR:** Object occlusion (dense depth estimation), outside-in tracking, inside-out tracking for virtual and augmented reality.
 - **Smartphones:** All the photo filters (including animation filters on social media), QR code scanners, panorama construction, Computational photography, face detectors, image detectors (Google Lens, Night Sight) that you use are computer vision applications.
 - **Internet:** Image search, geolocalisation, image captioning, ariel imaging for maps, video categorisation and more.
-
-
-# THANK YOU
