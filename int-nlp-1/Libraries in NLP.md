@@ -29,6 +29,7 @@ The tool has the essential functionalities required for almost all kinds of natu
 
 ### Installation
  * pip install nltk
+ ![nltk installation](https://github.com/ManishaAnaparthi/Images/blob/460075d94db4c4249ee61ae325c5ff22ca3d8b5e/Screenshot%20(3).png)
  
 
 ### Features
@@ -55,6 +56,8 @@ Thus, you must install these two Python packages before installing Gensim.
  ### Installation
   
   * pip install gensim
+  ![genism installation](https://github.com/ManishaAnaparthi/Images/blob/460075d94db4c4249ee61ae325c5ff22ca3d8b5e/Screenshot%20(4).png)
+ 
 
  
  ### Features
@@ -78,6 +81,7 @@ English – Arabic, Chinese, German, French, and Spanish.
 
 ### Installation
   * pip install stanford-corenlp
+ ![corenlp  installation](https://github.com/ManishaAnaparthi/Images/blob/460075d94db4c4249ee61ae325c5ff22ca3d8b5e/Screenshot%20(5).png)
  
 ### Features
   * Lemmatization
