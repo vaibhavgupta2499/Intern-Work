@@ -14,14 +14,14 @@ README.md
         * Understanding Input Image
         * Important Concepts of Image Processing
             1. Rotation
-            1. Translation
-            1. Crop & Resize
-            1. Sharpen & Blur
-            1. Greyscale Conversion
-            1. Threshold
-            1. Masking, Erosion & Dilation
-            1. Edge & Centroid Detection
-            1. Arithmetic & Bitwise Operations
+            2. Translation
+            3. Crop & Resize
+            4. Sharpen & Blur
+            5. Greyscale Conversion
+            6. Threshold
+            7. Masking, Erosion & Dilation
+            8. Edge & Centroid Detection
+            9. Arithmetic & Bitwise Operations
         * Applications of Image Processing
 
 + **WORK FLOW**
