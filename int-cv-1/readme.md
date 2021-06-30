@@ -9,7 +9,7 @@
      |3|[Rakesh]()|
 
 - **About the topic:** 
-    - This topic consists of [Introduction To Computer Vision and Basic Functions of OpenCV]()
+    - This topic consists of [Introduction To Computer Vision and Basic Functions of OpenCV](int-cv-1/Introduction to Computer Vision and Basic Functions of OpenCV.md)
     - Contents: :clipboard:
     
     (1) What is Computer Vision?
@@ -32,13 +32,7 @@
 
     (10) What are the applications of Computer Vision?
 
-    (11) Computer Vision Challenges
-
-    (12) Future of Computer Vision
-
 - Work flow :bookmark_tabs:
     - [Samarth M R](): Worked on Content Writing and Markdown.
     - [Sri Varthan](): Worked on Video Editing.
     - [Rakesh](): Worked on Video making.
-
-
