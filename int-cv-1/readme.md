@@ -9,7 +9,7 @@
      |3|[Rakesh]()|
 
 - **About the topic:** 
-    - This topic consists of [Introduction To Computer Vision and Basic Functions of OpenCV](int-cv-1/Introduction to Computer Vision and Basic Functions of OpenCV.md)
+    - This topic consists of [Introduction To Computer Vision and Basic Functions of OpenCV](https://github.com/SamarthMR/Intern-Work/blob/main/int-cv-1/Introduction%20to%20Computer%20Vision%20and%20Basic%20Functions%20of%20OpenCV.md)
     - Contents: :clipboard:
     
     (1) What is Computer Vision?
