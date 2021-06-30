@@ -4,7 +4,7 @@
    
 </p>
 
-# Numpy 
+# :bulb: Numpy :computer:
 
 <b><font color=green>```Table of Contents``` </font></b>
 
