@@ -1,6 +1,6 @@
 # INTRODUCTION TO COMPUTER VISION AND BASIC FUNCTIONS OF OPENCV
 - **Team:** **int-cv-1**
-- **Team Members:** 👧 👦
+- **Team Members:**
 
      ||Name|
      |-|-|
