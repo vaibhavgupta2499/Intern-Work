@@ -18,6 +18,11 @@ The entire process involves image acquiring, screening, analysing, identifying a
 
 Computer vision projects translate digital visual content into explicit descriptions to gather multi-dimensional data. This data is then turned into computer-readable language to aid the decision-making process. The main objective of this branch of artificial intelligence is to teach machines to collect information from pixels.
 
+<p align="center">
+   <img src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2019/12/16172612/Blog_info_11-12-19-1.jpg" alt="Intro to OpenCV"
+        width="300" height="800">
+</p>
+
 ## **Examples of Computer Vision and Algorithms**
 
 **Automatic cars** aim at reducing the need for human intervention while driving, through various AI systems. Computer vision is part of such a system which focuses on imitating the logics behind human vision to help the machines take data-based decisions.
