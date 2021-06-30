@@ -22,7 +22,7 @@ Computer vision projects translate digital visual content into explicit descript
    <img src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2019/12/16172612/Blog_info_11-12-19-1.jpg" alt="Intro to OpenCV"
 </p>
 
-## **EXAMPLES OF COMPUTER VISION AND ALGORITHMS**
+## **[EXAMPLES OF COMPUTER VISION AND ALGORITHMS]**
 
 **Automatic cars** aim at reducing the need for human intervention while driving, through various AI systems. Computer vision is part of such a system which focuses on imitating the logics behind human vision to help the machines take data-based decisions.
 
