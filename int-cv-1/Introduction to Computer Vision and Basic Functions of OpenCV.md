@@ -1,6 +1,6 @@
 <p align="center">
    <img src="https://github.com/SamarthMR/Intern-Work/blob/main/int-cv-1/images/270px-OpenCV_Logo_with_text_svg_version.svg-removebg-preview.jpg" alt="OpenCV"
-        width="500" height="300">
+        width="600" height="400">
    <br />
    <b> INTRODUCTION TO COMPUTER VISION AND BASIC FUNCTIONS OF OPENCV</b>
    <br />
@@ -20,6 +20,7 @@ Computer vision projects translate digital visual content into explicit descript
 
 <p align="center">
    <img src="https://github.com/SamarthMR/Intern-Work/blob/main/int-cv-1/images/Blog_info_11-12-19-1.jpg" alt="Intro to OpenCV"
+	width="800"
 </p>
 
 ## **EXAMPLES OF COMPUTER VISION AND ALGORITHMS**
