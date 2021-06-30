@@ -1,5 +1,5 @@
 # Pandas
-##### _The folder contain a pandas markdown file covering from basics to advance about pandas._
+#### _The folder contain a pandas markdown file covering from basics to advance about pandas._
 
 ### Contents
 - Introduction to Pandas
