@@ -1,4 +1,4 @@
-![WhatsApp%20Image%202021-06-30%20at%205.15.57%20AM.jpeg](attachment:WhatsApp%20Image%202021-06-30%20at%205.15.57%20AM.jpeg)
+![Logo](https://user-images.githubusercontent.com/85128689/123909136-3a37f680-d996-11eb-93cb-fd82ef3263b9.jpeg)
 
 ## **Conditional statements:**
 
@@ -41,7 +41,8 @@ In any programming language we need a ability to check given conditions whether 
 - Let us take a look at the flow chart for better understanding,    
 
 
-![if.jpg](attachment:if.jpg)
+![if](https://user-images.githubusercontent.com/85128689/123909253-5b98e280-d996-11eb-94c1-38782ad3b7f5.jpg)
+
 
 **Lets us try to work on few examples:**
 
@@ -123,7 +124,8 @@ Here colon(':') is not used so it generated an syntax error.
 
 - Let us take a look at the flow chart for better understanding,
 
-![else.jpg](attachment:else.jpg)
+![else](https://user-images.githubusercontent.com/85128689/123909321-7408fd00-d996-11eb-9b98-b6f738e832b0.jpg)
+
 
 **Lets us try to work on few examples:**
 
@@ -213,7 +215,8 @@ else:
 
 - Let us take a look at the flow chart for better understanding,
 
-![NESTED%20IF%20%281%29.JPG](attachment:NESTED%20IF%20%281%29.JPG)
+![NESTED IF (1)](https://user-images.githubusercontent.com/85128689/123909379-913dcb80-d996-11eb-8bba-06aa5b773fe5.JPG)
+
 
 **Lets us try to work on few examples:**
 
@@ -277,7 +280,7 @@ if CGPA >= 9:
 
 - Let us take a look at the flow chart for better understanding,
 
-![ifelifelse.jpg](attachment:ifelifelse.jpg)
+![ifelifelse](https://user-images.githubusercontent.com/85128689/123909433-adda0380-d996-11eb-9f79-9d571155c693.jpg)
 
 **Let us try to work on few examples:**
 
@@ -394,4 +397,5 @@ else:
     There are 30 days in this month 
     
 
-![Tqq.jpeg](attachment:Tqq.jpeg)
+![Tqq](https://user-images.githubusercontent.com/85128689/123909514-c9dda500-d996-11eb-8808-f2156178daac.jpeg)
+
