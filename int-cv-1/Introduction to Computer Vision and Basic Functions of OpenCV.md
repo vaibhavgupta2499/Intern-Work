@@ -58,3 +58,43 @@ Here are some examples of basic functions while writing an opencv code in Python
 2. `cv2.imshow('logo',img)` --> used to view the image as an output.
 
 3. `cv2.imwrite('click_2.jpeg',img)` --> used to save the image to the output durectory.
+
+## **HOW TO LEARN COMPUTER VISION?**
+
+Depending on the uses, computer vision has the following uses:
+
+***Laying the Foundation:*** Probability, statistics, linear algebra, calculus and basic statistical knowledge are prerequisites of getting into the domain. Similarly, knowledge of programming languages like Python and MATLAB will help you grasp the concepts better.
+
+***Digital Image Processing:*** Learn how to compress image and videos using JPEG and MPEG files. Knowledge of basic image processing tools like histogram equalisation, median filtering and more are required. Once you know the basics of image processing and restoration, you will be ready to pick up the more critical skills of computer vision.
+
+***Machine Learning Basics:*** Knowledge of Convoluted Neural Networks, fully connected neural networks, support vector machines, recurrent neural networks, generative adversarial network, and autoencoders are necessary to get started with computer vision.
+
+***Basic Computer Vision:*** The next step in the process is to decode the mathematical models involved in the image and video formulations. Once you understand how pattern recognition and signal processing works, you can get into advanced learning.
+
+## **HOW TO BECOME A COMPUTER VISION ENGINEER?**
+
+Computer vision engineers are in high demand in the market today, thanks to the enormous amount of visual content that needs to be worked upon.
+
+### ***What exactly does a computer engineer do?***
+
+- A computer vision engineer creates and uses vision algorithms to work on the pixels of any visual content (images, videos and more)
+- They use a data-based approach to develop solutions.
+- They usually come with a background in AIML and have experience working on a variety of systems, including segmentation, machine learning, and image processing.
+- If you want to become a computer vision engineer, you need to pick up the basic skills of the domain and work on projects that will give you a hands-on experience of industry-relevant problem-solving. Great Learning’s Deep Learning certificate program introduces you to all the basics of the domain and sets you on the path of becoming a computer vision engineer.
+
+## **WHICH LANGUAGE IS BEST SUITED FOR COMPUTER VISION?**
+
+We have several programming language choices for computer vision – OpenCV using C++, OpenCV using Python, or MATLAB. However, most engineers have a personal favourite, depending on the task they perform.
+
+Beginners often pick ***OpenCV with Python*** for its flexibility. It’s a language most programmers are familiar with, and owing to its versatility is very popular among developers.
+
+Computer vision experts recommend **Python** for the following reasons:
+- **Easy to Use:** Python is easy to learn, especially for beginners. It is one of the first programming languages learnt by most users. This language is also easily adaptable for all kinds of programming needs.
+- **Most Used computing language:** Python offers a complete learning environment for people who want to use it for various kinds of Computer Vision and Machine Learning experiments. Its numpy, scikit-learn, matplotlib and OpenCV provides an exhaustive resource for any computer vision applications.
+- **Debugging and Visualisation:** Python has an in-built debugger, ‘PDB’ which makes debugging codes in this programming language more accessible. Similarly, Matplotlib is a convenient resource for visualisation.
+- **Web Backend Development:**  Frameworks like Django, Flask, and Web2py are excellent web page builders. Python is compatible with these frameworks and can be easily tweaked to fit your requirements.
+- **MATLAB is the other programming language popular with computer experts:** Let’s look into the advantages of using MATLAB:
+- **Toolboxes:** MATLAB has one the most exhaustive toolboxes; whether it is a statistical and machine learning toolbox, or an image processing toolbox, MATLAB has one included for all kinds of needs. The clean interfaces of each of these toolboxes enables you to implement a range of algorithms. MATLAB also has an optimisation toolbox which ensures that all algorithms perform at their best.
+- **Powerful Matrix Library:** Images and other visual content contains multi-dimensional matrices along with linear algebra in different algorithms which becomes easier to work within MATLAB. The linear algebra routines included in MATLAB work fast and effective.
+- **Debugging and Visualisation:** Since there is a single integrated platform for coding in MATLAB, writing, visualising and debugging codes become easy.
+- **Excellent Documentation:** MATLAB enables you to document your work adequately so that it is accessible later. Documentation is essential not just for future reference but also to help coders work faster. MATLAB’s documentation allows users to work twice the speed of OpenCV.
