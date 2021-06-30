@@ -459,6 +459,7 @@ print(arr)
 <br>
 
 # 12.Performing arithmetic operations on NumPy Arrays :heavy_division_sign:
+<p align = "center"><img src = "https://th.bing.com/th/id/OIP.PYUzdjvi8d_XoOm6C0WnmQHaGK?w=182&h=151&c=7&o=5&pid=1.7", height = 300, width = 400></p>
 You can also do basic arithmetic operations with arrays. <br>
 
 
@@ -723,6 +724,7 @@ Number of nonzero values is : [1 1 1 1 1]
 
 
 # 16.Joining Numpy Arrays :loop:
+<p align = "center"><img src = "https://th.bing.com/th/id/OIP.v-zGrQgQslRlrLhl_RPpnAAAAA?w=284&h=78&c=7&o=5&pid=1.7"></p>
 * Joining means putting contents of two or more arrays in a single array.
 * In SQL we join tables based on a key, whereas in NumPy we join arrays by axes.
 * We pass a sequence of arrays that we want to join to the ```concatenate()``` function, along with the axis. If axis is not explicitly passed, it is taken as 0.
