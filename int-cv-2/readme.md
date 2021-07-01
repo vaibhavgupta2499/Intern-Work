@@ -1,4 +1,4 @@
-![images/cover.png](images/cover.png)
+![cover](https://github.com/suvrashaw/Intern-Work/blob/1e148d866eb080f5f0d7d70646ebe68b2e1adaf5/int-cv-2/images/cover.png)
 
 ### Features of OpenCV Library
 
