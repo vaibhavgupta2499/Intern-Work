@@ -17,7 +17,7 @@
 <p> NLP drives computer programs that translate text from one language to another, respond to spoken commands, and summarize large volumes of text rapidly—even in real time. There’s a good chance you’ve interacted with NLP in the form of voice-operated GPS systems, digital assistants, speech-to-text dictation software, customer service chatbots, and other consumer conveniences. But NLP also plays a growing role in enterprise solutions that help streamline business operations, 
   increase employee productivity, and simplify mission-critical business processes.
   
-![image](![image](https://user-images.githubusercontent.com/84801896/123931189-036dda80-d9ae-11eb-8133-0b965f99a7c2.png)
+[image](https://user-images.githubusercontent.com/84801896/123931189-036dda80-d9ae-11eb-8133-0b965f99a7c2.png)
 
 
   
