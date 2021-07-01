@@ -1,4 +1,4 @@
-![images/cover.png](images/cover.png)
+![cover](https://github.com/suvrashaw/Intern-Work/blob/1e148d866eb080f5f0d7d70646ebe68b2e1adaf5/int-cv-2/images/cover.png)
 
 # Features of OpenCV Library
 
@@ -26,7 +26,7 @@ OpenCV was initially developed in C++. In addition to it, Python and Java bindin
     Img_1 = cv2.imread (“bird.jpg”,0) # Black and White (grayscale)
     ```
 
-    ![images/grayscaling.png](images/grayscaling.png)
+    ![grayscaling](https://github.com/suvrashaw/Intern-Work/blob/1e148d866eb080f5f0d7d70646ebe68b2e1adaf5/int-cv-2/images/grayscaling.png)
 
 - **Displaying the Image:**
 
@@ -79,7 +79,7 @@ Grayscaling is the conversion of a picture from RGB, CMYK, HSV, and other colour
 
 Image translation represents the process of shifting an image from one location to another location. This can be performed using a transformation matrix. To perform image translation with OpenCV, we must first define an affine transformation matrix, which is a 2 x 3 matrix.
 
-![images/matrix.png](images/matrix.png)
+![matrix](https://github.com/suvrashaw/Intern-Work/blob/1e148d866eb080f5f0d7d70646ebe68b2e1adaf5/int-cv-2/images/matrix.png)
 
 The tx and ty elements in the matrix represent picture shifting in the x and y directions, respectively. The cv2.wrapAffine() function to implement these translations. The numpy array must be of type float.
 
@@ -107,7 +107,7 @@ Rotation operation helps to rotate an image by some angle, Θ. Θ represents how
 
         It returns an image as the return value
 
-        ![images/normal.jpg](images/normal.jpg)
+        ![normal](https://github.com/suvrashaw/Intern-Work/blob/1e148d866eb080f5f0d7d70646ebe68b2e1adaf5/int-cv-2/images/normal.jpg)
 
 - **Code to rotate image 90 degrees clockwise:**
 
@@ -120,7 +120,7 @@ Rotation operation helps to rotate an image by some angle, Θ. Θ represents how
     cv2.waitKey(0)
     ```
 
-    ![images/rotated.png](images/rotated.png)
+    ![rotated](https://github.com/suvrashaw/Intern-Work/blob/1e148d866eb080f5f0d7d70646ebe68b2e1adaf5/int-cv-2/images/rotated.png)
 
 - **Applications of Rotation:**
     - It helps to display the reflection of the image.
