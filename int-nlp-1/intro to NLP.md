@@ -42,7 +42,7 @@ Siri, Alexa, or Google Assistant.
 
   ### 3. History and Background work of NLP ❓
   
-  ![image](https://buggyprogrammer.com/wp-content/uploads/2021/05/Timeline-of-NLP.png)
+  <img src="Timeline-of-NLP.png" alt="My cool logo"/>
 
 <p> While natural language processing isn’t a new science, the technology is rapidly advancing thanks to an increased interest in human-to-machine communications, plus an availability of big data, powerful computing and enhanced algorithms. 
 
@@ -53,6 +53,7 @@ Siri, Alexa, or Google Assistant.
 <p> Let’s take a closer look at that interaction. Your device activated when it heard you speak, understood the unspoken intent in the comment, executed an action and provided feedback in a well-formed English sentence, all in the space of about five seconds. The complete interaction was made possible by NLP, along with other AI elements such as machine learning and deep learning. 
 
   ### Why is NLP important ❔
+   
  ### Large volumes of textual data
 <p> Natural language processing helps computers communicate with humans in their own language and scales other language-related tasks. For example, NLP makes it possible for computers to read text, hear speech, interpret it, measure sentiment and determine which parts are important. 
 Today’s machines can analyze more language-based data than humans, without fatigue and in a consistent, unbiased way. Considering the staggering amount of unstructured data that’s generated every day, from medical records to social media, automation will be critical to fully analyze text and speech data efficiently.
