@@ -954,6 +954,103 @@ Pandas DataFrame.transpose() function transpose index and columns of the datafra
    
    
    ![30](https://user-images.githubusercontent.com/84801896/124056099-bab43100-da42-11eb-832a-20c518a5ec02.PNG)
+   
+   
+ # **Introduction to Neuro Linguistic Programming** 
+   
+   
+   
+Neuro-linguistic programming (NLP) is a pseudoscientific approach to communication, personal development, and psychotherapy created by Richard Bandler and John Grinder in California, United States, in the1970s.
+Neuro-linguistic Programming (NLP) is one of the most sophisticated and effective methodologies currently available to help you communicate effectively. NLP centres on communication and change. These days everybody needs the skills to develop personal flexibility. Tricks and gimmicks aren’t enough: everyone needs to get real. So welcome to the start of the journey: in this chapter you get a quick taster of the key themes of NLP.
+   
+   
+
+![image](https://user-images.githubusercontent.com/84801896/124061257-3666ab80-da4c-11eb-908f-4f2e6deb09b1.png)
+  
+NEUROLOGY The physical components as well as the mental and emotional components of our neurology
+
+![image](https://user-images.githubusercontent.com/84801896/124061299-42eb0400-da4c-11eb-903d-cbc19a90757d.png)
+
+LANGUAGE Linguistics pertains to the language that you use, and more specifically, how you communicate with others and more importantly, how you communicate with yourself
+
+![image](https://user-images.githubusercontent.com/84801896/124061337-51d1b680-da4c-11eb-86d7-0535c457ce87.png)
+
+FUNCTION Perceiving your mind as your internal operating system, Programming is the way our past experiences, thoughts and emotions affect all areas of our lives
+
+
+    
+   
+
+ ✓ Neuro concerns your neurological system. NLP is based on the idea that you experience the world through your senses and translate sensory information into thought processes, both conscious and unconscious. Thought processes activate the neurological system, which affects physiology, emotions, and behaviour. 
+
+✓ Linguistic refers to the way you use language to make sense of the world, capture and conceptualise experience, and communicate that experience to others. In NLP, linguistics is the study of how the words you speak and your body language influence your experience. 
+
+✓ Programming draws heavily from learning theory and addresses how you code or mentally represent your experiences. Your personal programming consists of your internal processes and strategies (thinking patterns) that you use to make decisions, solve problems, learn, evaluate, and get results. NLP shows you how to recode your experiences and organise your internal programming so that you can get the outcomes
+
+   
+ A few quick definitions NLP can be described in various ways. The formal definition is that NLP is ‘the study of the structure of our subjective experience’. Here are a few more ways of answering the elusive question ‘what is NLP?’:
+ ✓The art and science of communication 
+✓ The key to learning 
+✓ The way to understand what makes you and other people tick
+ ✓ The route to get the results you want in all areas of your life
+ ✓The way to influence others with integrity 
+✓  The manual for your brain
+ ✓ The secret of successful people
+ ✓ The method of creating your own future 
+✓ The way to help people make sense of their reality 
+✓ The toolkit for personal and organisational change
+   
+
+ # **DIFFERENCE BETWEEN NATURAL LANGUAGE PROCESSING AND NEURO LINGUSTIC PROGRAMMING** 
+  
+   ![image](https://user-images.githubusercontent.com/84801896/124061942-724e4080-da4d-11eb-8c50-4f13ff0dfe8f.png)
+
+ NLP stands for natural language processing. It is a part of computer science and artificial intelligence which deals with human languages. NLP also stands for neuro-linguistic programming which is an approach to communication, personal development and psychotherapy.
+
+I found out Natural Language Processing is applied in a lot of our daily activities include but not limited to:
+
+* Automatic Language Translations.
+* Speech recognition.
+* Grammar and spell check.
+* Personal Assistants like Siri, Alexa, and Google Assistant.
+* Google suggestions.
+* NLP is an integral part of Artificial Intelligence.
+   
+   
+![image](https://user-images.githubusercontent.com/84801896/124062119-cf49f680-da4d-11eb-90ba-d4f7168bbea6.png)
+
+My understanding of Neuro-Linguistic Programming is observing yourself and others and identifying the patterns, models, and physiology we are using and correct it, change it, and remodel it for success.  Neuro-Linguistic Programming is used successfully to develop and enhance some skills which may include but not limited to:
+
+* Effective communication with self and others.
+* Rapport building.
+* Overcoming Phobias and addictions and bad memories.
+* Setting goals and attaining new models.
+* Using physiology effectively to create positive shifts.
+* Sales and marketing success.
+* Identifying ones’ strength and weaknesses
+ 
+### Difference between Natural language and Computer Language
+  Natural Language   
+* Natural language has a very large vocabulary.
+* Natural language is easily understood by humans.
+* Natural language is ambiguous in nature.
+
+ Computer Language
+* Computer language has a very limited vocabulary.
+* Computer language is easily understood by machines.
+* Computer language is unambiguous
+   
+   
+ # **SUMMARIZE** 
+
+
+
+
+   .
+
+   
+
+
 
    
 
