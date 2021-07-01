@@ -44,7 +44,8 @@ Siri, Alexa, or Google Assistant.
 
   ### 3. History and Background work of NLP ❓
   
-  <img src="Timeline-of-NLP.png" alt="My cool logo"/>
+  <img src="Timeline-of-NLP.png" alt="My cool logo"/>)
+   (Image taken from -- https://buggyprogrammer.com/what-is-natural-language-processing/)
 
 <p> While natural language processing isn’t a new science, the technology is rapidly advancing thanks to an increased interest in human-to-machine communications, plus an availability of big data, powerful computing and enhanced algorithms. 
 
