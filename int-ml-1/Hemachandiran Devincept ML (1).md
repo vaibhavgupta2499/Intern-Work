@@ -232,12 +232,7 @@
                       (e.g.Neural Networks)
                       
                       
-*  #### The quality and quantity of data dictate the model accuracy
 
-
-
-
-![qualitative-data-collection-tool.jpg](attachment:qualitative-data-collection-tool.jpg)
 
 
 # 6.Data Preprocessing🎨
