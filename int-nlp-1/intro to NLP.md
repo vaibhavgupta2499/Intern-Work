@@ -42,14 +42,13 @@ Siri, Alexa, or Google Assistant.
   
 
   ### 3. History and Background work of NLP ❓
-  .
+  <br />
   ![image](https://antoiloui.com/images/blog/post-3/banner.jpg)
-   .
+  <br />
   ![image](https://antoiloui.com/images/blog/post-4/banner.jpg)
-   .
-
+   <br />
    (Image taken from -- https://www.antoiloui.com/blog/4-a-brief-history-of-nlp-part-2/)
-   
+   <br />
    .
    .
 
