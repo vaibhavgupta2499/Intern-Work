@@ -311,6 +311,150 @@ ML (vector space model, clustering, SVM), and network analysis by graph centrali
    * pip install pattern
    * ![patern installation](https://raw.githubusercontent.com/ManishaAnaparthi/Images/main/Screenshot%20(1).png)
    
+   
+   ## Practical Implementation
+   
+   
+*  import nltk
+*  from nltk.stem import PorterStemmer
+*  word_stemmer = PorterStemmer()
+*  word_stemmer.stem('eating')
+   
+   ![1](https://user-images.githubusercontent.com/84801896/124071446-f1974080-da5c-11eb-888a-d150f2e9726c.PNG)
+
+
+*  import nltk
+*  from nltk.stem import PorterStemmer
+*  word_stemmer = PorterStemmer()
+*  word_stemmer.stem('writing')
+   
+  ![2](https://user-images.githubusercontent.com/84801896/124071541-1f7c8500-da5d-11eb-94d3-48e03c824764.PNG)
+   
+   
+   
+   ## Lancaster stemming algorithm
+   
+   
+It was developed at Lancaster University and it is another very common stemming algorithms.
+
+LancasterStemmer class NLTK has LancasterStemmer class with the help of which we can easily implement Lancaster Stemmer algorithms for the word we want to stem. Let us see an example −
+   
+   ### First, we need to import the natural language toolkit(nltk).
+   
+*  import nltk
+*  from nltk.stem import PorterStemmer
+*  word_stemmer = PorterStemmer()
+*  word_stemmer.stem('eats')
+   
+   
+   ![3](https://user-images.githubusercontent.com/84801896/124071631-463abb80-da5d-11eb-8e4c-c93505153afe.PNG)
+   
+   
+## Regular Expression stemming algorithm
+   
+With the help of this stemming algorithm, we can construct our own stemmer.
+
+RegexpStemmer class NLTK has RegexpStemmer class with the help of which we can easily implement Regular Expression Stemmer algorithms. It basically takes a single regular expression and removes any prefix or suffix that matches the expression. Let us see an example −
+
+### First, we need to import the natural language toolkit(nltk).
+   
+*  import nltk
+*  from nltk.stem import RegexpStemmer
+*  Reg_stemmer = RegexpStemmer("ing")
+*  Reg_stemmer.stem('eating')
+   
+   
+   ![4](https://user-images.githubusercontent.com/84801896/124071731-6ec2b580-da5d-11eb-849a-1c79bdb0fc50.PNG)
+   
+   
+## Snowball stemming algorithm
+   
+It is another very useful stemming algorithm.
+
+SnowballStemmer class NLTK has SnowballStemmer class with the help of which we can easily implement Snowball Stemmer algorithms. It supports 15 non-English languages. In order to use this steaming class, we need to create an instance with the name of the language we are using and then call the stem() method. Let us see an example −
+   
+   
+   ### First, we need to import the natural language toolkit(nltk)
+   
+*  import nltk
+*  from nltk.stem import SnowballStemmer
+*  SnowballStemmer.languages
+   
+   
+   ![5](https://user-images.githubusercontent.com/84801896/124071842-9ade3680-da5d-11eb-84b7-b2bbe1f6e427.PNG)
+   
+   
+*  import nltk
+*  from nltk.stem import SnowballStemmer
+*  French_stemmer = SnowballStemmer("french")
+*  French_stemmer.stem ("Bonjoura")
+   
+   
+![6](https://user-images.githubusercontent.com/84801896/124071934-b6e1d800-da5d-11eb-992f-73e155da754c.PNG)
+   
+   
+  ## What is Lemmatization?
+   
+Lemmatization technique is like stemming. The output we will get after lemmatization is called ‘lemma’, which is a root word rather than root stem, the output of stemming. After lemmatization, we will be getting a valid word that means the same thing.
+
+NLTK provides WordNetLemmatizer class which is a thin wrapper around the wordnet corpus. This class uses morphy() function to the WordNet CorpusReader class to find a lemma. Let us understand it with an example 
+   
+   ### First, we need to import the natural language toolkit(nltk).
+   
+*  import nltk
+*  nltk.download('wordnet')
+*  from nltk.stem import WordNetLemmatizer
+  
+   
+
+   ## Create WordNetLemmatizer object
+*  wnl = WordNetLemmatizer()
+  
+*  ### Single word lemmatization examples
+*  list1 = ['kites', 'babies', 'dogs', 'flying', 'smiling', 'driving', 'died', 'tried', 'feet']
+*  for words in list1:
+    print(words + " ---> " + wnl.lemmatize(words))
+   
+   
+   ![7](https://user-images.githubusercontent.com/84801896/124072061-e98bd080-da5d-11eb-859b-361ad9183f44.PNG)
+   
+   
+   ## TextBlob
+   
+TextBlob is a python library used for processing textual data. It provides a simple API to access its methods and perform basic NLP tasks. Download TextBlob package : In your anaconda prompt or terminal, type: pip install textblob
+   
+*  from textblob import TextBlob
+*  wiki = TextBlob("Python is a high-level, general-purpose programming language.")
+   
+   
+   
+## Sentiment Analysis
+   
+The sentiment property returns a namedtuple of the form Sentiment(polarity, subjectivity). The polarity score is a float within the range [-1.0, 1.0]. The subjectivity is a float within the range [0.0, 1.0] where 0.0 is very objective and 1.0 is very subjective.
+   
+   
+*  testimonial = TextBlob("Textblob is amazingly simple to use. What great fun!")
+
+*  testimonial.sentiment
+
+*  Sentiment(polarity=0.39166666666666666, subjectivity=0.4357142857142857)
+
+*  testimonial.sentiment.polarity
+   
+   
+   
+   
+   
+   ![8](https://user-images.githubusercontent.com/84801896/124072250-25bf3100-da5e-11eb-81d4-5c77b658f339.PNG)
+   
+   
+   
+
+
+
+   
+   
+   
 
    # **Introduction to Numpy**
 
