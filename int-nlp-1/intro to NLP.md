@@ -964,5 +964,5 @@ Although the future looks extremely challenging and full of threats for NLP, the
 6. https://pythonguides.com/numpy/#:~:text=NumPy%20is%20the%20fundamental%20package,used%20for%20working%20with%20arrays.
 7. https://www.javatpoint.com/numpy-tutorial
 8. https://www.shutterstock.com/image-illustration/natural-language-processing-concept-word-cloud-201226490
-9. https://www.geeksforgeeks.org/how-to-install-python-pandas-on-windows-and-linux/
+9. https://www.geeksforgeeks.org/how-to-install-python-pandas-on-windows-and-linux
 10.https://pandas.pydata.org/pandas-docs/version/0.24.1/reference/api/pandas.Series.html
