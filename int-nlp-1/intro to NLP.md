@@ -310,9 +310,11 @@ ML (vector space model, clustering, SVM), and network analysis by graph centrali
  
    * pip install pattern
    * ![patern installation](https://raw.githubusercontent.com/ManishaAnaparthi/Images/main/Screenshot%20(1).png)
+   
+ 
   
-
-# Introduction to Numpy
+  
+   # **Introduction to Numpy**
 
 ### What is Numpy ?
 * NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, 
@@ -343,62 +345,10 @@ There are the following advantages of using NumPy for data analysis.
 ### NumPy Environment Setup
 NumPy doesn't come bundled with Python. We have to install it using the python pip installer. Execute the following command.
 ```
-pip install numpy 
-
-```
-
-### Creating Arrays in Numpy 
-
-```
-import numpy as np
-arr = np.array([1,2,3,4,5,6,7,8,9,10])
-
-```
-
-### Array Dimensions
-
-1. 0-D Arrays
-
-```
-arr = np.array(42)
-```
-
-2. 1-D Arrays
-
- ```
- arr = np.array([1,2,3,4,5,6,7,8,9,10])
+pip install numpy
  ```
  
- 3. 2-D Arrays
- 
- ```
- arr = np.array([[1,2,3,4],[5,6,7,8]])
- ```
- 
- 4. 3-D Arrays
- ```
- arr = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
- ```
- 
- ### Numpy Array Slicing :
- 
- * Slicing in python means taking elements from one given index to another given index.
- * We pass slice instead of index like `[start:end]`
- * We can also define the step like `[start:end:step]`
- * If we don't pass start, start is considered 0
- * If we don't pass end , it is considered as last element of the dimension
- * If we don't pass step, it is considered to be 1
- 
- ```
-arr = np.array([1, 2, 3, 4, 5, 6, 7])
-arr[1:5]
-arr[4,:]
-arr[:,4]
-arr[-3:-1]
-arr[::2]
-arr[1,2:5]
-arr[0:2,1:3]
- ``` 
+  
  ### Data Types in Numpy
 
 * i - Integer
@@ -413,160 +363,134 @@ arr[0:2,1:3]
 * U - Unicode String
 * V - Fixed chunk of memory for other type
 
-### Shape of an array
 
-* The shape of an array is the number of elements in each dimension.
-* It can be determined using `arr.shape`
-* Integers at every index tells about the number of elements the corresponding dimension has.
+ ### numpy.concatenate() in Python
+The concatenate() function is a function from the NumPy package. This function essentially combines NumPy arrays together. This function is basically used for joining two or more arrays of the same shape along a specified axis. There are the following things which are essential to keep in mind:
+
+NumPy's concatenate() is not like a traditional database join. It is like stacking NumPy arrays. This function can operate both vertically and horizontally. This means we can concatenate arrays together horizontally or vertically. numpy.concatenate() The concatenate() function is usually written as np.concatenate(), but we can also write it as numpy.concatenate(). It depends on the way of importing the numpy package, either import numpy as np or import numpy, respectively.
 
 
-### Joining Numpy Arrays
-
-* Joining means putting contents of two or more arrays in a single array.
-* In SQL we join tables based on a key, whereas in NumPy we join arrays by axes.
-* We pass a sequence of arrays that we want to join to the `concatenate()` function, along with the axis. If axis is not explicitly passed, it is taken as 0.
-
-**Example 1**
-```
-arr1 = np.array([1, 2, 3])
-
-arr2 = np.array([4, 5, 6])
-
-arr = np.concatenate((arr1, arr2))
-
-```
-
-**Example 2**
-```
-arr1 = np.array([[1, 2], [3, 4]])
-
-arr2 = np.array([[5, 6], [7, 8]])
-
-arr = np.concatenate((arr1, arr2), axis=1)
- 
- ```
-
-**Example 3**
-```
-numpy.concatenate() with axis=0
 import numpy as np  
 x=np.array([[1,2],[3,4]])  
-y=np.array([[12,30]])
-z=np.concatenate((x,y), axis=0)  
-z
+y=np.array([[12,30]])  
+z=np.concatenate((x,y))  
+z  
 ```
- **Example 4**
- ```
-numpy.concatenate() with axis=1
+   array([[ 1,  2],
+       [ 3,  4],
+       [12, 30]])
+   ```
+
+### numpy.concatenate() with axis=0
+import numpy as np  
+x=np.array([[1,2],[3,4]])  
+y=np.array([[12,30]])  
+z=np.concatenate((x,y), axis=0)  
+z  
+```
+   array([[ 1,  2],
+       [ 3,  4],
+       [12, 30]])
+   ```
+
+### numpy.concatenate() with axis=1
 import numpy as np  
 x=np.array([[1,2],[3,4]])  
 y=np.array([[12,30]])  
 z=np.concatenate((x,y.T), axis=1)  
 z  
 ```
+   array([[ 1,  2, 12],
+       [ 3,  4, 30]])
+   ```
 
+### numpy.concatenate() with axis=None
+import numpy as np  
+x=np.array([[1,2],[3,4]])  
+y=np.array([[12,30]])  
+z=np.concatenate((x,y), axis=None)  
+z  
+```
+   array([ 1,  2,  3,  4, 12, 30])
+   
+   ```
 
 ### numpy.append() in Python
-The numpy.append() function is available in NumPy package. As the name suggests, append means adding something.
-The numpy.append() function is used to add or append new values to an existing numpy array. This function adds the new values at the end of the array.
+The numpy.append() function is available in NumPy package. As the name suggests, append means adding something. The numpy.append() function is used to add or append new values to an existing numpy array. This function adds the new values at the end of the array.
+
 The numpy append() function is used to merge two arrays. It returns a new array, and the original array remains unchanged.
 
-# Syntax
-* numpy.append(arr, values, axis=None)  
 
- **Example 1**
-```
-np.append()
+### np.append()
 import numpy as np  
 a=np.array([[10, 20, 30], [40, 50, 60], [70, 80, 90]])  
 b=np.array([[11, 21, 31], [42, 52, 62], [73, 83, 93]])  
 c=np.append(a,b)  
-c
+c 
 ```
+   array([10, 20, 30, 40, 50, 60, 70, 80, 90, 11, 21, 31, 42, 52, 62, 73, 83,
+       93])
+   ```
 
-**Example 2**
-```
-#np.append({a1,a2,...}, axis=0)
+### np.append({a1,a2,...}, axis=0)
 import numpy as np  
 a=np.array([[10, 20, 30], [40, 50, 60], [70, 80, 90]])  
 b=np.array([[11, 21, 31], [42, 52, 62], [73, 83, 93]])  
 c=np.append(a,b,axis=0)  
-c 
+c  
 ```
+   array([[10, 20, 30],
+       [40, 50, 60],
+       [70, 80, 90],
+       [11, 21, 31],
+       [42, 52, 62],
+       [73, 83, 93]])
+   ```
 
-**Example 3**
-```
-np.append({a1,a2,...}, axis=1)
+### np.append({a1,a2,...}, axis=1)
 import numpy as np  
 a=np.array([[10, 20, 30], [40, 50, 60], [70, 80, 90]])  
 b=np.array([[11, 21, 31], [42, 52, 62], [73, 83, 93]])  
 c=np.append(a,b,axis=1)  
-c
+c  
 ```
+   array([[10, 20, 30, 11, 21, 31],
+       [40, 50, 60, 42, 52, 62],
+       [70, 80, 90, 73, 83, 93]])
+   ```
 
 ### numpy.sum() in Python
-The numpy.sum() function is available in the NumPy package of Python. This function is used to compute the sum of all elements, the sum of each row, and the sum of each column of a given array.
-Essentially, this sum ups the elements of an array, takes the elements within a ndarray, and adds them together. It is also possible to add rows and column elements of an array.
-The output will be in the form of an array object
+The numpy.sum() function is available in the NumPy package of Python. This function is used to compute the sum of all elements, the sum of each row, and the sum of each column of a given array. Essentially, this sum ups the elements of an array, takes the elements within a ndarray, and adds them together. It is also possible to add rows and column elements of an array. The output will be in the form of an array object
 
-![image](https://user-images.githubusercontent.com/84801896/123977559-b6edc380-d9dc-11eb-8b72-cf25468012b4.png)
-### Syntax
-There is the following syntax of numpy.sum() function:
-numpy.sum(arr, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<no value>) 
+
+Syntax
+There is the following syntax of numpy.sum() function: numpy.sum(arr, axis=None, dtype=None, out=None, keepdims=, initial=)
+
   
-  
-**Example 1**
- ```
-numpy.array()
+
+#import numpy.array()
 import numpy as np  
 a=np.array([0.4,0.5])  
 b=np.sum(a)  
 b  
+
 ```
-**Example 2**
- ```
+   0.9
+   ```
+
 import numpy as np  
 a=np.array([0.4,0.5,0.9,6.1])  
 x=np.sum(a, dtype=np.int32)  
-x 
-  
- ```
-  
-### numpy.zeros() in Python
-The numpy.zeros() function is one of the most significant functions which is used in machine learning programs widely. This function is used to generate an array containing zeros.
-The numpy.zeros() function provide a new array of given shape and type, which is filled with zeros.
-  ![image](https://user-images.githubusercontent.com/84801896/123979062-041e6500-d9de-11eb-860a-86ba6ebb55bc.png)
-  ### Syntax
-* numpy.zeros(shape, dtype=float, order='C'  
-  
-  **Example 1**
+x  
+```
+   6
    ```
-  numpy.zeros() without dtype and order
-  import numpy as np  
-  a=np.zeros(6)  
-  a  
-   ```
-  **Example 2**
-  
-   ```
-  numpy.zeros() with shape
-  import numpy as np  
-  a=np.zeros((6,2))  
-  a  
-  
-   ```
- 
-  **Example 3**
-  ```
-  numpy.zeros() with the shape
-  Import numpy as np  
-  s1=(3,2)  
-  a=np.zeros(s1)  
-  a  
-   ```
+
+
   
    
- # **Introduction to Pandas**
+
+   # **Introduction to Pandas**
 
    
 Pandas in Python is a package that is written for data analysis and manipulation. Pandas offer various operations and data structures to perform numerical data manipulations and time series. Pandas is an open-source library that is built over Numpy libraries. Pandas library is known for its high productivity and high performance. Pandas is popular because it makes importing and analyzing data much easier.
@@ -632,19 +556,6 @@ In this case as no index is passed, so by default index will be range(n) where n
 
 Indexing in pandas means simply selecting particular rows and columns of data from a DataFrame. Indexing could mean selecting all the rows and some of the columns, some of the rows and all of the columns, or some of each of the rows and columns. Indexing can also be known as Subset Selection.
 
-Pandas Indexing using [ ], .loc[], .iloc[ ], .ix[ ]
- 
-*  s = pd.Series([1, 2, 3, 4, 5])
-
-*  print(s[2])
-
-*  print(s[1:])
-
-*  print(s[[1, 4]])
-   
-   
-   
-   ![4](https://user-images.githubusercontent.com/84801896/124054946-9f482680-da40-11eb-9d82-b6774f152543.PNG)
    
    
    
@@ -763,86 +674,6 @@ A Series is a one-dimensional labeled array capable of holding any data type (in
    
    ![12](https://user-images.githubusercontent.com/84801896/124055345-5349b180-da41-11eb-99fa-429442572645.PNG)
 
-   
-   
-## **dataset.columns**
-
-   
-Pandas DataFrame is a two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). Arithmetic operations align on both row and column labels. It can be thought of as a dict-like container for Series objects. This is the primary data structure of the Pandas.
-   
-   
-*  df.columns
-  
-   
-   ![13](https://user-images.githubusercontent.com/84801896/124055382-66f51800-da41-11eb-8f1a-d8f0005f383a.PNG)
-
-   
-## **dataset.T**
-
-   
-Pandas DataFrame is a two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). Arithmetic operations align on both row and column labels. It can be thought of as a dict-like container for Series objects. This is the primary data structure of the Pandas.
-
-Pandas DataFrame.transpose() function transpose index and columns of the dataframe. It reflect the DataFrame over its main diagonal by writing rows as columns and vice-versa.
-   
-   
-   
-**Transpose-> returns transpose of DataFrame**
-   
-   
-*  df.T
-   
-   
-   
-![14](https://user-images.githubusercontent.com/84801896/124055438-87bd6d80-da41-11eb-929f-9e5ebe069370.PNG)
-
-   
-   
-**dtypes-> return datatype of each column**
-   
-   
-
-*  df.dtypes
-   
-   
-   
-   ![15](https://user-images.githubusercontent.com/84801896/124055484-9ad03d80-da41-11eb-89ee-0ab84082e6db.PNG)
-   
-   
-   
-**shape-> returns tuple representing dimensionallity**
-   
-   
-
-*  df.shape
-   
-   
-   
-   ![16](https://user-images.githubusercontent.com/84801896/124055510-acb1e080-da41-11eb-9389-116e39f2b9c3.PNG)
-   
-   
-
-   
-**Axes-> returns list of row axis labels and column axis labels**
-   
-   
-
-*  df.axes
-   
-   
-   ![17](https://user-images.githubusercontent.com/84801896/124055574-c3583780-da41-11eb-9224-dc0d34d34d11.PNG)
-
-   
-   
-**Data types of each column**
-
-*  df.info()
-   
-   
-  ![18](https://user-images.githubusercontent.com/84801896/124055619-d9fe8e80-da41-11eb-91ed-0f9b45c832c5.PNG)
-  
-   
-   
-**values-> returns actual data as ndarray**
 
 *  df.values
    
@@ -871,91 +702,7 @@ Pandas DataFrame.transpose() function transpose index and columns of the datafra
 
    
    
-## **Statistics**
-   
-   
-**sum()-> returns the sum of values for requested axis. by default axis = 0**
-   
 
-*  df.sum()
-   
-   
-   ![22](https://user-images.githubusercontent.com/84801896/124055799-2e097300-da42-11eb-9ede-27090d4d70a8.PNG)
-
-   
-**axis = 1 -> row wise sum**
-   
-
-*  print(df.sum(1))
-   
-   
-   ![23](https://user-images.githubusercontent.com/84801896/124055842-46798d80-da42-11eb-8b98-13cb326da956.PNG)
-   
-   
-**mean()**
-   
-
-*  print(df.mean())
-   
-   
-   ![24](https://user-images.githubusercontent.com/84801896/124055879-585b3080-da42-11eb-9689-a51449b3b993.PNG)
-   
-   
-
-**std()**
-   
-
-*  print(df.std())
-   
-   
-
-   ![25](https://user-images.githubusercontent.com/84801896/124055928-6e68f100-da42-11eb-9b95-faf45146ac65.PNG)
-
-   
-   
-**describe() -> summarizing the data**
-   
-   
-*  print(df.describe())
-
-   
-   
-   ![26](https://user-images.githubusercontent.com/84801896/124055976-83458480-da42-11eb-9392-2d4a12114a24.PNG)
-   
-   
-
-**include object, number, all**
-   
-   
-
-*  print(df.describe(include=['object'])) 
-   
-   
-   
-   ![27](https://user-images.githubusercontent.com/84801896/124056024-98221800-da42-11eb-84c4-d8f527bad4d1.PNG)
-   
-   
-
-*  print(df.describe(include=['number']))
-   
-   
-   
- ![29](https://user-images.githubusercontent.com/84801896/124056058-a8d28e00-da42-11eb-8730-308d3c6b4d44.PNG)
-  
-   
-   
-   
-**Don't pass 'all' as a list**
-   
-   
-
-*  print(df.describe(include='all'))
-   
-   
-   
-   ![30](https://user-images.githubusercontent.com/84801896/124056099-bab43100-da42-11eb-832a-20c518a5ec02.PNG)
-   
-   
  # **Introduction to Neuro Linguistic Programming** 
    
    
@@ -1041,20 +788,20 @@ My understanding of Neuro-Linguistic Programming is observing yourself and other
 * Computer language is unambiguous
    
    
-   
-   
  # **SUMMARIZE** 
 
-   To summarize, we compared some features of several popular natural language processing libraries. While most of them provide tools for overlapping tasks, some use unique approaches for specific problems. Definitely, the most popular packages for NLP today are NLTK and Spacy. They are the main competitors in the NLP field. In our opinion, the difference between them lies in the general philosophy of the approach to solving problems.
 
-NLTK is more academic. You can use it to try different methods and algorithms, combine them, etc. 
 
-   Spacy, instead, provides one out-of-box solution for each problem. You don’t have to think about which method is better: the authors of Spacy already took care of this. Also, Spacy is very fast (several times faster than NLTK). One downside is the limited number of languages Spacy supports. However, the number of supported languages is increasing consistently. So, we think that Spacy would be an optimal choice in most cases, but if you want to try something special you can use NLTK.
 
-  ![image](https://miro.medium.com/max/960/0*xLRsbQ02J7sQpNNy)
+   .
+
    
-With conversational systems steadily becoming the norm, the need for our solutions to recognize our day-to-day speech grows. Natural Language Processing has enabled us to simplify this for the computers and create the next generation of solutions that will be smarter than today's. In this ever-changing world, Python has proved itself to be capable enough to adapt, innovate and deliver solutions to a large variety of modern computational problems that have plagued us in the past.
-   
-At the moment NLP is battling to detect nuances in language meaning, whether due to lack of context, spelling errors or dialectal differences.
 
-Although the future looks extremely challenging and full of threats for NLP, the discipline is developing at a very fast pace (probably like never before) and we are likely to reach a level of advancement in the coming years that will make complex applications look possible.
+
+
+   
+
+   
+   
+
+
