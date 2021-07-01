@@ -28,5 +28,5 @@
 * *Manisha sushma A*   :  Content Writing , Video Recording and Explanation   
 Readme.md , Video editing , creating pull request.
 
-* *Pranav Kapoor*   :  Content Writing , Video Creation   
+* *Pranav Kapoor*   :  Content Writing,Video Creation, References  
 Readme.md , Video editing , creating pull request.
