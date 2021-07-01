@@ -17,7 +17,7 @@
 <p> NLP drives computer programs that translate text from one language to another, respond to spoken commands, and summarize large volumes of text rapidly—even in real time. There’s a good chance you’ve interacted with NLP in the form of voice-operated GPS systems, digital assistants, speech-to-text dictation software, customer service chatbots, and other consumer conveniences. But NLP also plays a growing role in enterprise solutions that help streamline business operations, 
   increase employee productivity, and simplify mission-critical business processes.
   
-![image](![image](https://user-images.githubusercontent.com/84801896/123931189-036dda80-d9ae-11eb-8133-0b965f99a7c2.png)
+![image](https://user-images.githubusercontent.com/84801896/123931189-036dda80-d9ae-11eb-8133-0b965f99a7c2.png)
 
 
   
@@ -42,7 +42,7 @@ Siri, Alexa, or Google Assistant.
 
   ### 3. History and Background work of NLP ❓
   
-  ![image](https://user-images.githubusercontent.com/84801896/123931617-4cbe2a00-d9ae-11eb-99f1-1a7229158465.png)
+  ![image](https://buggyprogrammer.com/wp-content/uploads/2021/05/Timeline-of-NLP.png)
 
 <p> While natural language processing isn’t a new science, the technology is rapidly advancing thanks to an increased interest in human-to-machine communications, plus an availability of big data, powerful computing and enhanced algorithms. 
 
