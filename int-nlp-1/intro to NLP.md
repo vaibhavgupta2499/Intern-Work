@@ -14,8 +14,7 @@
 
 <p> Natural language processing (NLP) is a branch of artificial intelligence that helps computers understand, interpret and manipulate human language. NLP draws from many disciplines, including computer science and computational linguistics, in its pursuit to fill the gap between human communication and computer understanding.
 <p> NLP combines computational linguistics—rule-based modeling of human language—with statistical, machine learning, and deep learning models. Together, these technologies enable computers to process human language in the form of text or voice data and to ‘understand’ its full meaning, complete with the speaker or writer’s intent and sentiment. 
-<p> NLP drives computer programs that translate text from one language to another, respond to spoken commands, and summarize large volumes of text rapidly—even in real time. There’s a good chance you’ve interacted with NLP in the form of voice-operated GPS systems, digital assistants, speech-to-text dictation software, customer service chatbots, and other consumer conveniences. But NLP also plays a growing role in enterprise solutions that help streamline business operations, 
-  increase employee productivity, and simplify mission-critical business processes.
+<p> NLP drives computer programs that translate text from one language to another, respond to spoken commands, and summarize large volumes of text rapidly—even in real time. There’s a good chance you’ve interacted with NLP in the form of voice-operated GPS systems, digital assistants, speech-to-text dictation software, customer service chatbots, and other consumer conveniences. But NLP also plays a growing role in enterprise solutions that help streamline business operations, increase employee productivity, and simplify mission-critical business processes.
   
 ![image](https://devopedia.org/images/article/187/4949.1560446213.png)
    
@@ -954,3 +953,16 @@ With conversational systems steadily becoming the norm, the need for our solutio
 At the moment NLP is battling to detect nuances in language meaning, whether due to lack of context, spelling errors or dialectal differences.
 
 Although the future looks extremely challenging and full of threats for NLP, the discipline is developing at a very fast pace (probably like never before) and we are likely to reach a level of advancement in the coming years that will make complex applications look possible.
+   
+   # **References**
+
+1. https://www.ibm.com/cloud/learn/natural-language-processing
+2. https://www.sas.com/en_us/insights/analytics/what-is-natural-language-processing-nlp.html#:~:text=Natural%20language%20processing%20helps%20computers,determine%20which%20parts%20are%20important.
+3. https://www.tableau.com/learn/articles/natural-language-processing-examples#:~:text=Email%20filters%20are%20one%20of,that%20signal%20a%20spam%20message.
+4. https://www.tableau.com/learn/articles/natural-language-processing-examples
+5. https://creapro.ai/natural-language-processing/
+6. https://pythonguides.com/numpy/#:~:text=NumPy%20is%20the%20fundamental%20package,used%20for%20working%20with%20arrays.
+7. https://www.javatpoint.com/numpy-tutorial
+8. https://www.shutterstock.com/image-illustration/natural-language-processing-concept-word-cloud-201226490
+9. https://www.geeksforgeeks.org/how-to-install-python-pandas-on-windows-and-linux/
+10.https://pandas.pydata.org/pandas-docs/version/0.24.1/reference/api/pandas.Series.html
