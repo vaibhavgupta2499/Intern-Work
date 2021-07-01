@@ -312,7 +312,473 @@ ML (vector space model, clustering, SVM), and network analysis by graph centrali
    * ![patern installation](https://raw.githubusercontent.com/ManishaAnaparthi/Images/main/Screenshot%20(1).png)
    
  
-  
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Implementation of Libraries with examples.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "7wzKA-bcDOGo",
+        "outputId": "37ff71ab-8591-4e93-de62-d002380e3dc6"
+      },
+      "source": [
+        "import nltk\n",
+        "from nltk.stem import PorterStemmer\n",
+        "word_stemmer = PorterStemmer()\n",
+        "\n",
+        "word_stemmer.stem('eating')"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'eat'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "NMntXVJFDrMg"
+      },
+      "source": [
+        "# **Complete implementation example**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "xBVuMRctDwfB",
+        "outputId": "08518fb1-bf7f-459a-9152-2fbfac6cc265"
+      },
+      "source": [
+        "import nltk\n",
+        "from nltk.stem import PorterStemmer\n",
+        "word_stemmer = PorterStemmer()\n",
+        "word_stemmer.stem('writing')"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'write'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "pG7-uYrHEChj"
+      },
+      "source": [
+        "# **Lancaster stemming algorithm**\n",
+        "It was developed at Lancaster University and it is another very common stemming algorithms.\n",
+        "\n",
+        "LancasterStemmer class\n",
+        "NLTK has LancasterStemmer class with the help of which we can easily implement Lancaster Stemmer algorithms for the word we want to stem. Let us see an example −\n",
+        "\n",
+        "# **First, we need to import the natural language toolkit(nltk).**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "CrFUPrJREJ_p",
+        "outputId": "d0df610f-21be-418a-98f3-c30af76f95b8"
+      },
+      "source": [
+        "import nltk\n",
+        "from nltk.stem import LancasterStemmer\n",
+        "Lanc_stemmer = LancasterStemmer()\n",
+        "Lanc_stemmer.stem('eats')\n"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'eat'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "RdozLzRHEbBx"
+      },
+      "source": [
+        "# **Regular Expression stemming algorithm**\n",
+        "With the help of this stemming algorithm, we can construct our own stemmer.\n",
+        "\n",
+        "RegexpStemmer class\n",
+        "NLTK has RegexpStemmer class with the help of which we can easily implement Regular Expression Stemmer algorithms. It basically takes a single regular expression and removes any prefix or suffix that matches the expression. Let us see an example −\n",
+        "\n",
+        "First, we need to import the natural language toolkit(nltk)."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "7mc0WYEdE5zh",
+        "outputId": "9d717f37-3c7b-428d-8489-c6dd7b564f05"
+      },
+      "source": [
+        "import nltk\n",
+        "from nltk.stem import RegexpStemmer\n",
+        "Reg_stemmer = RegexpStemmer(\"ing\")\n",
+        "Reg_stemmer.stem('eating')"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'eat'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "0oXqZM3WFf8W"
+      },
+      "source": [
+        "# **Snowball stemming algorithm**\n",
+        "It is another very useful stemming algorithm.\n",
+        "\n",
+        "SnowballStemmer class\n",
+        "NLTK has SnowballStemmer class with the help of which we can easily implement Snowball Stemmer algorithms. It supports 15 non-English languages. In order to use this steaming class, we need to create an instance with the name of the language we are using and then call the stem() method. Let us see an example −\n",
+        "\n",
+        "# **First, we need to import the natural language toolkit(nltk)**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vnU55flMFq33",
+        "outputId": "e830a62b-a615-4924-ad16-413dfe254d5a"
+      },
+      "source": [
+        "import nltk\n",
+        "from nltk.stem import SnowballStemmer\n",
+        "SnowballStemmer.languages"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "('arabic',\n",
+              " 'danish',\n",
+              " 'dutch',\n",
+              " 'english',\n",
+              " 'finnish',\n",
+              " 'french',\n",
+              " 'german',\n",
+              " 'hungarian',\n",
+              " 'italian',\n",
+              " 'norwegian',\n",
+              " 'porter',\n",
+              " 'portuguese',\n",
+              " 'romanian',\n",
+              " 'russian',\n",
+              " 'spanish',\n",
+              " 'swedish')"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "6b__51wFGDEQ",
+        "outputId": "f37a0eb3-8dae-4f85-e2b7-b6e1f60c5e6d"
+      },
+      "source": [
+        "import nltk\n",
+        "from nltk.stem import SnowballStemmer\n",
+        "French_stemmer = SnowballStemmer(\"french\")\n",
+        "French_stemmer.stem (\"Bonjoura\")"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'bonjour'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 13
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "VuWc01rEGQQt"
+      },
+      "source": [
+        "# **What is Lemmatization?**\n",
+        "Lemmatization technique is like stemming. The output we will get after lemmatization is called ‘lemma’, which is a root word rather than root stem, the output of stemming. After lemmatization, we will be getting a valid word that means the same thing.\n",
+        "\n",
+        "NLTK provides WordNetLemmatizer class which is a thin wrapper around the wordnet corpus. This class uses morphy() function to the WordNet CorpusReader class to find a lemma. Let us understand it with an example −\n",
+        "\n",
+        "Example\n",
+        "# **First, we need to import the natural language toolkit(nltk).**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HlZNqSXEGHQ2",
+        "outputId": "5cde27a7-23aa-43a3-cf3c-1530d191eb9b"
+      },
+      "source": [
+        "import nltk\n",
+        "nltk.download('wordnet')\n",
+        "from nltk.stem import WordNetLemmatizer\n",
+        "  \n",
+        "# Create WordNetLemmatizer object\n",
+        "wnl = WordNetLemmatizer()\n",
+        "  \n",
+        "# single word lemmatization examples\n",
+        "list1 = ['kites', 'babies', 'dogs', 'flying', 'smiling', \n",
+        "         'driving', 'died', 'tried', 'feet']\n",
+        "for words in list1:\n",
+        "    print(words + \" ---> \" + wnl.lemmatize(words))"
+      ],
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "[nltk_data] Downloading package wordnet to /root/nltk_data...\n",
+            "[nltk_data]   Unzipping corpora/wordnet.zip.\n",
+            "kites ---> kite\n",
+            "babies ---> baby\n",
+            "dogs ---> dog\n",
+            "flying ---> flying\n",
+            "smiling ---> smiling\n",
+            "driving ---> driving\n",
+            "died ---> died\n",
+            "tried ---> tried\n",
+            "feet ---> foot\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "pz46gtpRHxBz"
+      },
+      "source": [
+        "# **TextBlob**\n",
+        "TextBlob is a python library used for processing textual data. It provides a simple API to access its methods and perform basic NLP tasks.\n",
+        "Download TextBlob package : In your anaconda prompt or terminal, type:\n",
+        "pip install textblob"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "L-KFoDzYIGD4"
+      },
+      "source": [
+        "from textblob import TextBlob\n",
+        "wiki = TextBlob(\"Python is a high-level, general-purpose programming language.\")\n"
+      ],
+      "execution_count": 21,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "hxLATLiPIsMZ"
+      },
+      "source": [
+        "# **Sentiment Analysis**\n",
+        "The sentiment property returns a namedtuple of the form Sentiment(polarity, subjectivity). The polarity score is a float within the range [-1.0, 1.0]. The subjectivity is a float within the range [0.0, 1.0] where 0.0 is very objective and 1.0 is very subjective.\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "V-yknqOhIzjQ"
+      },
+      "source": [
+        " testimonial = TextBlob(\"Textblob is amazingly simple to use. What great fun!\")\n"
+      ],
+      "execution_count": 26,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bF44F7naJNC2",
+        "outputId": "ef418ae1-16bd-4830-84fa-622b7cb17de4"
+      },
+      "source": [
+        "testimonial.sentiment"
+      ],
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "Sentiment(polarity=0.39166666666666666, subjectivity=0.4357142857142857)"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 27
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lCuag9IRJRTY",
+        "outputId": "25430882-1683-4ab3-c3f9-90390861804b"
+      },
+      "source": [
+        "testimonial.sentiment.polarity"
+      ],
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0.39166666666666666"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 28
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "8kq_Q32-JUM1"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
+
   
    # **Introduction to Numpy**
 
