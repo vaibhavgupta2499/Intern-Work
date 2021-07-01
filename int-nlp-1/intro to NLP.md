@@ -1041,20 +1041,20 @@ My understanding of Neuro-Linguistic Programming is observing yourself and other
 * Computer language is unambiguous
    
    
+   
+   
  # **SUMMARIZE** 
 
+   To summarize, we compared some features of several popular natural language processing libraries. While most of them provide tools for overlapping tasks, some use unique approaches for specific problems. Definitely, the most popular packages for NLP today are NLTK and Spacy. They are the main competitors in the NLP field. In our opinion, the difference between them lies in the general philosophy of the approach to solving problems.
 
+NLTK is more academic. You can use it to try different methods and algorithms, combine them, etc. 
 
+   Spacy, instead, provides one out-of-box solution for each problem. You don’t have to think about which method is better: the authors of Spacy already took care of this. Also, Spacy is very fast (several times faster than NLTK). One downside is the limited number of languages Spacy supports. However, the number of supported languages is increasing consistently. So, we think that Spacy would be an optimal choice in most cases, but if you want to try something special you can use NLTK.
 
-   .
-
+  ![image](https://miro.medium.com/max/960/0*xLRsbQ02J7sQpNNy)
    
-
-
-
+With conversational systems steadily becoming the norm, the need for our solutions to recognize our day-to-day speech grows. Natural Language Processing has enabled us to simplify this for the computers and create the next generation of solutions that will be smarter than today's. In this ever-changing world, Python has proved itself to be capable enough to adapt, innovate and deliver solutions to a large variety of modern computational problems that have plagued us in the past.
    
+At the moment NLP is battling to detect nuances in language meaning, whether due to lack of context, spelling errors or dialectal differences.
 
-   
-   
-
-
+Although the future looks extremely challenging and full of threats for NLP, the discipline is developing at a very fast pace (probably like never before) and we are likely to reach a level of advancement in the coming years that will make complex applications look possible.
