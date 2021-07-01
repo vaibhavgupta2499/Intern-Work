@@ -311,7 +311,27 @@ ML (vector space model, clustering, SVM), and network analysis by graph centrali
    * pip install pattern
    * ![patern installation](https://raw.githubusercontent.com/ManishaAnaparthi/Images/main/Screenshot%20(1).png)
    
-  
+  In [2]:
+import nltk
+from nltk.stem import PorterStemmer
+word_stemmer = PorterStemmer()
+
+word_stemmer.stem('eating')
+Out[2]:
+'eat'
+Complete implementation example
+In [3]:
+import nltk
+from nltk.stem import PorterStemmer
+word_stemmer = PorterStemmer()
+word_stemmer.stem('writing')
+Out[3]:
+'write'
+Lancaster stemming algorithm
+It was developed at Lancaster University and it is another very common stemming algorithms.
+
+LancasterStemmer class NLTK has LancasterStemmer class with the help of which we can easily implement Lancaster Stemmer algorithms for the word we want to stem. Let us see an example −
+   
    # **Introduction to Numpy**
 
 ### What is Numpy ?
