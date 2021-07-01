@@ -8,9 +8,9 @@
 
 |Member|Work Done|
 |-|-|
-|Suvra Shaw|Managed the submisions and Contributed to the content.|
-|Kashish Agarwal|Contributed to the content and will be recording the video.|
-|Theertala Sai Nikesh|Contributed to the content and will be editing the video.|
+|[Suvra Shaw](https://github.com/suvrashaw?tab=repositories)|Managed the submisions, contributed to the content and will be recording the video.|
+|[Kashish Agarwal](https://github.com/kashish-ag)|Contributed to the content and will be recording the video.|
+|[Theertala Sai Nikesh](https://github.com/SaiNikesh29)|Contributed to the content and will be editing the video.|
 
 ### Overview of the Content
 
