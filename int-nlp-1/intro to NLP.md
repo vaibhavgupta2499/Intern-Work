@@ -43,8 +43,9 @@ Siri, Alexa, or Google Assistant.
 
   ### 3. History and Background work of NLP ❓
   
-  <img src="Timeline-of-NLP.png" alt="My cool logo"/>
-   (Image taken from -- https://buggyprogrammer.com/what-is-natural-language-processing/)
+ ![image](https://user-images.githubusercontent.com/84801896/124115746-cd068d00-da8b-11eb-99bf-3e6383b4d61d.png)
+
+   (Image taken from -- https://www.freshgravity.com/evolution-of-natural-language-processing/)
    
    .
    .
