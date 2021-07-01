@@ -22,7 +22,6 @@
             1. Understanding Colorspaces
             1. Masking Operations
             1. Morphological Operations
-            1. Blurring
             1. Sharpen & Smoothen
             1. Thresholding Images
             1. Edge & Contour Detection
