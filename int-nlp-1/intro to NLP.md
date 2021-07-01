@@ -44,7 +44,7 @@ Siri, Alexa, or Google Assistant.
 
   ### 3. History and Background work of NLP ❓
   
-  <img src="Timeline-of-NLP.png" alt="My cool logo"/>)
+  <img src="Timeline-of-NLP.png" alt="My cool logo"/>
    (Image taken from -- https://buggyprogrammer.com/what-is-natural-language-processing/)
 
 <p> While natural language processing isn’t a new science, the technology is rapidly advancing thanks to an increased interest in human-to-machine communications, plus an availability of big data, powerful computing and enhanced algorithms. 
@@ -936,13 +936,15 @@ My understanding of Neuro-Linguistic Programming is observing yourself and other
    
  # **SUMMARIZE** 
 
-   To summarize, we compared some features of several popular natural language processing libraries. While most of them provide tools for overlapping tasks, some use unique approaches for specific problems. Definitely, the most popular packages for NLP today are NLTK and Spacy. They are the main competitors in the NLP field. In our opinion, the difference between them lies in the general philosophy of the approach to solving problems.
+To summarize, we compared some features of several popular natural language processing libraries. While most of them provide tools for overlapping tasks, some use unique approaches for specific problems. Definitely, the most popular packages for NLP today are NLTK and Spacy. They are the main competitors in the NLP field. In our opinion, the difference between them lies in the general philosophy of the approach to solving problems.
 
 NLTK is more academic. You can use it to try different methods and algorithms, combine them, etc. 
 
-   Spacy, instead, provides one out-of-box solution for each problem. You don’t have to think about which method is better: the authors of Spacy already took care of this. Also, Spacy is very fast (several times faster than NLTK). One downside is the limited number of languages Spacy supports. However, the number of supported languages is increasing consistently. So, we think that Spacy would be an optimal choice in most cases, but if you want to try something special you can use NLTK.
+Spacy, instead, provides one out-of-box solution for each problem. You don’t have to think about which method is better: the authors of Spacy already took care of this. Also, Spacy is very fast (several times faster than NLTK). One downside is the limited number of languages Spacy supports. However, the number of supported languages is increasing consistently. So, we think that Spacy would be an optimal choice in most cases, but if you want to try something special you can use NLTK.
 
   ![image](https://miro.medium.com/max/960/0*xLRsbQ02J7sQpNNy)
+   
+ (Image taken from -- https://www.shutterstock.com/image-illustration/natural-language-processing-concept-word-cloud-201226490)
    
 With conversational systems steadily becoming the norm, the need for our solutions to recognize our day-to-day speech grows. Natural Language Processing has enabled us to simplify this for the computers and create the next generation of solutions that will be smarter than today's. In this ever-changing world, Python has proved itself to be capable enough to adapt, innovate and deliver solutions to a large variety of modern computational problems that have plagued us in the past.
    
