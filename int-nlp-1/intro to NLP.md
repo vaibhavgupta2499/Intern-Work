@@ -577,11 +577,13 @@ Pandas programs can be written on any plain text editor like notepad, notepad++,
 **Installing Pandas**
    
 
-! pip install pandas
+*  !pip install pandas
    
-import pandas as pd
+*  import pandas as pd
    
-import numpy as np
+*  import numpy as np
+   
+   
    
    ![1](https://user-images.githubusercontent.com/84801896/124054674-16c98600-da40-11eb-9023-6de4c7cc9681.PNG)
 
@@ -593,12 +595,14 @@ import numpy as np
 
 Pandas Series is a one-dimensional labeled array capable of holding data of any type (integer, string, float, python objects, etc.). The axis labels are collectively called index. Pandas Series is nothing but a column in an excel sheet. Labels need not be unique but must be a hashable type
    
+   
 ### pd.Series(data,index)
+   
 **index-> Unique, Hashable, same length as data. By default np.arange(n)**
 
-s = pd.Series([1, 2, 3, 4])
+*  s = pd.Series([1, 2, 3, 4])
 
-print(s)
+*  print(s)
    
    
    
@@ -613,11 +617,11 @@ Creating a series from array without index.
 
 In this case as no index is passed, so by default index will be range(n) where n is array length.
    
-data = np.array([10, 20, 30, 40, 50])
+*  data = np.array([10, 20, 30, 40, 50])
 
-s = pd.Series(data)
+*  s = pd.Series(data)
 
-print(s)
+*  print(s)
    
    
    ![3](https://user-images.githubusercontent.com/84801896/124054802-64de8980-da40-11eb-846f-32bd9cf95961.PNG)
@@ -630,34 +634,37 @@ Indexing in pandas means simply selecting particular rows and columns of data fr
 
 Pandas Indexing using [ ], .loc[], .iloc[ ], .ix[ ]
  
-s = pd.Series([1, 2, 3, 4, 5])
+*  s = pd.Series([1, 2, 3, 4, 5])
 
-print(s[2])
+*  print(s[2])
 
-print(s[1:])
+*  print(s[1:])
 
-print(s[[1, 4]])
+*  print(s[[1, 4]])
+   
    
    
    ![4](https://user-images.githubusercontent.com/84801896/124054946-9f482680-da40-11eb-9d82-b6774f152543.PNG)
    
    
    
-s = pd.Series([1, 2, 3, 4, 5], index=['a', 'b', 'c', 'd', 'e'])
+*  s = pd.Series([1, 2, 3, 4, 5], index=['a', 'b', 'c', 'd', 'e'])
 
-print(s)
+*  print(s)
    
    
    
 ![5](https://user-images.githubusercontent.com/84801896/124054954-a2dbad80-da40-11eb-855c-271e9e8352b5.PNG)
    
 **Retrieve multiple elements**
+   
 
-print(s[['a', 'b', 'e']])
+*  print(s[['a', 'b', 'e']])
    
    
 ![6](https://user-images.githubusercontent.com/84801896/124054957-a40cda80-da40-11eb-9160-39b7b1e8d5b9.PNG)
 
+   
    
 # **Pandas DataFrame**
 ## **Creating DataFrame using Dictionary**
@@ -666,11 +673,13 @@ Pandas DataFrame is a 2-dimensional labeled data structure with columns of poten
 Pandas DataFrame can be created in multiple ways. Let’s discuss different ways to create a DataFrame one by one.
  
    
-data = {'Name':['Maneesha', 'Anaparthi', 'Rgukt', 'cse'], 'Count':[10,10,1,360]}
    
-df = pd.DataFrame(data)
+*  data = {'Name':['Maneesha', 'Anaparthi', 'Rgukt', 'cse'], 'Count':[10,10,1,360]}
    
-df
+*  df = pd.DataFrame(data)
+   
+*  df
+   
    
    ![7](https://user-images.githubusercontent.com/84801896/124055030-ce5e9800-da40-11eb-8e73-de4078e44cd5.PNG)
    
@@ -678,11 +687,12 @@ df
    
 **creating indexed dataframe**
    
-data = {'Name':['Maneesha', 'Anaparthi', 'Rgukt', 'cse'], 'Count':[10,10,1,360]}
    
-df = pd.DataFrame(data,index = ['index-1','index-2','index-3','index-4'])
+*  data = {'Name':['Maneesha', 'Anaparthi', 'Rgukt', 'cse'], 'Count':[10,10,1,360]}
    
-df
+*  df = pd.DataFrame(data,index = ['index-1','index-2','index-3','index-4'])
+   
+*  df
    
    
    
@@ -693,55 +703,63 @@ df
    
 **creating indexed nan dataframe**
    
-data = {'Name':['Maneesha', 'Anaparthi', np.nan, 'cse'], 'Count':[10,np.nan,1,360]}
    
-df = pd.DataFrame(data,index = ['index-1','index-2','index-3','index-4'])
+*  data = {'Name':['Maneesha', 'Anaparthi', np.nan, 'cse'], 'Count':[10,np.nan,1,360]}
    
-df
+*  df = pd.DataFrame(data,index = ['index-1','index-2','index-3','index-4'])
+   
+*  df
+   
    
    ![9](https://user-images.githubusercontent.com/84801896/124055170-09f96200-da41-11eb-9a31-0a0c100005ad.PNG)
    
 
    
- ## **dataset.info()**
+## **dataset.info()**
 
 The info() function is used to print a concise summary of a DataFrame. This method prints information about a DataFrame including the index dtype and column dtypes, non-null values and memory usage. Whether to print the full summary. By default, the setting in pandas
    
+   
    ![10](https://user-images.githubusercontent.com/84801896/124055199-1978ab00-da41-11eb-8adc-e8ebfd314d7c.PNG)
+   
    
 
 ## **Creating DataFrame using Tuple**
 
 To convert a Python tuple to DataFrame, use the list of tuples and pass that list to a pd. DataFrame() constructor, and it will return a DataFrame. Pandas DataFrame is a two-dimensional, size-mutable, heterogeneous tabular data structure that contains rows and columns
    
-data = [('1/7/2021', 13, 6, 'Rain'),
+   
+*  data = [('1/7/2021', 13, 6, 'Rain'),
        ('2/7/2021', 11, 7, 'Fog'),
        ('3/7/2021', 12, 8, 'Sunny'),
        ('4/7/2021', 8, 5, 'Snow'),
        ('5/7/2021', 9, 6, 'Rain')]
    
-df = pd.DataFrame(data,columns=['Day', 'Temperature', 'WindSpeed', 'Event'])
+*  df = pd.DataFrame(data,columns=['Day', 'Temperature', 'WindSpeed', 'Event'])
 
-df
+*  df
    
 
+   
    ![11](https://user-images.githubusercontent.com/84801896/124055273-390fd380-da41-11eb-8e38-24522e37414f.PNG)
    
    
-   
- ### **DataFrame Basic Functionality**
+ 
+### **DataFrame Basic Functionality**
 
 A Series is a one-dimensional labeled array capable of holding any data type (integers, strings, floating point numbers, Python objects, etc.). It has to be remembered that unlike Python lists, a Series will always contain data of the same type.
    
-##Create Dictionary of Series
    
-dict = {'Name':pd.Series(['A', 'B', 'C', 'D', 'E', 'F', 'G']),
+## Create Dictionary of Series
+   
+*  dict = {'Name':pd.Series(['A', 'B', 'C', 'D', 'E', 'F', 'G']),
        'Age':pd.Series([25,26,25,35,23,33,31]),
        'Rating':pd.Series([4.23,4.1,3.4,5,2.9,4.7,3.1])}
 
-df = pd.DataFrame(dict)
+*  df = pd.DataFrame(dict)
    
-df
+*  df
+   
    
    ![12](https://user-images.githubusercontent.com/84801896/124055345-5349b180-da41-11eb-99fa-429442572645.PNG)
 
@@ -749,9 +767,11 @@ df
    
 ## **dataset.columns**
 
+   
 Pandas DataFrame is a two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). Arithmetic operations align on both row and column labels. It can be thought of as a dict-like container for Series objects. This is the primary data structure of the Pandas.
    
-   df.columns
+   
+*  df.columns
   
    
    ![13](https://user-images.githubusercontent.com/84801896/124055382-66f51800-da41-11eb-8f1a-d8f0005f383a.PNG)
@@ -759,111 +779,179 @@ Pandas DataFrame is a two-dimensional size-mutable, potentially heterogeneous ta
    
 ## **dataset.T**
 
+   
 Pandas DataFrame is a two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). Arithmetic operations align on both row and column labels. It can be thought of as a dict-like container for Series objects. This is the primary data structure of the Pandas.
 
 Pandas DataFrame.transpose() function transpose index and columns of the dataframe. It reflect the DataFrame over its main diagonal by writing rows as columns and vice-versa.
    
    
+   
 **Transpose-> returns transpose of DataFrame**
-df.T
+   
+   
+*  df.T
+   
+   
    
 ![14](https://user-images.githubusercontent.com/84801896/124055438-87bd6d80-da41-11eb-929f-9e5ebe069370.PNG)
 
    
    
 **dtypes-> return datatype of each column**
+   
+   
 
-df.dtypes
+*  df.dtypes
+   
+   
    
    ![15](https://user-images.githubusercontent.com/84801896/124055484-9ad03d80-da41-11eb-89ee-0ab84082e6db.PNG)
    
+   
+   
 **shape-> returns tuple representing dimensionallity**
+   
+   
 
-df.shape
+*  df.shape
+   
+   
    
    ![16](https://user-images.githubusercontent.com/84801896/124055510-acb1e080-da41-11eb-9389-116e39f2b9c3.PNG)
+   
+   
 
    
 **Axes-> returns list of row axis labels and column axis labels**
+   
+   
 
-df.axes
+*  df.axes
+   
+   
    ![17](https://user-images.githubusercontent.com/84801896/124055574-c3583780-da41-11eb-9224-dc0d34d34d11.PNG)
 
    
    
 **Data types of each column**
 
-df.info()
+*  df.info()
+   
+   
   ![18](https://user-images.githubusercontent.com/84801896/124055619-d9fe8e80-da41-11eb-91ed-0f9b45c832c5.PNG)
   
    
+   
 **values-> returns actual data as ndarray**
 
-df.values
+*  df.values
+   
+   
    ![19](https://user-images.githubusercontent.com/84801896/124055653-ed115e80-da41-11eb-9a92-eb746f6fc6f2.PNG)
+   
    
   
 **head-> by default head returns first 5 rows**
+   
 
-df.head()
+*  df.head()
+   
    
   ![20](https://user-images.githubusercontent.com/84801896/124055704-01edf200-da42-11eb-8e0b-5062d1b6b33d.PNG)
+   
+   
 
 **tail-> by default tail returns last 5 rows**
+   
 
-df.tail()
+*  df.tail()
+   
+   
 ![21](https://user-images.githubusercontent.com/84801896/124055749-1631ef00-da42-11eb-92e0-a208152bce04.PNG)
 
    
    
 ## **Statistics**
    
+   
 **sum()-> returns the sum of values for requested axis. by default axis = 0**
+   
 
-df.sum()
+*  df.sum()
+   
+   
    ![22](https://user-images.githubusercontent.com/84801896/124055799-2e097300-da42-11eb-9ede-27090d4d70a8.PNG)
 
    
 **axis = 1 -> row wise sum**
+   
 
-print(df.sum(1))
+*  print(df.sum(1))
+   
+   
    ![23](https://user-images.githubusercontent.com/84801896/124055842-46798d80-da42-11eb-8b98-13cb326da956.PNG)
    
    
 **mean()**
+   
 
-print(df.mean())
+*  print(df.mean())
+   
    
    ![24](https://user-images.githubusercontent.com/84801896/124055879-585b3080-da42-11eb-9689-a51449b3b993.PNG)
+   
+   
 
 **std()**
+   
 
-print(df.std())
+*  print(df.std())
+   
+   
 
    ![25](https://user-images.githubusercontent.com/84801896/124055928-6e68f100-da42-11eb-9b95-faf45146ac65.PNG)
 
    
+   
 **describe() -> summarizing the data**
+   
+   
+*  print(df.describe())
 
-print(df.describe())
-
+   
    
    ![26](https://user-images.githubusercontent.com/84801896/124055976-83458480-da42-11eb-9392-2d4a12114a24.PNG)
+   
+   
 
 **include object, number, all**
+   
+   
 
-print(df.describe(include=['object'])) 
+*  print(df.describe(include=['object'])) 
+   
+   
    
    ![27](https://user-images.githubusercontent.com/84801896/124056024-98221800-da42-11eb-84c4-d8f527bad4d1.PNG)
+   
+   
 
-print(df.describe(include=['number']))
+*  print(df.describe(include=['number']))
+   
+   
    
  ![29](https://user-images.githubusercontent.com/84801896/124056058-a8d28e00-da42-11eb-8730-308d3c6b4d44.PNG)
   
    
+   
+   
 **Don't pass 'all' as a list**
+   
+   
 
-print(df.describe(include='all'))
+*  print(df.describe(include='all'))
+   
+   
    
    ![30](https://user-images.githubusercontent.com/84801896/124056099-bab43100-da42-11eb-832a-20c518a5ec02.PNG)
 
