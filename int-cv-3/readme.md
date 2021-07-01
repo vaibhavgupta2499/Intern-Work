@@ -4,14 +4,14 @@
 + **AUTHORS**: [Kaustubh Chimote](https://github.com/Kaustubhchimote), [Saadhana Srinath](https://github.com/AnaSrinath)
 
 + **CONTENTS** ([Click Here to be redirected]())
-   - Basic Operations using OpenCV
+   - **Basic Operations using OpenCV**
         * Capturing Images
         * Storing Images
         * Loading Images
         * Understanding the Properties of the Loaded Image
         * Displaying Images
-   - Understanding how images are stored and processed
-   - Image Processing
+   - **Understanding how images are stored and processed**
+   - **Image Processing**
         * Image Processing Algorithms VS CV Algorithms
         * Why Image Processing?
         * Important Concepts of Image Processing
