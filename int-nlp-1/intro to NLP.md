@@ -1,8 +1,8 @@
 
-   ![image](https://user-images.githubusercontent.com/84801896/123930173-1cc25700-d9ad-11eb-8077-a259212257a9.png)
+   ![image](https://www.psicomente.it/wp-content/uploads/2021/05/programmazione-neuro-linguistica.jpg)
 
   
-  
+  ( Image taken from - https://www.psicomente.it/submodalita-nella-pnl-come-usarle-al-meglio.html )
    
   
   <b><center> This mark file down demonstrates that background work of NLP</b> </center>
