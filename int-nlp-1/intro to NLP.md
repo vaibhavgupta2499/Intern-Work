@@ -41,14 +41,14 @@ Siri, Alexa, or Google Assistant.
 <p> Where NLP outperforms humans is in the amount of language and data it’s able to process. Therefore, its potential uses go beyond the examples above and make possible tasks that would’ve otherwise taken employees months or years to accomplish.
   
 
-  ### 3. History and Background work of NLP ❓
-  <br />
-  ![image](https://antoiloui.com/images/blog/post-3/banner.jpg)
-  <br />
-  ![image](https://antoiloui.com/images/blog/post-4/banner.jpg)
-   <br />
-   (Image taken from -- https://www.antoiloui.com/blog/4-a-brief-history-of-nlp-part-2/)
-   <br />
+  ### 3. History and Background work of NLP ❓  
+  
+  ![image](https://antoiloui.com/images/blog/post-3/banner.jpg)  
+  
+  ![image](https://antoiloui.com/images/blog/post-4/banner.jpg)  
+   
+   (Image taken from -- https://www.antoiloui.com/blog/4-a-brief-history-of-nlp-part-2/)  
+   
    .
    .
 
