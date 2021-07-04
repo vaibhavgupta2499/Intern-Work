@@ -1,6 +1,4 @@
-![h](https://user-images.githubusercontent.com/81686454/124358197-d84cea80-dc3c-11eb-837b-6873e9501693.JPG)
-
-
+![h](https://github.com/Scripturient101/Intern-Work/blob/main/Int-py-11/Images/Article_banner.png)
 
 ## Objective
 Learn about modules in Python and their uses.
@@ -68,7 +66,7 @@ In the above section we have directly used the *import* statement however there 
 
  <br />
  
-<p align="center"><img src="Images/Ways_import.png" width="40%"></p> 
+<p align="center"><img src="https://github.com/Scripturient101/Intern-Work/blob/main/Int-py-11/Images/Ways_import.png" width="40%"></p> 
 
 - **Import with renaming:** <a name="renaming"></a><br>
 Incase the module name is too big to use repeatedly or you want to give it a more relevant name then you can create an alias, by using the *as* keyword. 
@@ -79,7 +77,7 @@ Incase the module name is too big to use repeatedly or you want to give it a mor
   ```
   > Output: Hi Raj ! Welcome to DevIncept
  
-   :clipboard: Note: If you use *greetingLearners.welcome("Raj")* in the above code then you will find an error. This is because *greetingLearners* is no longer recognized.
+   :clipboard: Note: If you use `greetingLearners.welcome("Raj")` in the above code then you will find an error. This is because `greetingLearners` is no longer recognized.
 - **Import using from:**<a name="from"></a> <br>
    Only a specific part of a module may be imported using the from keyword. For example, if our module contains many functions and we only need a single function, why would we import the entire module to perform a task that might be performed by a single function specified in that module?
 
@@ -92,7 +90,7 @@ Incase the module name is too big to use repeatedly or you want to give it a mor
   :clipboard: Note: We only imported the `address` function from the `greetingLearners` module, and trying to use any other function would result in an error.
   
 - **Import using from modulename import***<a name="import*"></a> <br>
-   <br>It can be used if you want to import all functions from the module and do not want to prefix "greetingLearners." while calling them.
+   <br>It can be used if you want to import all functions from the module and do not want to prefix `greetingLearners` while calling them.
 
     ```python
     from greetingLearners import* 
@@ -100,12 +98,12 @@ Incase the module name is too big to use repeatedly or you want to give it a mor
     ```
     > Output: Hi Simran ! Welcome to DevIncept
 
-   :clipboard: Note: If used, it becomes difficult to determine what items used in the code are actually coming from the 'module'. This can create problems ahead.
+   :clipboard: Note: If used, it becomes difficult to determine what items used in the code are actually coming from the module'. This can create problems ahead.
   
    <br />
    
 ## Types of Modules <a name="types"></a>
-<p align="center"><img src="Images/Module_types.png" width="40%"></p> 
+<p align="center"><img src="https://github.com/Scripturient101/Intern-Work/blob/main/Int-py-11/Images/Module_types.png" width="40%"></p> 
 
 - **Built-in** <a name="builtin"></a> </br>
    Python includes many built-in modules. These modules may be used in Python applications by **simply importing them using the keyword 'import' after their name**. Built-in        modules in Python are written in C and integrated with the interpreter.
