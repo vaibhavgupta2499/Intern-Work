@@ -55,7 +55,7 @@ To simplify programming and to logically organize your code, small handleable un
      import greetingLearners
      greetingLearners.welcome("Raj")
      ```
-   In the first line, `import greeting`, you import the code in the greeting module and make it available to use. In the second line, you access the welcome function within the greeting module
+   In the first line, `import greetingLearners`, you import the code in the greeting module and make it available to use. In the second line, you access the welcome function within the greetingLearners module
      >Output: Hi Raj ! Welcome to DevIncept 
    <br>
 
