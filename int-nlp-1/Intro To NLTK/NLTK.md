@@ -133,7 +133,7 @@ Splitting the sentence into words or creating a list of words from a string is a
 
 (c) From the tagged words, identify the proper names
 
-![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/text%20corpus.PNG) 
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/identifying%20names.PNG) 
 
 (d) Get texts for corpus analysis
 
