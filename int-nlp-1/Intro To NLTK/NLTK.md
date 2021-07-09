@@ -120,11 +120,19 @@ nltk.tokenize is the package provided by NLTK module to achieve the process of t
 Tokenizing sentences into words
 Splitting the sentence into words or creating a list of words from a string is an essential part of every text processing activity. Let us understand it with the help of various functions/modules provided by nltk.tokenize package.
 
-word_tokenize module
-word_tokenize module is used for basic word tokenization. Following example will use this module to split a sentence into words.
+### NLTK IMPLEMENTATION
 
+(a) Import the NLTK module and download the text resources needed for the examples.
 
+(b) Take a sentence and tokenize into words. Then apply a part-of-speech tagger.
 
+(c) get texts for corpus analysis
 
-  
+(d) find words with similar concordance to a given word
+
+(e) plot where in the text certain words appear
+
+(f) print the identity of a text, the length of the text and its vocabulary
+
+(g) print some statistics of word occurrence in the text
   
