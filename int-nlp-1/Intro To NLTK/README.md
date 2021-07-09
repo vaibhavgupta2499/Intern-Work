@@ -9,8 +9,7 @@
 * ###### Why Learn Natural Language Toolkit?
 * ###### NLTK News
 * ###### Installing NLTK Data
-* ###### NLTK package
-* ###### Various NLP Libraries
+* ###### NLTK Lemmatization & Word Tokenzer
 * ###### Lexical analysis: Word and text tokenizer
 * ###### Part-of-speech tagger
 * ###### Named-entity recognition
