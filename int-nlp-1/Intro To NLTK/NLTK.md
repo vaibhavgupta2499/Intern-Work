@@ -137,9 +137,16 @@ Splitting the sentence into words or creating a list of words from a string is a
 
 (d) find words with similar concordance to a given word
 
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/similar%20words.PNG) 
+
 (e) plot where in the text certain words appear
+
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/lexical%20dispersion.PNG) 
 
 (f) print the identity of a text, the length of the text and its vocabulary
 
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/length%20text.PNG) 
+
 (g) print some statistics of word occurrence in the text
-  
+ 
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/occurance%20statistics.PNG) 
