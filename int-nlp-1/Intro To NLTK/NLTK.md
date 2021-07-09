@@ -124,6 +124,9 @@ Splitting the sentence into words or creating a list of words from a string is a
 
 (a) Import the NLTK module and download the text resources needed for the examples.
 
+![image](https://antoiloui.com/images/blog/post-3/banner.jpg)  
+
+
 (b) Take a sentence and tokenize into words. Then apply a part-of-speech tagger.
 
 (c) get texts for corpus analysis
