@@ -120,11 +120,37 @@ nltk.tokenize is the package provided by NLTK module to achieve the process of t
 Tokenizing sentences into words
 Splitting the sentence into words or creating a list of words from a string is an essential part of every text processing activity. Let us understand it with the help of various functions/modules provided by nltk.tokenize package.
 
-word_tokenize module
-word_tokenize module is used for basic word tokenization. Following example will use this module to split a sentence into words.
+### NLTK IMPLEMENTATION
+
+(a) Import the NLTK module and download the text resources needed for the examples.
+
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/installation.PNG)  
 
 
+(b) Take a sentence and tokenize into words. Then apply a part-of-speech tagger.
 
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/TOKENIZER%20INSTALL.PNG)  
 
-  
-  
+(c) From the tagged words, identify the proper names
+
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/identifying%20names.PNG) 
+
+(d) Get texts for corpus analysis
+
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/text%20corpus.PNG) 
+
+(e) Find words with similar concordance to a given word
+
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/similar%20words.PNG) 
+
+(f) Plot where in the text certain words appear
+
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/lexical%20dispersion.PNG) 
+
+(g) Print the identity of a text, the length of the text and its vocabulary
+
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/length%20text.PNG) 
+
+(h) Print some statistics of word occurrence in the text
+ 
+![image](https://github.com/PranavKapoor28/Intern-Work/blob/main/int-nlp-1/Intro%20To%20NLTK/Images/occurance%20statistics.PNG) 
