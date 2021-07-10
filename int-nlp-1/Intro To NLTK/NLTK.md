@@ -244,9 +244,12 @@ The output will be a Python dict generated from the JSON sent by MonkeyLearn –
 ![image](https://user-images.githubusercontent.com/84801896/125067709-3b71cd80-e0d2-11eb-8ded-0674098d0ec7.png)
 
 ### image source :https://realpython.com/python-nltk-sentiment-analysis/
+
 * Natural Language Toolkit
 
-NLTK is a leading platform for building Python programs to figure with human language information. It provides easy-to-use interfaces to over fifty corpora and lexical resources like WordNet, along side a set of text process libraries for classification, tokenization, stemming, tagging, parsing, and linguistics reasoning, wrappers for weapons-grade human language technology libraries, and an energetic discussion forum.
+   NLTK is a leading platform for building Python programs to figure with human language information. It provides easy-to-use interfaces to over fifty corpora and lexical       
+   resources like WordNet, along side a set of text process libraries for classification, tokenization, stemming, tagging, parsing, and linguistics reasoning, wrappers for 
+   weapons-grade human language technology libraries, and an energetic discussion forum.
 
 
 * Due to a active guide introducing programming fundamentals aboard topics in linguistics, and comprehensive API documentation, NLTK is appropriate for linguists, engineers, students, educators, researchers, and trade users alike. NLTK is offered for Windows, Mac OS X, and Linux. better of all, NLTK could be a free, open supply, community-driven project.
@@ -264,9 +267,8 @@ NLTK is a leading platform for building Python programs to figure with human lan
 
 [3] https://www.e2enetworks.com/introduction-to-nltk-and-text-analytics/
 
+[4] https://colab.research.google.com/github/mhuckvale/pals0039/blob/master/Tutorial_NLTK.ipynb
 
-
-
-
+[5] https://realpython.com/nltk-nlp-python/
   
 
