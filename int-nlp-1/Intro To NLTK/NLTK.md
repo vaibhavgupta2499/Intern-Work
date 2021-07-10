@@ -10,11 +10,13 @@ Language could be a technique of communication with the assistance of that we ar
 
    
   
-  ### Image of NLTK and NLP what it does Exactly 
-  ![image](https://user-images.githubusercontent.com/84801896/125044131-4c621500-e0b9-11eb-87a0-dee3614c2be1.png)
+  ### NLP Components
+  ![Tomato and Skyblue Flowcharts Chart](https://user-images.githubusercontent.com/84801896/125164376-831a5700-e1af-11eb-9b35-56e24326e518.png)
+
+  
   
   ### image source:
-  https://realpython.com/nltk-nlp-python/
+  https://www.canva.com/design/DAEjzaeq5lY/IsSR8NNIgHgrGLhL80rD-w/edit?layoutQuery=Flowchart#
   
 ### Natural Language Tool Kit (NLTK)
 Among the above-named natural language processing tool, NLTK scores terribly high once it involves the convenience of use and rationalization of the idea. The learning curve of Python is extremely quick and NLTK is written in Python thus NLTK is additionally having excellent learning kit. NLTK has incorporated most of the tasks like tokenization, stemming, Lemmatization, Punctuation, Character Count, and Word count and is terribly elegant and simple to figure with.
@@ -241,9 +243,10 @@ The output will be a Python dict generated from the JSON sent by MonkeyLearn –
 
 ### SUMMARIZE
 
-![image](https://user-images.githubusercontent.com/84801896/125067709-3b71cd80-e0d2-11eb-8ded-0674098d0ec7.png)
+![flowchart](https://user-images.githubusercontent.com/84801896/125165104-228d1900-e1b3-11eb-80bb-2a47a538c310.png)
 
-### image source :https://realpython.com/python-nltk-sentiment-analysis/
+
+### image source :https://medium.com/mlearning-ai/basic-steps-in-natural-language-processing-pipeline-763cd299dd99
 
 * Natural Language Toolkit
 
