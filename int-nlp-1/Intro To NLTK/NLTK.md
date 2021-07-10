@@ -2,15 +2,13 @@
 
 ### 1. What is NLTK ❓
 
- NLTK (Natural Language Toolkit) is a suite that contains libraries and programs for statistical language processing. 
- It is one of the most powerful NLP libraries, which contains packages to make machines understand human language and reply to it with an appropriate response.
+NLTK (Natural Language Toolkit) contains libraries and programs for applied mathematics language process. It's one amongst the foremost powerful IP libraries, that contains packages to form machines perceive human language and reply there to with an acceptable response.
+
+It helps practitioners by providing easy-to-use interfaces to over fifty lexical and corpora resources, with text process libraries for classification, tokenization, tagging, stemming, parsing, and linguistics reasoning, wrappers for industrial-grade NLP libraries. The corpora of information comprises data from numerous applications over the internet; for text analytics, we are able to get knowledge. By analyzing tweets on Twitter, we are able to realize trending news and people’s reactions to a selected event. Amazon will perceive user feedback or review on the particular product. BookMyShow will discover people’s reviews regarding the pic, which may be each positive or negative. Youtube may also analyze and perceive people’s viewpoints on a video.
+
+Language could be a technique of communication with the assistance of that we are able to speak, scan and write. tongue process (NLP) is that the sub field of engineering science particularly computer science (AI) that's involved regarding enabling computers to grasp and method human language. we've numerous ASCII text file NLP tools however NLTK (Natural Language Toolkit) scores terribly high once it involves the benefit of use and rationalization of the idea. the educational curve of Python is extremely quick and NLTK is written in Python therefore NLTK is additionally having excellent learning kit. NLTK has incorporated most of the tasks like tokenization, stemming, Lemmatization, Punctuation, Character Count, and Word count. it's terribly elegant and simple to figure with.
+
    
- It helps practitioners by providing easy-to-use interfaces to over 50 lexical and corpora resources, with text processing libraries for classification, tokenization, tagging, stemming, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries. The corpora of data consist of data from various applications over the internet; for text analytics, we can get data. By analyzing tweets on Twitter, we can find trending news and people’s reactions to a particular event. Amazon can understand user feedback or review on the specific product. 
- BookMyShow can discover people’s reviews about the movie, which can be both positive or negative. Youtube can also analyze and understand people’s viewpoints on a video.
- 
-Language is a method of communication with the help of which we can speak, read and write. Natural Language Processing (NLP) is the sub field of computer science especially Artificial Intelligence (AI) that is concerned about enabling computers to understand and process human language. We have various open-source NLP tools but NLTK (Natural Language Toolkit) scores very high when it comes to the ease of use and explanation of the concept. The learning curve of Python is very fast and NLTK is written in Python so NLTK is also having very good learning kit. NLTK has incorporated most of the tasks like tokenization, stemming, Lemmatization, Punctuation, Character Count, and Word count. It is very elegant and easy to work with.
-   
- 
   
   ### Image of NLTK and NLP what it does Exactly 
   ![image](https://user-images.githubusercontent.com/84801896/125044131-4c621500-e0b9-11eb-87a0-dee3614c2be1.png)
@@ -19,25 +17,26 @@ Language is a method of communication with the help of which we can speak, read 
   https://realpython.com/nltk-nlp-python/
   
 ### Natural Language Tool Kit (NLTK)
-Among the above-mentioned NLP tool, NLTK scores very high when it comes to the ease of use and explanation of the concept. The learning curve of Python is very fast and NLTK is written in Python so NLTK is also having very good learning kit. NLTK has incorporated most of the tasks like tokenization, stemming, Lemmatization, Punctuation, Character Count, and Word count. It is very elegant and easy to work with.
+Among the above-named natural language processing tool, NLTK scores terribly high once it involves the convenience of use and rationalization of the idea. The learning curve of Python is extremely quick and NLTK is written in Python thus NLTK is additionally having excellent learning kit. NLTK has incorporated most of the tasks like tokenization, stemming, Lemmatization, Punctuation, Character Count, and Word count and is terribly elegant and simple to figure with.
 
 ### Why Learn Natural Langugae ToolKit ❓
-The Natural language toolkit (NLTK) is a collection of Python libraries designed especially for identifying and tag parts of speech found in the text of natural language like English.The Natural Language Toolkit (NLTK) is a platform used for building Python programs that work with human language data for applying in statistical natural language processing (NLP). It contains text processing libraries for tokenization, parsing, classification, stemming, tagging and semantic reasoning.NLTK (Natural Language Toolkit) is a suite that contains libraries and programs for statistical language processing. It is one of the most powerful NLP libraries, which contains packages to make machines understand human language and reply to it with an appropriate response.
+The Natural language toolkit (NLTK) could be a assortment of Python libraries designed particularly for distinguishing and tag components of speech found within the text of natural language like English.The natural language Toolkit (NLTK) could be a platform used for building Python programs that job with human language information for applying in applied mathematics tongue process (NLP). It contains text process libraries for tokenization, parsing, classification, stemming, tagging and linguistics reasoning.
+
+NLTK (Natural Language Toolkit) is a suite that contains libraries and programs for applied mathematics language process. it's one amongst the foremost powerful natural language processing libraries, that contains packages to create machines perceive human language and reply theret o with an acceptable response.
 
 ### NLTK FLash News
-What this means is it gets everything related to a particular search query. Let’s say you want to try to get every piece of information regarding the hottest topic in the world today, COVID-19 or Coronavirus, you would specify so in the “query” parameter in the above function.
-The “from_param” parameter and “to” parameter in the above function are the date parameters. It is asking you to specify the timeframe for which you want to get results for the search query. Since I mentioned, I want to get all results for a period of 30 days which is the maximum allowed timeframe for the free version, I will specify the from_param as the day 30 days before today’s date. However, I need to write this in a loop so that I can ensure I am getting every day.
+
+What this implies is it gets everything associated with a specific search question. Let’s say you would like to undertake to urge every bit of knowledge concerning the most well liked topic within the world nowadays, COVID-19 or Coronavirus, you'd specify thus within the “query” parameter within the on top of perform.
+The “from_param” parameter and “to” parameter within the on top of perform square measure the date parameters. it's asking you to specify the timeframe that you would like to urge results for the search question. Since i discussed, i would like to urge all results for a amount of thirty days that is that the most allowed timeframe for the free version, i'll specify the from_param because the day thirty days before today’s date. However, i want to put in writing this during a loop so I will guarantee i'm obtaining each day.
+
 ### Top-quality data
-Collect and annotate training data that meets and exceeds industry quality standards thanks to multiple quality control methods and mechanisms available in Toloka.
+Collect and annotate training information that meets and exceeds trade quality standards due to multiple internal control ways and mechanisms accessible in Toloka.
 ### Scalable projects
-Have any amounts of image, text, speech, audio or video data collected and labeled for you by millions of skilled Toloka users across the globe.
+Have any amounts of image, text, speech, audio or video information collected and labelled for you by variant skilled Toloka users across the world.
 ### Cost-efficiency
-Save time and money with this purpose-built platform for handling large-scale data collection and annotation projects, on demand 24/7, at your own price and within your timeframe.
+Save time and cash with this purposeful platform for handling large-scale information assortment and annotation comes, on demand 24/7, at your own worth and among your timeframe.
 ### Free, powerful API
-Build scalable and fully automated human-in-the-loop machine learning pipelines with a powerful open API and Python library for easy integration.
-
-
-
+Build climbable and absolutely machine-controlled human-in-the-loop machine learning pipelines with a strong open API and Python library for simple integration.
 
 ### Installing NLTK 
 NLTK is one of the leading platforms for building Python programs that can work with human language data. 
@@ -86,10 +85,11 @@ The tool has the essential functionalities required for almost all kinds of natu
   The tokenization concept should be used to achieve this. (Tokenization is the process of dividing the quantity of text into smaller pieces called tokens.)
   
   ## What is Lemmatization?
+  
+  Lemmatization technique is like stemming. The output we are going to get once lemmatization is named ‘lemma’, that could be a stem instead of root stem, the output of  
+  stemming. once lemmatization, we are going to be obtaining a sound word which means a similar issue.
    
-Lemmatization technique is like stemming. The output we will get after lemmatization is called ‘lemma’, which is a root word rather than root stem, the output of stemming. After lemmatization, we will be getting a valid word that means the same thing.
-
-NLTK provides WordNetLemmatizer class which is a thin wrapper around the wordnet corpus. This class uses morphy() function to the WordNet CorpusReader class to find a lemma. Let us understand it with an example 
+   NLTK provides WordNetLemmatizer category that could be a skinny wrapper round the wordnet corpus. This category uses morphy() operate to the WordNet CorpusReader category to   search out a lemma. allow us to are aware of it with Associate in Nursing example.
    
    ### First, we need to import the natural language toolkit(nltk).
    
@@ -110,15 +110,18 @@ NLTK provides WordNetLemmatizer class which is a thin wrapper around the wordnet
     ![7](https://user-images.githubusercontent.com/84801896/124072061-e98bd080-da5d-11eb-859b-361ad9183f44.PNG)
     
  ### What is Tokenizing?
- It may be defined as the process of breaking up a piece of text into smaller parts, such as sentences and words. These smaller parts are called tokens. For example, a word is    a token in a sentence, and a sentence is a token in a paragraph.
+ 
+It may be outlined as the method of breaking apart a chunk of text into smaller components, like sentences and words. These smaller components square measure referred to as tokens. for instance, a word is a token in an exceedingly sentence, and a sentence could be a token in an exceedingly paragraph.
 
-  As we know that NLP is used to build applications such as sentiment analysis, QA systems, language translation, smart chatbots, voice systems, etc., hence, in order to build     them, it becomes vital to understand the pattern in the text. The tokens, mentioned above, are very useful in finding and understanding these patterns. We can consider     tokenization as the base step for other recipes such as stemming and lemmatization.
+ 
+As we all know that NLP is employed to make applications like sentiment analysis, QA systems, language translation, good chatbots, voice systems, etc., hence, so as to make them, it becomes important to grasp the pattern within the text. The tokens, mentioned higher than, square measure terribly helpful to find and understanding these patterns. we are able to take into account tokenization because the base step for different recipes like stemming and lemmatization.
 
 ### NLTK package
-nltk.tokenize is the package provided by NLTK module to achieve the process of tokenization.
+
+nltk.tokenize is that the package provided by NLTK module to realize the method of tokenization.
 
 Tokenizing sentences into words
-Splitting the sentence into words or creating a list of words from a string is an essential part of every text processing activity. Let us understand it with the help of various functions/modules provided by nltk.tokenize package.
+Splitting the sentence into words or making an inventory of words from a string is a vital a part of each text process activity. allow us to are aware of it with the assistance of varied functions/modules provided by nltk.tokenize package.
 
 ### NLTK IMPLEMENTATION
 
@@ -242,17 +245,24 @@ The output will be a Python dict generated from the JSON sent by MonkeyLearn –
 
 ### image source :https://realpython.com/python-nltk-sentiment-analysis/
 * Natural Language Toolkit
-NLTK is a leading platform for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries, and an active discussion forum.
 
-* Thanks to a hands-on guide introducing programming fundamentals alongside topics in computational linguistics, plus comprehensive API documentation, NLTK is suitable for linguists, engineers, students, educators, researchers, and industry users alike. NLTK is available for Windows, Mac OS X, and Linux. Best of all, NLTK is a free, open source, community-driven project.
+NLTK is a leading platform for building Python programs to figure with human language information. It provides easy-to-use interfaces to over fifty corpora and lexical resources like WordNet, along side a set of text process libraries for classification, tokenization, stemming, tagging, parsing, and linguistics reasoning, wrappers for weapons-grade human language technology libraries, and an energetic discussion forum.
 
-* NLTK has been called “a wonderful tool for teaching, and working in, computational linguistics using Python,” and “an amazing library to play with natural language.”
 
-* Natural Language Processing with Python provides a practical introduction to programming for language processing. Written by the creators of NLTK, it guides the reader through the fundamentals of writing Python programs, working with corpora, categorizing text, analyzing linguistic structure, and more. The online version of the book has been been updated for Python 3 and NLTK 3. 
+* Due to a active guide introducing programming fundamentals aboard topics in linguistics, and comprehensive API documentation, NLTK is appropriate for linguists, engineers, students, educators, researchers, and trade users alike. NLTK is offered for Windows, Mac OS X, and Linux. better of all, NLTK could be a free, open supply, community-driven project.
+
+
+* NLTK has been referred to as “a tremendous tool for teaching, and dealing in, linguistics exploitation Python,” and “an superb library to play with natural language”
+
+* Natural language process with Python provides a sensible introduction to programming for language process. Written by the creators of NLTK, it guides the reader through the basics of writing Python programs, operating with corpora, categorizing text, analyzing linguistic structure, and more. the web version of the book has been been updated for Python three and NLTK three.
 
 ### Referenece Links 
 
+[1] https://www.tutorialspoint.com/natural_language_processing/natural_language_processing_tutorial.pdf
 
+[2] https://www.guru99.com/nltk-tutorial.html
+
+[3] https://www.e2enetworks.com/introduction-to-nltk-and-text-analytics/
 
 
 
