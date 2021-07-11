@@ -174,12 +174,12 @@ A simple example:
  MonkeyLearn is a SaaS platform with an array of pre-built NER tools and SaaS APIs in Python, like person extractor, company extractor, location extractor, and more.
  
  ### 1. Install MonkeyLearn Python SDK
- The API tab shows how to integrate using your own Python code (or Ruby, PHP, Node, or Java). We’ll start performing NER with MonkeyLearn’s Python API for our pre-built company extractor. The API will access the extractor automatically:
+ The API tab shows how to integrate using your own Python code (or Ruby, PHP, Node, or Java). Start with performing NER with MonkeyLearn’s Python API on the pre-built company extractor. The API will access the extractor automatically:
  
  ![image](https://user-images.githubusercontent.com/84801896/125066448-a4584600-e0d0-11eb-8403-df4795a10cd4.png)
 
 
-You can send plain requests to the MonkeyLearn API and parse the JSON responses yourself, but MonkeyLearn offers easy integration with SDKs in a number of languages. 
+Plain requests can be sent to the MonkeyLearn API and JSON responses can be parsed yourself, but MonkeyLearn offers easy integration with SDKs in a number of languages. 
 
 Sign up to get your API key then download and install the Python SDK:
 
@@ -188,19 +188,19 @@ Sign up to get your API key then download and install the Python SDK:
  ```
  
 ### 2.Run your NER model
-Now that you're set up, enter the below to start running MonkeyLearn’s NER analysis:
+As now everything is set up, enter the below to start running MonkeyLearn’s NER analysis:
  ```
 rom monkeylearn import MonkeyLearn
 
 ml = MonkeyLearn('<<Your API key here>>')
 model_id = 'ex_A9nCcXfn'
-data = ['first text', {'text': 'SpaceX is an aerospace manufacturer and space transport services company headquartered in California. It was founded in 2002 by entrepreneur and investor Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars.', 'external_id': 'ANY_ID'}, '']
+data = ['first text', {'text': 'DevIncept is An environment, where you not only have to read or watch videos but interactive modules where you can test your skills and compete with other participants. ', 'external_id': 'ANY_ID'}, '']
 response = ml.extractors.extract(model_id, data=data)
 
 print(response.body)
 ```
 ### 3. Output your model
-The output will be a Python dict generated from the JSON sent by MonkeyLearn – in the same order as the input text – and should look something like this:
+The result will is a Python dict generated from the JSON sent by MonkeyLearn – in the same order as the input text – and should look something like this:
 
 ```
 [
@@ -210,13 +210,13 @@ The output will be a Python dict generated from the JSON sent by MonkeyLearn –
         'error': False, 
         'extractions': []
      }, {
-        'text': 'SpaceX is an aerospace manufacturer and space transport services company headquartered in California. It was founded in 2002 by entrepreneur and investor Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars.', 
+        'text': 'DevIncept is An environment, where you not only have to read or watch videos but interactive modules where you can test your skills and compete with other participants.', 
         'external_id': 'ANY_ID', 
         'error': False, 
         'extractions': [{
             'tag_name': 'COMPANY', 
-            'extracted_text': 'SpaceX', 
-            'parsed_value': 'SpaceX', 
+            'extracted_text': 'DevIncept', 
+            'parsed_value': 'DevIncept', 
             'count': 1
         }]
     }, {
@@ -228,7 +228,7 @@ The output will be a Python dict generated from the JSON sent by MonkeyLearn –
     }
 ]
 ```
-### Now you’re set up to perform NER automatically. You can change the models to try out something new or create your own model, then call it with Python.
+### Now as everything is set up, we can perform NER automatically. You can change the models to try out something new or create your own model, then call it with Python.
 
 
 
