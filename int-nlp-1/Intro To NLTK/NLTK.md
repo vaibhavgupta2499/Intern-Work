@@ -274,4 +274,12 @@ The result will is a Python dict generated from the JSON sent by MonkeyLearn –
 
 [5] https://realpython.com/nltk-nlp-python/
   
+[6] https://towardsdatascience.com/
 
+[7] https://medium.com/mlearning-ai/basic-steps-in-natural-language-processing-pipeline-763cd299dd99
+
+[8] https://www.canva.com/design/DAEjzaeq5lY/IsSR8NNIgHgrGLhL80rD-w/edit?layoutQuery=Flowchart
+
+[9] https://www.sciencedirect.com/topics/mathematics/real-world-data
+
+[10] https://www.geeksforgeeks.org/nlp-part-of-speech-default-tagging/#:~:text=Whats%20is%20Part%2Dof%2Dspeech,%2C%20verb%2C%20and%20so%20on.
