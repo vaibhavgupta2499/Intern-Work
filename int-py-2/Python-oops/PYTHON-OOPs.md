@@ -1,4 +1,4 @@
-<p align="center">
+https://2.bp.blogspot.com/-7Fj1bZ4UAfM/W0EIT1Ts7JI/AAAAAAAAAl4/-E7205nyxC8XRYtH8z2d5B9aeL2sMjPpQCLcBGAs/s1600/Polymorphism_In_Csharp.png<p align="center">
    <img src="https://miro.medium.com/max/1200/1*PPIp7twJJUknfohZqtL8pQ.png" alt="Python Programming"
         width="500" height="150">
    <br />
@@ -37,8 +37,7 @@ Major principles of object-oriented programming system are given below.
   - Data Abstraction
   - Encapsulation
   <p align="center">
-<img src="https://onlineitguru.com/storage/course_files/1609476851_Python%20OOPs%20concepts.png" alt="Python Programming"
-        width="500" height="150"> 
+<img src="https://onlineitguru.com/storage/course_files/1609476851_Python%20OOPs%20concepts.png" alt="Python Programming"width="500" height="150"> 
   </p>  
   
  ---
@@ -412,7 +411,7 @@ Polymorphism means multiple forms. In python we can find the same operator or fu
 - Saves a lot of time.
 - Single variable can be used to store multiple data types.
 - Easy to debug the codes. 
-<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/01/man-1-300x298.png" alt="Python Programming" width="500" height="150"> 
+<img src="https://2.bp.blogspot.com/-7Fj1bZ4UAfM/W0EIT1Ts7JI/AAAAAAAAAl4/-E7205nyxC8XRYtH8z2d5B9aeL2sMjPpQCLcBGAs/s1600/Polymorphism_In_Csharp.png" alt="Python Programming" width="500" height="150"> 
     
  
 #### Example 1: Polymorphism in addition operator
@@ -506,8 +505,7 @@ A class is an example of encapsulation as it encapsulates all the data that is m
     
 
 Consider a real-life example of encapsulation, in a company, there are different sections like the accounts section, finance section, sales section etc. The finance section handles all the financial transactions and keeps records of all the data related to finance. Similarly, the sales section handles all the sales-related activities and keeps records of all the sales. Now there may arise a situation when for some reason an official from the finance section needs all the data about sales in a particular month. In this case, he is not allowed to directly access the data of the sales section. He will first have to contact some other officer in the sales section and then request him to give the particular data. This is what encapsulation is. Here the data of the sales section and the employees that can manipulate them are wrapped under a single name “sales section”. Using encapsulation also hides the data. In this example, the data of the sections like sales, finance, or accounts are hidden from any other section.    
-
-<img src="https://www.cpp.thiyagaraaj.com/cms/assets/cimages/encapsulation.png " alt="Python Programming" width="500" height="150">    
+    
 #### Benefits of Encapsulation in Python
 Encapsulation not only ensures better data flow but also protects the data from outside sources. The concept of encapsulation makes the code self-sufficient. It is very helpful in the implementation level, as it prioritizes the ‘how’ type questions, leaving behind the complexities. You should hide the data in the unit to make encapsulation easy and also to secure the data.    
 #### Methods to Control Access
