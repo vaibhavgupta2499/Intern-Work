@@ -15,8 +15,7 @@ Language could be a technique of communication with the assistance of that we ar
 
   
   
-  ### image source:
-  https://www.canva.com/design/DAEjzaeq5lY/IsSR8NNIgHgrGLhL80rD-w/edit?layoutQuery=Flowchart#
+  ### ( Image source: https://www.canva.com/design/DAEjzaeq5lY/IsSR8NNIgHgrGLhL80rD-w/edit?layoutQuery=Flowchart# )
   
 ### Natural Language Tool Kit (NLTK)
 Among the above-named natural language processing tool, NLTK scores terribly high once it involves the convenience of use and rationalization of the idea. The learning curve of Python is extremely quick and NLTK is written in Python thus NLTK is additionally having excellent learning kit. NLTK has incorporated most of the tasks like tokenization, stemming, Lemmatization, Punctuation, Character Count, and Word count and is terribly elegant and simple to figure with.
@@ -168,6 +167,7 @@ Named entity recognition (NER), or named entity extraction is a keyword extracti
 A simple example:
 
 ![image](https://user-images.githubusercontent.com/84801896/125066162-4deb0780-e0d0-11eb-8800-3549eac2b2f0.png)
+
  Using NER, you can automate endless tasks, with almost no human intervention.
  ### How to Do Named Entity Recognition with Python
  
@@ -246,7 +246,7 @@ The result will is a Python dict generated from the JSON sent by MonkeyLearn –
 ![flowchart](https://user-images.githubusercontent.com/84801896/125165104-228d1900-e1b3-11eb-80bb-2a47a538c310.png)
 
 
-### image source :https://medium.com/mlearning-ai/basic-steps-in-natural-language-processing-pipeline-763cd299dd99
+### ( Image source :https://medium.com/mlearning-ai/basic-steps-in-natural-language-processing-pipeline-763cd299dd99 )
 
 * Natural Language Toolkit
 
