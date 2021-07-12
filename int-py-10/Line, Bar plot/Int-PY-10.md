@@ -35,7 +35,7 @@ points.plot([1, 4, 9, 13],[1,11,2,16])
 
 
     
-![png](output_3_1.png)
+![png](Images/output_3_1.png)
     
 
 
