@@ -52,7 +52,7 @@ plt.show()
 
 
     
-![png](output_4_0.png)
+![png](Images/output_4_0.png)
     
 
 
@@ -71,7 +71,7 @@ plt.show()
 
 
     
-![png](output_5_0.png)
+![png](Images/output_5_0.png)
     
 
 
@@ -101,7 +101,7 @@ plt.legend()
 
 
     
-![png](output_7_1.png)
+![png](Images/output_7_1.png)
     
 
 
@@ -129,7 +129,7 @@ plt.legend()
 
 
     
-![png](output_8_1.png)
+![png](Images/output_8_1.png)
     
 
 
@@ -157,7 +157,7 @@ plt.legend()
 
 
     
-![png](output_9_1.png)
+![png](Images/output_9_1.png)
     
 
 
@@ -187,7 +187,7 @@ plt.plot(students,marks,'m--')
 
 
     
-![png](output_10_1.png)
+![png](Images/output_10_1.png)
     
 
 
@@ -222,7 +222,7 @@ plt.show()
 
 
     
-![png](output_12_0.png)
+![png](Images/output_12_0.png)
     
 
 
@@ -240,7 +240,7 @@ plt.show()
 
 
     
-![png](output_13_0.png)
+![png](Images/output_13_0.png)
     
 
 
@@ -267,7 +267,7 @@ plt.show()
 
 
     
-![png](output_14_0.png)
+![png](Images/output_14_0.png)
     
 
 
@@ -303,7 +303,7 @@ plt.show()
 
 
     
-![png](output_16_0.png)
+![png](Images/output_16_0.png)
     
 
 
@@ -333,7 +333,7 @@ plt.show()
 
 
     
-![png](output_18_0.png)
+![png](Images/output_18_0.png)
     
 
 
@@ -359,7 +359,7 @@ plt.show()
 
 
     
-![png](output_20_0.png)
+![png](Images/output_20_0.png)
     
 
 
@@ -382,7 +382,7 @@ plt.show()
 
 
     
-![png](output_21_0.png)
+![png](Images/output_21_0.png)
     
 
 
@@ -397,6 +397,6 @@ plt.show()
 
 
     
-![png](output_22_0.png)
+![png](Images/output_22_0.png)
     
 
