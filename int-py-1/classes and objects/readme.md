@@ -31,7 +31,7 @@
 - Work flow :bookmark_tabs:
     - [Lourde Mary.T](): Worked on Content Writing and Markdown. :memo:
     - [Pragya Khanna](): Worked on video recording. :video_camera:
-    - [Venkata Naga SaiPratheek Sriram](): Worked on Conent Writing , Markdown and video editing. :mag_right:
+    - [Venkata Naga SaiPratheek Sriram](): Worked on Content Writing , Markdown and video editing. :mag_right:
    
 
 
