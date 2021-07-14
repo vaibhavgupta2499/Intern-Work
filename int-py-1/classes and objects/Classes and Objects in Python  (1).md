@@ -1,27 +1,38 @@
-# ***CLASSES AND OBJECTS IN PYTHON***
+<p align="center">
+   <img src="https://miro.medium.com/max/1200/1*PPIp7twJJUknfohZqtL8pQ.png" alt="Python Programming"
+        width="600" height="200">
+   <br />
+   <b> CLASSES AND OBJECTS IN PYTHON</b>
+   <br />
+   
+   <br />
+</p>
+
+
+# ***CLASSES AND OBJECTS IN PYTHON*** :heart:
 
 ***Python*** is an ***object oriented programming (OOP)*** language and it provides all the features required to support object-oriented programming .
 
 ***OOP*** mainly focuses on ***class and objects***.
 
 
-## ***Class***
+## ***Class*** :loud_sound:
 
 ***Classes*** are defined by the ***user***. The ***class*** provides the ***basic structure for an objec***.***Class*** is a collection of ***data(variables) and methods(functions)***.A ***class*** can be defined as a ***blue print*** or a previously defined structure from which ***objects*** are made.
 
-### ***NOTE :***
+### ***NOTE :*** :bulb:
 * In python, a class is defined by using keyword **"class"**.
 * As soon as we **define a class**, the **interpreter** instantly creates an **object** that has the same name as the **class name.**
 * **Attributes** are the **variables** that belong to **class.**
 * **Attributes** are always **public** and can be accessed using **dot(.) operator.**
 
-### ***Syntax***
+### ***Syntax*** :bookmark:
 
 class class_name:
 
      statements
 
-#### ***Example 1***
+#### ***Example 1***  :computer:
 
 
 
@@ -47,11 +58,11 @@ print(age)
 2. **Behavior :** It is represented by **methods of an object.** It also reflects the response of an **object with other objects.**
 3. **Identity :** It gives a **unique name** to an object and enables one object to **interact with other objects.**
 
-### ***Syntax***
+### ***Syntax*** :bookmark:
 
 obj_name = class_name()
 
-#### ***Example***
+#### ***Example*** :computer:
 
 
 
@@ -66,7 +77,7 @@ age1 = age () #object instantiation
     <class '__main__.age'>
     
 
-#### ***Example 2***
+#### ***Example 2*** :computer:
 
 
 
@@ -89,7 +100,7 @@ stud.display()
 
 **In the above example, an object is created which is basically student named stud. This class has two attributes that tells that stud has id 100 and name Mike.**
 
-### ***NOTE :***
+### ***NOTE :*** :bulb:
 
 **The self parameter is a refrence to the current instance of the class, and is used to access variables that belongs to the class.**
 
@@ -100,7 +111,7 @@ stud.display()
 * **Self** represents the **instance of the class.**
 
 
-#### ***Example***
+#### ***Example*** :computer:
 
 
 
@@ -130,7 +141,7 @@ student1.studies(hours)
 * **init method** is similar to **constructors in c++ and java.**
 * Use of **init() function** to assign values to **object properties, or other operations** that are necessary to do when the object is being **created.**
 
-#### ***Example 1***
+#### ***Example 1*** :computer:
 
 
 
@@ -146,7 +157,7 @@ print(s1.school)
     Mike
     
 
-#### ***Example 2***
+#### ***Example 2*** :computer:
 
 
 
@@ -176,10 +187,10 @@ print("new city of my school is", s1.city)
 
 #### ***Delete object properties***
 
-* We can **delete properties on objects** by using **del keyword**
+ We can **delete properties on objects** by using **del keyword**
 
 
-#### ***Example***
+#### ***Example*** :computer:
 
 
 
@@ -213,12 +224,12 @@ print(s1.school)
     NameError: name 's1' is not defined
 
 
-#### ***Objects are mutable***
+#### ***Objects are mutable*** :bulb:
 
 - The **state of an object** can be **changed at any point of time by making changes to its attributes.**
 
 
-**Now let's look into calculator example using classes and objects.** 
+**Now let's look into calculator example using classes and objects.** :heavy_plus_sign:
 
 
 ```python
@@ -279,11 +290,4 @@ print(f"Dividing {fourth}/{fifth} = {answer_4}")
     
 
 
-```python
 
-```
-
-
-```python
-
-```
