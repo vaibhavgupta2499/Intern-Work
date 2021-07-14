@@ -10,7 +10,7 @@
 
 1. _Content File_ - [Pandas Function](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/pandas_function.md)
 
-2. _Videos_ - Yet To be added<!--[Explanation]() -->
+2. _Videos_ - [Explanation](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Video) 
 
 3. _DataSet_ - [Titanic](https://www.kaggle.com/hesh97/titanicdataset-traincsv)
 
