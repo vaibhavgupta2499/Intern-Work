@@ -1,4 +1,4 @@
-# ***INTRODUCTION TO PYTHON*** :heart:
+# ***CLASSES AND OBJECTS IN PYTHON*** :heart:
 - **Team:** **int-py-1**
 - **Team Members:** 👧 👦
 
@@ -9,29 +9,29 @@
      |3|[Venkata Naga SaiPratheek Sriram]()|
 
 - **About the topic:** 
-    - This topic consists of [Introduction To Python]()
+    - This topic consists of [CLASSES AND OBJECTS IN PYTHON]()
     - Contents: :clipboard:
     
-    1)What is Python?
+    1)Class defination
     
-    2)History of Python
+    2)Class syntax and examples
     
-    3)Who can learn Python
+    3)Objects defination
     
-    4)Why Python?
+    4)Objects syntax and examples
     
-    5)Applications of Python
+    5)Self Parameter 
     
-    6)Installation of Python
+    6)Self Parameter examples
     
-    7)Python Syntax
+    7)Init funtion 
     
-    8)Keywords in Python.
+    8)Init function examples
 
 - Work flow :bookmark_tabs:
-    - [Lourde Mary.T](): Worked on Content Writing and Markdown.
-    - [Pragya Khanna](): Worked on video recording.
-    - [Venkata Naga SaiPratheek Sriram](): Worked on Markdown and video editing.
+    - [Lourde Mary.T](): Worked on Content Writing and Markdown. :memo:
+    - [Pragya Khanna](): Worked on video recording. :video_camera:
+    - [Venkata Naga SaiPratheek Sriram](): Worked on Conent Writing , Markdown and video editing. :mag_right:
    
 
 
