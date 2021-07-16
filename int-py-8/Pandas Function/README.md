@@ -37,7 +37,7 @@ pip install pandas
 
 ## **_Team Contribution_**
 
- - _Rammya Dharshini K_ - Content Writing + Readme File
+ - _Rammya Dharshini K_ - Content Writing + Readme File + Final Video Making and Editing 
  - _Nagashree M S_ - Content Writing + Video Editing
  - _Prajakta Deokule_ - Content Writing + Explanation
 
