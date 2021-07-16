@@ -19,7 +19,7 @@ Dataframe is a two-dimensional size-mutable, potentially heterogeneous tabular d
 
 ## 1. Read_csv
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-3.png)
+
 
 **read_csv** is an important pandas function to read csv files and do operations on it.
 
@@ -43,7 +43,7 @@ data = pd.read_csv("filename.csv")
 
 ## 2. Head and Tail
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-4.png)
+
 
 _head()_ method is used to return top n (5 by default) rows of a data frame or series
 
@@ -62,7 +62,7 @@ Output :
 
 **TAIL**
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-5.png)
+
 
 
 _tail()_ method is used to return bottom n (5 by default) rows of a data frame or series.
@@ -84,7 +84,7 @@ Output :
 
 ## 3. Info()
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-6.png)
+
 
 _dataframe.info()_ function is used to get a concise summary of the dataframe. It comes really handy when doing exploratory analysis of the data. To get a quick overview of the dataset we use the dataframe.info() function.
 
@@ -102,7 +102,7 @@ Output :
 
 ## 4. Dtypes
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-36.png)
+
 
 DataFrame.types attribute returns the dtypes in the DataFrame. It returns a Series with the data type of each column.
 
@@ -125,7 +125,7 @@ Output :
 
 ## 5. Describe
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-8.png)
+
 
 _describe()_ is used to view some basic statistical details like percentile, mean, std etc. of a data frame or a series of numeric values. When this method is applied to a series of strings, it returns a different output which is shown in the examples below.
 
@@ -145,7 +145,7 @@ Output :
 
 ## 6. Size and Shapes
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-43.png)
+
 
 Pandas .size and .shape are used to return size and shape of data frames and series.
 
@@ -161,7 +161,7 @@ Output :
 
 `10692`
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-47.png)
+
 
 > Syntax : dataframe.shape
 
@@ -178,7 +178,7 @@ Output :
 
 ## 7. Sample
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-10.png)
+
 
 _sample()_ is used to generate a sample random row or column from the function caller data frame.
 
@@ -196,7 +196,7 @@ data.sample(n=1)
 
 ## 8. Isnull()
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-9.png)
+
 
 column is checked for NULL values and a boolean series is returned by the isnull() method which stores True for ever NaN value and False for a Not null value.
 
@@ -216,7 +216,7 @@ Output :
 
 ## 9. Isna()
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-11.png)
+
 
 Pandas dataframe.isna() function is used to detect missing values. It return a boolean same-sized object indicating if the values are NA. NA values(None or numpy.NaN) gets mapped to True values.
 
@@ -235,7 +235,7 @@ Output :
 
 ## 10. Isnull().sum()
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-49.png)
+
 
 
 isnull().sum()- Returns the number of missing values in the data set.
@@ -255,7 +255,7 @@ Output :
 
 ## 11. nunique()
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-12.png)
+
 
 
 The function return number of unique elements in the object. It returns a value which is the count of all the unique values in the Index. By default the NaN values are not included in the count. If dropna parameter is set to be False then it includes NaN value in the count.
@@ -280,7 +280,7 @@ Output :
 
 ## 12. Index and Column
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-13.png)
+
 
 
 Immutable sequence used for indexing and alignment. The basic object storing axis labels for all pandas objects.
@@ -297,7 +297,7 @@ Output :
 
 `RangeIndex(start=0, stop=891, step=1)`
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-14.png)
+
 
 
 Pandas DataFrame.columns attribute return the column labels of the given Dataframe.
@@ -343,7 +343,7 @@ Output :
 
 ## 14. nlargest and nsmallest
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-37.png)
+
 
 nsmallest() method is used to get n least values from a data frame or a series.
 
@@ -360,7 +360,7 @@ Output :
 
 **nlargest()**
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-38.png)
+
 
 nlargest() method is used to get n highest values from a data frame or a series.
 
@@ -380,7 +380,7 @@ Output :
 
 ## 15. Loc and iloc
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-15.png)
+
 
 loc() and iloc() are used in slicing of data from the Pandas DataFrame. They help in the convenient selection of data from the DataFrame. They are used in filtering the data according to some conditions.
 
@@ -398,7 +398,7 @@ df
 
 Output :
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-25.png)
+
 
 **iloc**
 
@@ -416,7 +416,7 @@ Output :
 
 ## 16. Slicing
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-16.png)
+
 
 Slicing using the [] operator selects a set of rows and/or columns from a DataFrame. To slice out a set of rows, you use the following.
 
@@ -434,7 +434,7 @@ Output :
 
 ## 17. Groupby
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-17.png)
+
 
 _groupby()_ function is used to split the data into groups based on some criteria.
 
@@ -454,7 +454,7 @@ Output :
 
 ## 18. Sorting
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-18.png)
+
 
 _sort_values()_ function sorts a data frame in Ascending or Descending order of passed Column. It's different than the sorted Python function since it cannot sort a data frame and particular column cannot be selected.
 
@@ -491,7 +491,7 @@ Output :
 
 The dropna() function is used to remove missing values. Determine if rows or columns which contain missing values are removed
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-19.png)
+
 
 > Syntax : DataFrame.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)
 
@@ -510,7 +510,7 @@ Output :
 
 ## 20. Query
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-20.png)
+
 
 > Syntax : DataFrame.query(expr, inplace=False, **kwargs)
 
@@ -530,7 +530,7 @@ Output :
 
 ## 21. Min(), Max(), Mean()
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-39.png)
+
 
 _min()_ function returns the minimum of the values in the given object. If the input is a series, the method will return a scalar which will be the minimum of the values in the series.
 
@@ -546,7 +546,7 @@ Output :
 
 ` 0.42 `
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-40.png)
+
 
 max() function returns index of first occurrence of maximum over requested axis. While finding the index of the maximum value across any index, all NA/null values are excluded.
 
@@ -562,7 +562,7 @@ Output :
 
 ` 80 `
 
-![](https://github.com/rammya29/Intern-Work/blob/main/int-py-8/Pandas%20Function/Images/Img-41.png)
+
 
 _mean()_ function is used to return the mean of the values for the requested axis. If we apply this method on a Series object, then it returns a scalar value, which is the mean value of all the observations in the dataframe.
 
