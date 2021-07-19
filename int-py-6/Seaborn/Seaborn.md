@@ -94,7 +94,7 @@ Seaborn comes with some customized themes and a high-level interface for customi
   - dark
   - white
   - ticks
-
+ 
 Syntax:
 
 ```set_style(style=None, rc=None)```
