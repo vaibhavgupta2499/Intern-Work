@@ -1,13 +1,13 @@
-﻿**SciPy**
+﻿# SciPy
 
-**HISTORY OF SciPy:**
+# HISTORY OF SciPy:
 
 - **Travis Oliphant**, **Eric Jones**, and **Pearu Peterson** merged code they had written and called the new package **SciPy**. 
 - The newly created package provided a standard collection of common numerical operations on the top of Numpy.
 
 ![](Aspose.Words.2ad248c4-9f02-41e7-bc56-7afd936216a5.001.png)
 
-**What is SciPy?**
+# What is SciPy?
 
 - SciPy is an open-source scientific library of Python that is distributed under a BSD license. 
 - It is used to solve complex scientific and mathematical problems. 
@@ -18,23 +18,24 @@
 - The scipy is a data-processing and system-prototyping environment similar to MATLAB. 
 - It is easy to use and provides great flexibility to scientists and engineers.
 
+
 ![](Aspose.Words.2ad248c4-9f02-41e7-bc56-7afd936216a5.002.png)
 
-**Why is SciPy used?**
+# Why is SciPy used?
 
 - SciPy contains significant mathematical algorithms which provide easiness to develop convenient and dedicated applications. 
 - Being an open-source library, it has a large community across the world to the development of its additional module, and it is beneficial for scientific application and data scientists.
 
 ![](Aspose.Words.2ad248c4-9f02-41e7-bc56-7afd936216a5.003.png)
 
-**Numpy vs SciPy :**
+# Numpy vs SciPy :
 
 - Numpy and SciPy both are used for mathematical and numerical analysis. Numpy is suitable for basic operations such as sorting, indexing and many more because it contains array data, whereas SciPy consists of all the numeric data.
 - Numpy contains many functions that are used to resolve the linear algebra, Fourier transforms, etc. whereas the SciPy library contains a full featured version of the linear algebra module as well many other numerical algorithms.
 
 ![](Aspose.Words.2ad248c4-9f02-41e7-bc56-7afd936216a5.004.png)
 
-**SUB PACKAGES IN SciPy:**
+# SUB PACKAGES IN SciPy:
 
 There are different sub packages in SciPy. Few of them are:
 
@@ -58,10 +59,10 @@ There are different sub packages in SciPy. Few of them are:
 |scipy.weaves|It is a tool for writing.|
 
 
-|**NOTE:**The basic data structure used by SciPy is a multidimensional array provided by the NumPy module. NumPy provides some functions for Linear Algebra, Fourier Transforms and Random Number Generation, but not with the generality of the equivalent functions in SciPy.|
+|**NOTE:The basic data structure used by SciPy is a multidimensional array provided by the NumPy module. NumPy provides some functions for Linear Algebra, Fourier Transforms and Random Number Generation, but not with the generality of the equivalent functions in SciPy.**|
 | - |
 
-**BASIC FUNCTIONALITY:**
+# BASIC FUNCTIONALITY:
 
 - All the NumPy functions have been available through the SciPy namespace.
 - There is no need to import the NumPy functions explicitly, when SciPy is imported. 
@@ -70,9 +71,9 @@ There are different sub packages in SciPy. Few of them are:
 - As SciPy is built on top of NumPy arrays, understanding of NumPy basics is necessary.
 
 ![](Aspose.Words.2ad248c4-9f02-41e7-bc56-7afd936216a5.005.png)
-## **NumPy Vector:**
+# **NumPy Vector:**
 A Vector can be created in multiple ways.
-### Converting Python array-like objects to NumPy
+# Converting Python array-like objects to NumPy
 **EXAMPLE:**
 
 |<p>import numpy as np</p><p>list = [5,6,7,8]</p><p>arr = np.array(list)</p><p>print arr</p>|
@@ -82,23 +83,24 @@ A Vector can be created in multiple ways.
 
 [5 6 7 8]
 
-**SciPy ECOSYSTEM:**
+# SciPy ECOSYSTEM:
 
 ![](Aspose.Words.2ad248c4-9f02-41e7-bc56-7afd936216a5.006.png)
 ## **Intrinsic NumPy Array Creation:**
-### **Using zeros()**
+## **Using zeros()**
 The zeros(shape) function will create an array filled with 0 values with the specified shape. The default dtype is float64.
 
 **EXAMPLE:**
 
 |<p>import numpy as np</p><p>print np.zeros((2, 3))</p>|
 | :- |
+
 **OUTPUT:**
 
 array([[ 0., 0., 0.],
 
 [ 0., 0., 0.]])
-### **Using ones():**
+## **Using ones():**
 The ones(shape) function will create an array filled with 1 value. It is identical to zeros in all the other respects. 
 
 **EXAMPLE:**
@@ -114,7 +116,7 @@ array([[ 1., 1., 1.],
 
 ![](Aspose.Words.2ad248c4-9f02-41e7-bc56-7afd936216a5.007.png)
 
-**IMPORTANT PACKAGES:**
+# IMPORTANT PACKAGES:
 ## **File Input / Output package:**
 Scipy, I/O package, has a wide range of functions for work with different file formats which are Matlab, Arff, Wave, Matrix Market, IDL, NetCDF, TXT, CSV and binary format.
 ## **Special Function package**
@@ -122,7 +124,7 @@ Scipy, I/O package, has a wide range of functions for work with different file f
 - SciPy's special functions include Cubic Root, Exponential, Log sum Exponential, Lambert, Permutation and Combinations, Gamma, Bessel, hypergeometric, Kelvin, beta, parabolic cylinder, Relative Error Exponential, etc..
 
 ![](Aspose.Words.2ad248c4-9f02-41e7-bc56-7afd936216a5.008.png)
-### **Cubic Root Function:**
+## **Cubic Root Function:**
 SYNTAX:
 
 
@@ -130,7 +132,7 @@ SYNTAX:
 | :- |
 
 - Cubic Root function finds the cube root of values.
-### **Exponential Function:**
+## **Exponential Function:**
 Exponential function computes the 10\*\*x element-wise.
 
 **EXAMPLE:**
@@ -142,7 +144,7 @@ Exponential function computes the 10\*\*x element-wise.
 **OUTPUT:**
 
 [1.e+01 1.e+10]
-### **Permutations & Combinations:**
+## **Permutations & Combinations:**
 SciPy also gives functionality to calculate Permutations and Combinations.
 
 **Combinations:** 
@@ -158,7 +160,7 @@ SciPy also gives functionality to calculate Permutations and Combinations.
 
 15.0
 
-**Permutations :**
+# Permutations :
 
 **scipy.special.perm(N,k)**
 
@@ -170,21 +172,21 @@ SciPy also gives functionality to calculate Permutations and Combinations.
 **OUTPUT:** 
 
 20
-### **Log Sum Exponential Function:**
+## **Log Sum Exponential Function:**
 Log Sum Exponential computes the log of sum exponential input element.
 
 **SYNTAX:**
 
 scipy.special.logsumexp(x) 
-### **Bessel Function:**
+## **Bessel Function:**
 Nth integer order calculation function
 
 **SYNTAX**:
 
 scipy.special.jn()
 
-**EXAMPLE FOR SciPy MODULE :**
-### **Integration with Scipy – Numerical Integration**
+# EXAMPLE FOR SciPy MODULE :
+# **Integration with Scipy – Numerical Integration**
 - When we integrate any function where analytically integrate is not possible, we need to turn for numerical integration
 - SciPy provides functionality to integrate functions with numerical integration.
 
@@ -201,7 +203,7 @@ Here a is the upper limit and b is the lower limit
 
 (0.33333333333333337, 3.700743415417189e-15)
 
-**Example of double integration:**
+# Example of double integration:
 
 ![](Aspose.Words.2ad248c4-9f02-41e7-bc56-7afd936216a5.010.jpeg)
 
