@@ -1,21 +1,33 @@
-# ***Python Tkinter***
+<p align="center">
+   <img src="https://miro.medium.com/max/1200/1*PPIp7twJJUknfohZqtL8pQ.png" alt="Python Programming"
+        width="600" height="200">
+   <br />
+   <b> Tkinter in Python</b>
+   <br />
+   
+   <br />
+</p>
+
+
+
+# ***Python Tkinter*** :heart:
 
 **GUI (graphical user interface)** is a system of **interactive visual** components for computer software using items such as **icons, menus, windows,** etc
 
-## ***Introduction***
+## ***Introduction*** :bookmark:
 
 * **Tkinter** is **inbuilt module** that is used for creating the **graphical user interface** for desktop based applications.
 * **Tkinter** is most commonly used modules for creating **GUI applications in Python.**
 * **Tkinter** provides a powerful **object-oriented interface** to the **Tk GUI toolkit.**
 
-### ***What are widgets ?***
+### ***What are widgets ?*** :thinking:
 
 * **Tkinter** provides various **controls, such as buttons, labels and text boxes used in a GUI application.** These controls are commonly called **widgets.**
 - The foundational element of a **Tkinter GUI is the window.** 
 - Windows are the **containers in which all other GUI elements live.** 
 - Widgets are contained **inside of windows.**
 
-## ***Syntax:***
+## ***Syntax:*** :bookmark_tabs:
 
 ##### import Tkinter
 ##### top = Tkinter.Tk()
@@ -27,7 +39,7 @@
 
 ```
 
-### ***There are currently 19 types of widgets in Tkinter***
+### ***There are currently 19 types of widgets in Tkinter*** :clipboard:
 
 1. **Button** - The Button widget is used to **display/add various kinds of buttons in python application.**
 2. **Canvas** - The canvas widget is used to **draw the canvas on the window.**
@@ -54,20 +66,20 @@
 
 ```
 
-### Tk also provides three geometry managers:
+### Tk also provides three geometry managers: :bulb:
 Tkinter widgets have access to specific geometry management methods, which have the purpose of organizing widgets throughout the parent widget area. They are :-
 * **place** - which **positions widgets at absolute locations**
 * **grid** - which **arranges widgets in a grid**
 * **pack** - which **packs widgets into a cavity**
 
-### 1. place() method
+### 1. place() method 
 
 The **place()** organizes the widgets to the specific **x and y coordinates.**
 
-**Syntax:- 
-widget.place(options)** 
+**Syntax:-** :bookmark_tabs:
+**widget.place(options)** 
 
-#### List of possible options −
+#### List of possible options  :clipboard:
 
 - **Anchor:** It represents the **exact position of the widget within the container.** The **default value (direction)** is **NW (the upper left corner)**
 - **bordermode:** The **default value** of the border type is **INSIDE that refers to ignore the parent's inside the border.** The other option is **OUTSIDE.**
@@ -103,10 +115,10 @@ top.mainloop()
 * We can specify the **rows and columns as the options in the method call.** 
 * We can also specify the **column span (width) or rowspan(height) of a widget.**
 
-### **Syntax:** 
+### **Syntax:** :bookmark_tabs:
 **widget.grid(options)**  
 
-#### list of possible options 
+#### list of possible options :clipboard:
 
 * **Column**- The column number in which the **widget is to be placed. The leftmost column is represented by 0.**
 * **Columnspan**- The **width** of the widget. It represents the number of columns up to which, the column is expanded.
@@ -134,11 +146,11 @@ parent.mainloop()
 - is used to **organize widget in the block.** 
 - The positions widgets added to the python application using the **pack()** method can be controlled by using the various options specified in the **method call.**
 
-**syntax: 
+**syntax: :bookmark_tabs:
 widget.pack(options)**  
 
 
-#### A list of possible options 
+#### A list of possible options :clipboard:
 
 * **expand**: If the expand is set to **true, the widget expands to fill any space.**
 * **Fill**: By default, the fill is set to **NONE**. However, we can set it to **X or Y to determine whether the widget contains any extra space.**
@@ -171,14 +183,14 @@ root.mainloop()
 
 ![tkinter3.JPG](attachment:tkinter3.JPG)
 
-### Advantages
+### Advantages :thumbsup:
 - Tkinter is easy and fast to implement
 - provides simple syntax
 - very easy to understand
 - part of python, nothing extra to download
 - kinter’s three geometry managers are powerful and easy to use .
 
-### Disadvantages
+### Disadvantages :thumbsdown:
 - Hard to debug
 - very little printing support 
 - does not include advanced widgets.
