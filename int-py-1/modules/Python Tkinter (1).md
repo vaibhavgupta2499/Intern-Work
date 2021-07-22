@@ -70,7 +70,7 @@ Tkinter widgets have access to specific geometry management methods, which have 
 
 The **place()** organizes the widgets to the specific **x and y coordinates.**
 
-**Syntax:-** :bookmark_tabs:
+## **Syntax:-**  :bookmark_tabs:
 **widget.place(options)** 
 
 #### List of possible options  :clipboard:
@@ -96,7 +96,7 @@ e3 = Entry(top).place(x = 95, y = 130)
 top.mainloop()  
 ```
 
-![tkinter1.JPG](E:\devincept/tkinter1.JPG)
+![tkinter1.JPG](images/tkinter1.JPG)
 
 
 
@@ -106,7 +106,7 @@ top.mainloop()
 * We can specify the **rows and columns as the options in the method call.** 
 * We can also specify the **column span (width) or rowspan(height) of a widget.**
 
-### **Syntax:** :bookmark_tabs:
+## **Syntax:** :bookmark_tabs:
 **widget.grid(options)**  
 
 #### list of possible options :clipboard:
@@ -130,15 +130,15 @@ submit = Button(parent, text = "Submit").grid(row = 6, column = 0)
 parent.mainloop()  
 ```
 
-![tkinter2.JPG](attachment:tkinter2.JPG)
+![tkinter2.JPG](images/tkinter2.JPG)
 
 ### 3. pack() method
 
 - is used to **organize widget in the block.** 
 - The positions widgets added to the python application using the **pack()** method can be controlled by using the various options specified in the **method call.**
 
-**syntax: :bookmark_tabs:
-widget.pack(options)**  
+## **Syntax:** :bookmark_tabs:
+**widget.pack(options)**  
 
 
 #### A list of possible options :clipboard:
@@ -172,7 +172,7 @@ blackbutton.pack( side = BOTTOM)
 root.mainloop()
 ```
 
-![tkinter3.JPG](attachment:tkinter3.JPG)
+![tkinter3.JPG](images/tkinter3.JPG)
 
 ### Advantages :thumbsup:
 - Tkinter is easy and fast to implement
@@ -189,6 +189,4 @@ root.mainloop()
 - It doesn’t have a reliable UI.
 
 
-```python
 
-```
