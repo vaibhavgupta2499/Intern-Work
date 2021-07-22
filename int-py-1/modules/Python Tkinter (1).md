@@ -35,9 +35,6 @@
 ##### top.mainloop()
 
 
-```python
-
-```
 
 ### ***There are currently 19 types of widgets in Tkinter*** :clipboard:
 
@@ -62,9 +59,6 @@
 19. **MessageBox** - This module is used to **display the message-box in applications.**
 
 
-```python
-
-```
 
 ### Tk also provides three geometry managers: :bulb:
 Tkinter widgets have access to specific geometry management methods, which have the purpose of organizing widgets throughout the parent widget area. They are :-
@@ -102,12 +96,9 @@ e3 = Entry(top).place(x = 95, y = 130)
 top.mainloop()  
 ```
 
-![tkinter1.JPG](attachment:tkinter1.JPG)
+![tkinter1.JPG](E:\devincept/tkinter1.JPG)
 
 
-```python
-
-```
 
 ### 2. grid() method 
 
