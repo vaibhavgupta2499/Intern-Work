@@ -64,4 +64,5 @@ arr = np.random.normal(size=1000, loc=0, scale=1)
 
 `plot_hist` is a function from `bashplotlib` that is for plotting 1-D data in a histogram, just like `plt.hist` does in Matplotlib. Then, we use `Numpy` generated a random array with 1,000 numbers that are normally distributed. After that, we can easily plot this data as follows:
 plot_hist(arr, bincount=50)
+
 ![png](Images/Output.png)
