@@ -13,7 +13,9 @@
 `pip install bashplotlib`
 #### - Install from source:
 `$ git clone git@github.com:glamp/bashplotlib.git
+
 $ cd bashplotlib
+
 $ python setup.py install`
 - Either method will install the bashplotlib python package and will also add hist and scatter to your python scripts folder. This folder should be on your path (add it if it’s not).
 
