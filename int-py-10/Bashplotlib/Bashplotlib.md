@@ -32,11 +32,11 @@ $ python setup.py install
 #### Command line:
 - `hist` takes input from either stdin or specified using the -f parameter. Input should be a single column of numbers.
 
-![histhelp.png](attachment:histhelp.png)
+![png](Images/histhelp.png)
 
 - `scatter` takes x and y coordinates as input form either a comma delimited file using -f or from 2 different files using -x and -y.
 
-![scatterhelp.png](attachment:scatterhelp.png)
+![png](Images/scatterhelp.png)
 
 - **If you want to use bashplotlib from python, just import histogram and scatterplot.**
 
@@ -64,4 +64,4 @@ arr = np.random.normal(size=1000, loc=0, scale=1)
 
 `plot_hist` is a function from `bashplotlib` that is for plotting 1-D data in a histogram, just like `plt.hist` does in Matplotlib. Then, we use `Numpy` generated a random array with 1,000 numbers that are normally distributed. After that, we can easily plot this data as follows:
 plot_hist(arr, bincount=50)
-![Output.png](attachment:Output.png)
+![png](Images/Output.png)
